@@ -5,14 +5,15 @@ from django.utils import timezone
 
 # Create your models here.
 
-from django.contrib.auth.models import AbstractUser
-from django.utils import timezone
-
 # Модель користувача
 class User(AbstractUser):
     avatar = models.ImageField(upload_to='avatars/', null=True, blank=True)
     bio = models.TextField(max_length=500, blank=True)
     is_admin = models.BooleanField(default=False)
+    user_permissions = models.ManyToManyField(
+        Permission, related_name='user_user_permissions'
+    )
+
     def __str__(self):
         return self.username
 
