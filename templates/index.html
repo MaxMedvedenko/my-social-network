@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}All Posts - My Site{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>All Posts</h1>
+    <div class="posts">
+        {% for post in posts %}
+            <div class="post">
+                <div class="post-header">
+                    <h3>{{ post.user.username }}</h3>
+                    <span>{{ post.created_at }}</span>
+                </div>
+                <div class="post-content">
+                    <p>{{ post.content }}</p>
+                    {% if post.image %}
+                        <img src="{{ post.image.url }}" alt="Post Image">
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
