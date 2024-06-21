@@ -4,7 +4,7 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 def index(request):
-    posts = Post.objects.all()
+    posts = Post.objects.all().order_by('-created_at')
     context = {
         'posts': posts
     }
@@ -16,7 +16,8 @@ def create_post(request):
         content = request.POST.get('content')
         image = request.FILES.get('image')
         if content:
-            post = Post(user=request.user, content=content, image=image)
+            user = User.objects.get(pk=request.user.pk)
+            post = Post(user=user, content=content, image=image)
             post.save()
             return redirect('index')
     return render(request, 'create_post.html')

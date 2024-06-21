@@ -6,6 +6,7 @@ from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django.urls import reverse_lazy
 from django.contrib.auth.decorators import login_required
 from django.db import IntegrityError
+from django.core.exceptions import ValidationError
 
 from user.models import User
 
@@ -15,24 +16,24 @@ from user.models import User
 
 def login_view(request):
     error_message = None
-    
+
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
-        
+
         user = authenticate(username=username, password=password)
-        
+
         if user is not None:
             login(request, user)
-            return redirect('index')  # URL головної сторінки
+            return redirect('index')  # URL of the main page
         else:
             error_message = "Неправильне ім'я користувача або пароль. Будь ласка, спробуйте ще раз."
-    
+
     return render(request, 'login.html', {'error_message': error_message})
 
 def register_view(request):
     error_message = None
-    
+
     if request.method == 'POST':
         username = request.POST.get('username')
         password1 = request.POST.get('password1')
@@ -40,17 +41,22 @@ def register_view(request):
         email = request.POST.get('email')
         first_name = request.POST.get('first_name')
         last_name = request.POST.get('last_name')
-        
+
         if password1 == password2:
             try:
-                user = User.objects.create_user(username=username, password=password1, email=email, first_name=first_name, last_name=last_name)
-                login(request, user)  # Вхід користувача в систему після реєстрації
-                return redirect('index')  # URL головної сторінки
+                user = User(username=username, email=email, first_name=first_name, last_name=last_name)
+                user.set_password(password1)  # Hash the password
+                user.full_clean()  # Trigger validation
+                user.save()
+                login(request, user)  # Log the user in after registration
+                return redirect('index')  # Redirect to the main page URL
             except IntegrityError:
                 error_message = "Ім'я користувача вже існує. Будь ласка, виберіть інше ім'я користувача."
+            except ValidationError as e:
+                error_message = e.message
         else:
             error_message = "Паролі не співпадають."
-    
+
     return render(request, 'register.html', {'error_message': error_message})
 
 def logout_view(request):

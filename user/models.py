@@ -15,26 +15,10 @@ class User(AbstractUser):
     bio = models.TextField(max_length=500, blank=True)
     password = models.CharField(max_length=128)
 
-    # Треба
-    groups = models.ManyToManyField(
-        'auth.Group',
-        verbose_name='groups',
-        blank=True,
-        related_name='customuser_set',
-        related_query_name='user'
-    )
-    user_permissions = models.ManyToManyField(
-        'auth.Permission',
-        verbose_name='user permissions',
-        blank=True,
-        related_name='customuser_set',
-        related_query_name='user'
-    )
-
     def __str__(self):
         return self.username
 
-    # Перевірка пароля на відповідність вимогам
+    # Password validation
     def clean(self):
         super().clean()
         if len(self.password) < 8:
