@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 
 from network import views
-from user import views
+# from user import views
 
 # from user import views
 
