@@ -8,6 +8,14 @@
     <h1 class="auth-title">Register</h1>
     <form method="post" class="auth-form">
         {% csrf_token %}
+        
+        <!-- Вивід повідомлення про помилку, якщо таке є -->
+        {% if error_message %}
+        <div class="error-message">
+            {{ error_message }}
+        </div>
+        {% endif %}
+
         <div class="form-group">
             <label for="username" class="form-label">Username</label>
             <input type="text" id="username" name="username" required class="form-input">
