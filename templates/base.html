@@ -4,6 +4,7 @@
 <head>
     <title>{% block title %}SocialNetwork{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    {% block styles %}{% endblock %}
 </head>
 <body>
     <header>
@@ -14,7 +15,7 @@
                     <li class="nav-item"><a href="{% url 'index' %}" class="nav-link">Home</a></li>
                     <!-- Інші пункти меню тут -->
                     <li class="nav-item"><a href="#" class="nav-link">#</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">#</a></li>
+                    <li class="nav-item"><a href="{% url 'create_post' %}" class="nav-link">Create Post</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">#</a></li>
                 </ul>
             </div>

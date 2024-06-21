@@ -17,8 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from network import views
-# from user import views
+from network.views import *
+from user.views import *
 
 # from user import views
 
@@ -29,6 +29,7 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('', views.index, name='index'),
+    path('', index, name='index'),
+    path('create-post/', create_post, name='create_post'),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
