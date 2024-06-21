@@ -1,6 +1,6 @@
 /* static/css/index.css */
 
-.container {
+.post-container {
     width: 60%;
     margin: 0 auto;
     padding: 20px;
@@ -33,17 +33,31 @@
 }
 
 .post-content-image {
-    max-width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
     height: auto;
     border-radius: 5px;
     margin-top: 10px;
 }
 
-.post-header h3 {
+.post-content-text {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.post-creator {
     margin: 0;
 }
 
-.post-header span {
+.post-creation-time {
     color: #666;
     font-size: 0.9em;
+}
+
+/* Add a border line to each container */
+.container {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    padding: 20px;
 }

@@ -2,11 +2,13 @@
 {% load static %}
 
 
+{% block styles %}
 <link rel="stylesheet" href="{% static 'css/index.css' %}">
+{% endblock %}
 
 {% block content %}
 <h1>All Posts</h1>
-<div class="container">
+<div class="post-container">
 
     <div class="posts">
         {% for post in posts %}
