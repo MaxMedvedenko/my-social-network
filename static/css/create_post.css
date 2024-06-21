@@ -1,6 +1,6 @@
 /* static/css/create_post.css */
 
-.container {
+.create-post-container {
     width: 60%;
     margin: 0 auto;
     padding: 20px;
@@ -10,12 +10,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+.create-post-title {
     text-align: center;
     margin-bottom: 20px;
 }
 
-form {
+.create-post-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -26,18 +26,23 @@ form {
     flex-direction: column;
 }
 
-input[type="text"], textarea {
+.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-textarea, .form-input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
-textarea {
+.form-textarea {
     resize: vertical;
 }
 
-button.btn {
+.form-submit-btn {
     align-self: center;
     padding: 10px 20px;
     border: none;
@@ -47,6 +52,6 @@ button.btn {
     cursor: pointer;
 }
 
-button.btn:hover {
+.form-submit-btn:hover {
     background-color: #555;
 }

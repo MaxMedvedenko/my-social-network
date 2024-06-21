@@ -31,5 +31,8 @@ urlpatterns = [
 
     path('', index, name='index'),
     path('create-post/', create_post, name='create_post'),
+
+    path('login/', login_view, name='login'),
+    path('register/', register_view, name='register'),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
