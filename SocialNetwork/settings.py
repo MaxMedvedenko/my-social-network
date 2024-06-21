@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    'SocialNetwork',
     'user',
     'network',
 ]
@@ -56,7 +58,9 @@ ROOT_URLCONF = 'SocialNetwork.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / 'templates',  # шлях до папки зі шаблонами проекту
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
