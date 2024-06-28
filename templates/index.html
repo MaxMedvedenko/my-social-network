@@ -12,7 +12,10 @@
             <div class="post">
                 <div class="post-header">
                     <h3 class="post-creator">{{ post.user.username }}</h3>
-                    <span class="post-creation-time">{{ post.created_at }}</span>
+                    <div class="right-part-pst-header">
+                        <span class="post-creation-time">{{ post.created_at }}</span>
+                        <img src="static/image/dots-vertical-svgrepo-com.svg" alt="Dots Vertical SVG" class="dots-vertical-svg">
+                    </div>
                 </div>
                 <div class="post-content">
                     <p class="post-content-text">{{ post.content }}</p>
