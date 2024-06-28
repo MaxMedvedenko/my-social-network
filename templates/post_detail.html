@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block styles %}<link rel="stylesheet" href="{% static 'css/delete_post.css' %}">{% endblock %}
+
+{% block content %}
+<div class="post-detail-container">
+    <div class="post-detail">
+        <div class="post-header">
+            <h3 class="post-creator">{{ post.user.username }}</h3>
+            <span class="post-creation-time">{{ post.created_at }}</span>
+        </div>
+        <div class="post-content">
+            <p class="post-content-text">{{ post.content }}</p>
+            {% if post.image %}
+                <img class="post-content-image" src="{{ post.image.url }}" alt="Post Image">
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

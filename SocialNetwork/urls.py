@@ -31,6 +31,9 @@ urlpatterns = [
 
     path('', index, name='index'),
     path('create-post/', create_post, name='create_post'),
+    path('post/<int:post_id>/', post_detail, name='post_detail'),
+    path('post/<int:post_id>/edit/', edit_post, name='edit_post'),
+    path('post/<int:post_id>/delete/', delete_post, name='delete_post'),
 
     path('login/', login_view, name='login'),
     path('register/', register_view, name='register'),

@@ -4,9 +4,7 @@
 {% block styles %}<link rel="stylesheet" href="{% static 'css/index.css' %}">{% endblock %}
 
 {% block content %}
-<!-- <h1>All Posts</h1> -->
 <div class="post-container">
-
     <div class="posts">
         {% for post in posts %}
             <div class="post">
@@ -14,7 +12,14 @@
                     <h3 class="post-creator">{{ post.user.username }}</h3>
                     <div class="right-part-pst-header">
                         <span class="post-creation-time">{{ post.created_at }}</span>
-                        <img src="static/image/dots-vertical-svgrepo-com.svg" alt="Dots Vertical SVG" class="dots-vertical-svg">
+                        <img src="{% static 'image/dots-vertical-svgrepo-com.svg' %}" alt="Dots Vertical SVG" class="dots-vertical-svg" onclick="toggleDropdown(this)">
+                        <div class="dropdown">
+                            <div class="dropdown-content">
+                                <a id="detail-{{ post.id }}" class="detail-link" href="{% url 'post_detail' post.id %}">Detail</a>
+                                <a id="edit-{{ post.id }}" class="edit-link" href="{% url 'edit_post' post.id %}">Edit</a>
+                                <a id="delete-{{ post.id }}" class="delete-link" href="{% url 'delete_post' post.id %}">Delete</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="post-content">
@@ -28,3 +33,5 @@
     </div>
 </div>
 {% endblock %}
+
+{% block scripts %}<script src="{% static 'js/main.js' %}"></script>{% endblock %}
