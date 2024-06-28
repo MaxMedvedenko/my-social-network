@@ -108,3 +108,54 @@
 .delete-link {
     display: none; /* Зробимо їх невидимими з самого початку */
 }
+
+
+
+/* comments */
+.comment-form {
+    margin-top: 20px;
+}
+
+.comment-form h3 {
+    margin-bottom: 10px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+.comment {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.comment-meta {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.comment-btn {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.comment-btn:hover {
+    background-color: #555;
+}

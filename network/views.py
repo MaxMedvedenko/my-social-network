@@ -25,13 +25,26 @@ def create_post(request):
 
 def post_detail(request, post_id):
     post = get_object_or_404(Post, id=post_id)
-    return render(request, 'post_detail.html', {'post': post})
+
+    # Отримання коментарів поточного користувача
+    current_user_comments = Comment.objects.filter(post=post, user=request.user).order_by('-created_at')
+
+    # Отримання всіх інших коментарів, відсортованих від новіших до старіших
+    other_comments = Comment.objects.filter(post=post).exclude(user=request.user).order_by('-created_at')
+
+    # Об'єднання коментарів для відображення в шаблоні
+    comments = list(current_user_comments) + list(other_comments)
+
+    context = {
+        'post': post,
+        'comments': comments,
+    }
+    return render(request, 'post_detail.html', context)
 
 @login_required
 def edit_post(request, post_id):
     post = get_object_or_404(Post, pk=post_id)
 
-    # Перевірка, чи поточний користувач є творцем поста
     if post.user != request.user:
         return render(request, 'post_detail.html', {'post': post})
 
@@ -39,7 +52,6 @@ def edit_post(request, post_id):
         content = request.POST.get('content')
         image = request.FILES.get('image')
 
-        # Оновлення полів поста
         post.content = content
         if image:
             post.image = image
@@ -57,8 +69,69 @@ def delete_post(request, post_id):
         return redirect('index')
 
     if request.method == 'POST':
-        # Видалення поста
         post.delete()
         return redirect('index') 
 
     return render(request, 'delete_post.html', {'post': post})
+
+@login_required
+def add_comment(request, post_id):
+    post = get_object_or_404(Post, pk=post_id)
+    
+    if request.method == 'POST':
+        content = request.POST.get('content')
+        if content:
+            comment = Comment.objects.create(
+                post=post,
+                user=request.user,
+                content=content,
+                created_at=timezone.now()
+            )
+            return redirect('post_detail', post_id=post_id)
+        else:
+            pass
+    
+    comments = Comment.objects.filter(post=post)
+    context = {
+        'post': post,
+        'comments': comments,
+    }
+    return render(request, 'post_detail.html', context)
+
+@login_required
+def edit_comment(request, comment_id):
+    comment = get_object_or_404(Comment, id=comment_id)
+
+    if comment.user != request.user:
+        pass
+    
+    if request.method == 'POST':
+        content = request.POST.get('content')
+        if content:
+            comment.content = content
+            comment.save()
+            return redirect('post_detail', post_id=comment.post.id)
+        else:
+            pass
+    
+    context = {
+        'comment': comment,
+    }
+    return render(request, 'edit_comment.html', context)
+
+@login_required
+def delete_comment(request, comment_id):
+    comment = get_object_or_404(Comment, id=comment_id)
+
+    if comment.user != request.user:
+        pass
+
+    if request.method == 'POST':
+        post_id = comment.post.id
+        comment.delete()
+        return redirect('post_detail', post_id=post_id)
+    
+    context = {
+        'comment': comment,
+    }
+    return render(request, 'delete_comment.html', context)

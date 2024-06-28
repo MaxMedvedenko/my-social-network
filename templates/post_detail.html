@@ -27,5 +27,30 @@
             {% endif %}
         </div>
     </div>
+
+    <!-- Форма для написання коментарів -->
+    <div class="comment-form">
+        <h3>Add a Comment</h3>
+        <form method="post" action="{% url 'add_comment' post.id %}">
+            {% csrf_token %}
+            <textarea name="content" rows="4" placeholder="Write your comment here"></textarea>
+            <button type="submit" class="comment-btn">Submit</button>
+        </form>
+    </div>
+
+    <!-- Виведення всіх коментарів для поста -->
+    <div class="comments">
+        <h3>Comments</h3>
+        {% for comment in comments %}
+        <div class="comment">
+            <p class="comment-meta">Comment by {{ comment.user.username }} on {{ comment.created_at }}</p>            
+            <p>{{ comment.content }}</p>
+        </div>
+        {% empty %}
+        <p>No comments yet.</p>
+        {% endfor %}
+    </div>
 </div>
 {% endblock %}
+
+{% block scripts %}<script src="{% static 'js/main.js' %}"></script>{% endblock %}

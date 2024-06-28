@@ -35,6 +35,10 @@ urlpatterns = [
     path('post/<int:post_id>/edit/', edit_post, name='edit_post'),
     path('post/<int:post_id>/delete/', delete_post, name='delete_post'),
 
+    path('post/<int:post_id>/add_comment/', add_comment, name='add_comment'),
+    path('comment/<int:comment_id>/edit/', edit_comment, name='edit_comment'),
+    path('comment/<int:comment_id>/delete/', delete_comment, name='delete_comment'),
+
     path('login/', login_view, name='login'),
     path('register/', register_view, name='register'),
     path('logout/', logout_view, name='logout'),
