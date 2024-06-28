@@ -11,6 +11,10 @@ def index(request):
     }
     return render(request, 'index.html', context)
 
+
+
+#--- Posts ---#
+
 @login_required
 def create_post(request):
     if request.method == 'POST':
@@ -73,6 +77,9 @@ def delete_post(request, post_id):
         return redirect('index') 
 
     return render(request, 'delete_post.html', {'post': post})
+
+
+#--- Comments ---#
 
 @login_required
 def add_comment(request, post_id):

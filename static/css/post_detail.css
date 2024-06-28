@@ -55,7 +55,6 @@
     font-size: 0.9em;
 }
 
-/* Add a border line to each container */
 .container {
     border-top: 2px solid #000000;
     border-bottom: 2px solid #000000;
@@ -103,10 +102,9 @@
     display: block;
 }
 
-/* Спеціальні стилі для класів .edit-link та .delete-link */
 .edit-link,
 .delete-link {
-    display: none; /* Зробимо їх невидимими з самого початку */
+    display: none;
 }
 
 
