@@ -157,3 +157,7 @@
 .comment-btn:hover {
     background-color: #555;
 }
+
+.comment-textarea{
+    max-width: 790px;
+}

@@ -33,7 +33,7 @@
         <h3>Add a Comment</h3>
         <form method="post" action="{% url 'add_comment' post.id %}">
             {% csrf_token %}
-            <textarea name="content" rows="4" placeholder="Write your comment here"></textarea>
+            <textarea class="comment-textarea" name="content" rows="4" placeholder="Write your comment here"></textarea>
             <button type="submit" class="comment-btn">Submit</button>
         </form>
     </div>
@@ -48,7 +48,7 @@
                 <!-- Форма для редагування коментаря -->
                 <form method="post" action="{% url 'edit_comment' comment.id %}">
                     {% csrf_token %}
-                    <textarea name="content" rows="4">{{ comment.content }}</textarea>
+                    <textarea class="comment-textarea" name="content" rows="4">{{ comment.content }}</textarea>
                     <button type="submit" class="edit-comment-btn">Save</button>
                 </form>
             {% else %}
