@@ -1,6 +1,6 @@
-/* delete_post.css */
+/* static/css/index.css */
 
-.post-detail-container {
+.post-container {
     width: 60%;
     margin: 0 auto;
     padding: 20px;
@@ -10,7 +10,13 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.post-detail {
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post {
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 5px;
@@ -21,7 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;;
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
@@ -47,4 +53,58 @@
 .post-creation-time {
     color: #666;
     font-size: 0.9em;
+}
+
+/* Add a border line to each container */
+.container {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    padding: 20px;
+}
+
+
+/* svg for popup */
+
+.dots-vertical-svg {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* popup */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.show {
+    display: block;
+}
+
+/* Спеціальні стилі для класів .edit-link та .delete-link */
+.edit-link,
+.delete-link {
+    display: none; /* Зробимо їх невидимими з самого початку */
 }

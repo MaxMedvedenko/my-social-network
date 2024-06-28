@@ -1,14 +1,24 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block styles %}<link rel="stylesheet" href="{% static 'css/delete_post.css' %}">{% endblock %}
+{% block styles %}<link rel="stylesheet" href="{% static 'css/post_detail.css' %}">{% endblock %}
 
 {% block content %}
-<div class="post-detail-container">
-    <div class="post-detail">
+<div class="post-container">
+    <div class="post">
         <div class="post-header">
             <h3 class="post-creator">{{ post.user.username }}</h3>
-            <span class="post-creation-time">{{ post.created_at }}</span>
+            <div class="right-part-pst-header">
+                <span class="post-creation-time">{{ post.created_at }}</span>
+                <img src="{% static 'image/dots-vertical-svgrepo-com.svg' %}" alt="Dots Vertical SVG" class="dots-vertical-svg" onclick="toggleDropdown(this)">
+                <div class="dropdown">
+                    <div class="dropdown-content">
+                        <a id="detail-{{ post.id }}" class="detail-link" href="{% url 'post_detail' post.id %}">Detail</a>
+                        <a id="edit-{{ post.id }}" class="edit-link" href="{% url 'edit_post' post.id %}">Edit</a>
+                        <a id="delete-{{ post.id }}" class="delete-link" href="{% url 'delete_post' post.id %}">Delete</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="post-content">
             <p class="post-content-text">{{ post.content }}</p>
