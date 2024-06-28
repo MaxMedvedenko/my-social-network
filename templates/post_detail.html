@@ -44,7 +44,27 @@
         {% for comment in comments %}
         <div class="comment">
             <p class="comment-meta">Comment by {{ comment.user.username }} on {{ comment.created_at }}</p>            
-            <p>{{ comment.content }}</p>
+            {% if edit_mode and comment.id == comment.id %}
+                <!-- Форма для редагування коментаря -->
+                <form method="post" action="{% url 'edit_comment' comment.id %}">
+                    {% csrf_token %}
+                    <textarea name="content" rows="4">{{ comment.content }}</textarea>
+                    <button type="submit" class="edit-comment-btn">Save</button>
+                </form>
+            {% else %}
+                <p>{{ comment.content }}</p>
+                
+                <!-- Показувати кнопки редагування та видалення тільки для коментарів користувача -->
+                {% if comment.user == request.user %}
+                <div class="comment-actions">
+                    <a href="{% url 'edit_comment' comment.id %}" class="edit-comment-btn">Edit</a>
+                    <form method="post" action="{% url 'delete_comment' comment.id %}">
+                        {% csrf_token %}
+                        <button type="submit" class="delete-comment-btn">Delete</button>
+                    </form>
+                </div>
+                {% endif %}
+            {% endif %}
         </div>
         {% empty %}
         <p>No comments yet.</p>

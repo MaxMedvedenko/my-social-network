@@ -98,6 +98,7 @@ def add_comment(request, post_id):
     }
     return render(request, 'post_detail.html', context)
 
+# doesn't work
 @login_required
 def edit_comment(request, comment_id):
     comment = get_object_or_404(Comment, id=comment_id)
@@ -116,8 +117,9 @@ def edit_comment(request, comment_id):
     
     context = {
         'comment': comment,
+        'edit_mode': True,
     }
-    return render(request, 'edit_comment.html', context)
+    return render(request, 'post_detail.html', context)
 
 @login_required
 def delete_comment(request, comment_id):
