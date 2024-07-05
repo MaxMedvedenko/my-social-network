@@ -1,7 +1,9 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block styles %}<link rel="stylesheet" href="{% static 'css/post_detail.css' %}">{% endblock %}
+{% block styles %}
+<link rel="stylesheet" href="{% static 'css/post_detail.css' %}">
+{% endblock %}
 
 {% block content %}
 <div class="post-container">
@@ -33,9 +35,9 @@
     <!-- Форма для написання коментарів -->
     <div class="comment-form">
         <h3>Add a Comment</h3>
-        <form method="post" action="{% url 'add_comment' post.id %}">
+        <form id="add-comment-form" data-post-id="{{ post.id }}">
             {% csrf_token %}
-            <textarea class="comment-textarea" name="content" rows="4" placeholder="Write your comment here"></textarea>
+            <textarea class="comment-textarea" id="comment-content" name="content" rows="4" placeholder="Write your comment here"></textarea>
             <button type="submit" class="comment-btn">Submit</button>
         </form>
     </div>
@@ -44,28 +46,18 @@
     <div class="comments">
         <h3>Comments</h3>
         {% for comment in comments %}
-        <div class="comment">
-            <p class="comment-meta">Comment by {{ comment.user.username }} on {{ comment.created_at }}</p>            
-            {% if edit_mode and comment.id == comment.id %}
-                <!-- Форма для редагування коментаря -->
-                <form method="post" action="{% url 'edit_comment' comment.id %}">
+        <div class="comment" id="comment-{{ comment.id }}">
+            <p class="comment-meta">Comment by {{ comment.user.username }} on {{ comment.created_at }}</p>
+            <p class="comment-content">{{ comment.content }}</p>
+            <!-- Показувати кнопки редагування та видалення тільки для коментарів користувача -->
+            {% if comment.user == request.user %}
+            <div class="comment-actions">
+                <a href="#" class="edit-comment-link" data-comment-id="{{ comment.id }}">Edit</a>
+                <form method="post" action="{% url 'delete_comment' comment.id %}">
                     {% csrf_token %}
-                    <textarea class="comment-textarea" name="content" rows="4">{{ comment.content }}</textarea>
-                    <button type="submit" class="edit-comment-btn">Save</button>
+                    <button type="submit" class="delete-comment-btn">Delete</button>
                 </form>
-            {% else %}
-                <p>{{ comment.content }}</p>
-                
-                <!-- Показувати кнопки редагування та видалення тільки для коментарів користувача -->
-                {% if comment.user == request.user %}
-                <div class="comment-actions">
-                    <a href="{% url 'edit_comment' comment.id %}" class="edit-comment-btn">Edit</a>
-                    <form method="post" action="{% url 'delete_comment' comment.id %}">
-                        {% csrf_token %}
-                        <button type="submit" class="delete-comment-btn">Delete</button>
-                    </form>
-                </div>
-                {% endif %}
+            </div>
             {% endif %}
         </div>
         {% empty %}

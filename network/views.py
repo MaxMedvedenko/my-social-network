@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .models import *
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404
+from django.http import JsonResponse
 # Create your views here.
 
 def index(request):
@@ -110,23 +111,13 @@ def add_comment(request, post_id):
 def edit_comment(request, comment_id):
     comment = get_object_or_404(Comment, id=comment_id)
 
-    if comment.user != request.user:
-        pass
-    
     if request.method == 'POST':
-        content = request.POST.get('content')
-        if content:
-            comment.content = content
-            comment.save()
-            return redirect('post_detail', post_id=comment.post.id)
-        else:
-            pass
-    
-    context = {
-        'comment': comment,
-        'edit_mode': True,
-    }
-    return render(request, 'post_detail.html', context)
+        new_content = request.POST.get('content')
+        comment.content = new_content
+        comment.save()
+        return JsonResponse({'message': 'Comment updated successfully.'})
+
+    return JsonResponse({'error': 'Invalid request.'}, status=400)
 
 @login_required
 def delete_comment(request, comment_id):
