@@ -12,14 +12,16 @@
                     <h3 class="post-creator">{{ post.user.username }}</h3>
                     <div class="right-part-pst-header">
                         <span class="post-creation-time">{{ post.created_at }}</span>
-                        <img src="{% static 'image/dots-vertical-svgrepo-com.svg' %}" alt="Dots Vertical SVG" class="dots-vertical-svg" onclick="toggleDropdown(this)">
-                        <div class="dropdown">
-                            <div class="dropdown-content">
-                                <a id="detail-{{ post.id }}" class="detail-link" href="{% url 'post_detail' post.id %}">Detail</a>
-                                <a id="edit-{{ post.id }}" class="edit-link" href="{% url 'edit_post' post.id %}">Edit</a>
-                                <a id="delete-{{ post.id }}" class="delete-link" href="{% url 'delete_post' post.id %}">Delete</a>
-                            </div>
+                        <img src="{% static 'image/dots-vertical-svgrepo-com.svg' %}" alt="Dots Vertical SVG" class="dots-vertical-svg" id="dots-vertical-svg">
+
+                        <div class="dropdown-content" style="display: none;">
+                            <a id="detail-{{ post.id }}" class="detail-link" href="{% url 'post_detail' post.id %}">Detail</a>
+                            {% if post.user == request.user %}
+                            <a id="edit-{{ post.id }}" class="edit-link" href="{% url 'edit_post' post.id %}">Edit</a>
+                            <a id="delete-{{ post.id }}" class="delete-link" href="{% url 'delete_post' post.id %}">Delete</a>
+                            {% endif %}
                         </div>
+                        
                     </div>
                 </div>
                 <div class="post-content">
@@ -32,6 +34,9 @@
         {% endfor %}
     </div>
 </div>
+
 {% endblock %}
 
-{% block scripts %}<script src="{% static 'js/main.js' %}"></script>{% endblock %}
+{% block scripts %}
+<script src="{% static 'js/main.js' %}"></script>
+{% endblock %}

@@ -78,13 +78,15 @@
 }
 
 .dropdown-content {
-    display: none;
+    /* display: none; */
     position: absolute;
-    right: 0;
+    /* left: calc(-100% - 10px); */
+    /* top: 0; */
+    /* right: 0; */
     background-color: #f9f9f9;
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 100;
 }
 
 .dropdown-content a {
@@ -96,13 +98,4 @@
 
 .dropdown-content a:hover {
     background-color: #f1f1f1;
-}
-
-.show {
-    display: block;
-}
-
-.edit-link,
-.delete-link {
-    display: none;
 }
