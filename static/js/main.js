@@ -1,27 +1,3 @@
-//--- for popup menu ---//
-
-document.addEventListener('DOMContentLoaded', function() {
-    const toggleButtons = document.querySelectorAll('.dots-vertical-svg');
-
-    toggleButtons.forEach(toggleButton => {
-        const dropdownContent = toggleButton.nextElementSibling;
-
-        toggleButton.addEventListener('click', function() {
-            dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
-        });
-
-        document.addEventListener('click', function(e) {
-            if (!dropdownContent.contains(e.target) && e.target !== toggleButton) {
-                dropdownContent.style.display = 'none';
-            }
-        });
-    });
-});
-
-
-
-//--- for edit comment ---//
-
 document.addEventListener('DOMContentLoaded', function() {
     // Додавання обробки подій для клікабельних посилань для редагування коментарів
     document.addEventListener('click', function(e) {
@@ -43,10 +19,28 @@ document.addEventListener('DOMContentLoaded', function() {
             const editCommentForm = document.createElement('form');
             editCommentForm.classList.add('edit-comment-form');
             editCommentForm.setAttribute('id', `edit-comment-form-${commentId}`);
-            editCommentForm.innerHTML = `
-                <textarea class="comment-textarea" name="content" rows="4">${originalContent}</textarea>
-                <button type="submit" class="edit-comment-btn">Save</button>
-            `;
+
+            const textarea = document.createElement('textarea');
+            textarea.classList.add('comment-textarea');
+            textarea.setAttribute('name', 'content');
+            textarea.setAttribute('rows', '4');
+            textarea.style.width = '100%';
+            textarea.style.padding = '10px';
+            textarea.style.border = '1px solid #ddd';
+            textarea.style.borderRadius = '5px';
+            textarea.style.marginBottom = '10px';
+            textarea.style.maxWidth = '1090px';
+            textarea.textContent = originalContent;
+
+            editCommentForm.appendChild(textarea);
+
+            const saveButton = document.createElement('button');
+            saveButton.setAttribute('type', 'submit');
+            saveButton.classList.add('edit-comment-btn');
+            saveButton.textContent = 'Save';
+
+            editCommentForm.appendChild(saveButton);
+
             commentContentElement.innerHTML = ''; // Очистка вмісту коментаря
             commentContentElement.appendChild(editCommentForm);
 
@@ -95,6 +89,3 @@ document.addEventListener('DOMContentLoaded', function() {
         return cookieValue;
     }
 });
-
-
-
