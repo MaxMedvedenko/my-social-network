@@ -11,6 +11,7 @@ class Post(models.Model):
     content = models.TextField()
     image = models.ImageField(upload_to='posts/', null=True, blank=True)
     created_at = models.DateTimeField(default=timezone.now)
+    likes_count = models.IntegerField(default=0)
 
     def __str__(self):
         return self.content[:40]

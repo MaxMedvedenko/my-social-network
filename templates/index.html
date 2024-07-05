@@ -30,6 +30,24 @@
                         <img class="post-content-image" src="{{ post.image.url }}" alt="Post Image">
                     {% endif %}
                 </div>
+
+                <div class="like-section">
+                    <span id="like-count-{{ post.id }}" class="like-count">{{ post.likes_count }} Likes</span>
+                    {% if request.user.is_authenticated %}
+                        {% if request.user in post.likes.all %}
+                            <a href="#" class="unlike-btn like-action" data-post-id="{{ post.id }}">
+                                <img id="like-img-{{ post.id }}" src="{% static 'image/full-heart.svg' %}" alt="Full Heart" class="heart-icon">
+                            </a>
+                        {% else %}
+                            <a href="#" class="like-btn like-action" data-post-id="{{ post.id }}">
+                                <img id="like-img-{{ post.id }}" src="{% static 'image/heart.svg' %}" alt="Heart" class="heart-icon">
+                            </a>
+                        {% endif %}
+                    {% else %}
+                        <a href="{% url 'login' %}">Login</a> to like this post.
+                    {% endif %}
+                </div>
+                
             </div>
         {% endfor %}
     </div>

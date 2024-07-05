@@ -3,6 +3,7 @@ from .models import *
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404
 from django.http import JsonResponse
+from django.utils.dateformat import DateFormat
 # Create your views here.
 
 def index(request):
@@ -85,7 +86,7 @@ def delete_post(request, post_id):
 @login_required
 def add_comment(request, post_id):
     post = get_object_or_404(Post, pk=post_id)
-    
+
     if request.method == 'POST':
         content = request.POST.get('content')
         if content:
@@ -95,10 +96,19 @@ def add_comment(request, post_id):
                 content=content,
                 created_at=timezone.now()
             )
-            return redirect('post_detail', post_id=post_id)
+            formatted_date = DateFormat(comment.created_at).format('F j, Y, P')
+            return JsonResponse({
+                'success': True,
+                'comment': {
+                    'id': comment.id,
+                    'user': comment.user.username,
+                    'content': comment.content,
+                    'created_at': formatted_date
+                }
+            })
         else:
-            pass
-    
+            return JsonResponse({'success': False, 'error': 'Content is required.'}, status=400)
+
     comments = Comment.objects.filter(post=post)
     context = {
         'post': post,
@@ -106,7 +116,6 @@ def add_comment(request, post_id):
     }
     return render(request, 'post_detail.html', context)
 
-# doesn't work
 @login_required
 def edit_comment(request, comment_id):
     comment = get_object_or_404(Comment, id=comment_id)
@@ -135,3 +144,92 @@ def delete_comment(request, comment_id):
         'comment': comment,
     }
     return render(request, 'delete_comment.html', context)
+
+
+
+#--- Likes ---#
+# @login_required
+# def like_post(request, post_id):
+#     post = get_object_or_404(Post, id=post_id)
+#     like, created = Like.objects.get_or_create(user=request.user, post=post)
+    
+#     if not created:
+#         like.delete()
+#         post.likes_count -= 1
+#     else:
+#         post.likes_count += 1
+    
+#     post.save()
+    
+#     return redirect('index')
+
+# @login_required
+# def like_post(request, post_id):
+#     post = get_object_or_404(Post, id=post_id)
+#     like, created = Like.objects.get_or_create(user=request.user, post=post)
+    
+#     if not created:
+#         like.delete()
+    
+#     return redirect('index')
+
+# @login_required
+# def remove_like_post(request, post_id):
+#     post = get_object_or_404(Post, id=post_id)
+    
+#     if request.user.is_authenticated:
+#         like = Like.objects.filter(user=request.user, post=post).first()
+        
+#         if like:
+#             like.delete()
+#             post.likes_count -= 1
+#             post.save()
+#             return JsonResponse({'message': 'unliked', 'likes_count': post.likes_count})
+#         else:
+#             return JsonResponse({'message': 'not_liked'})
+#     else:
+#         return JsonResponse({'message': 'not_authenticated'}, status=403)
+
+
+# @login_required
+# def remove_like_post(request, post_id):
+#     post = get_object_or_404(Post, id=post_id)
+#     if request.user.is_authenticated:
+#         like = Like.objects.filter(user=request.user, post=post).first()
+#         if like:
+#             like.delete()
+#             return JsonResponse({'message': 'unliked'})
+#         else:
+#             return JsonResponse({'message': 'not_liked'})
+#     else:
+#         return JsonResponse({'message': 'not_authenticated'}, status=403)
+
+
+@login_required
+def like_post(request, post_id):
+    post = get_object_or_404(Post, id=post_id)
+    like, created = Like.objects.get_or_create(user=request.user, post=post)
+    
+    if not created:
+        like.delete()
+        post.likes_count -= 1
+    else:
+        Like.objects.create(user=request.user, post=post, created_at=timezone.now())
+        post.likes_count += 1
+    
+    post.save()
+
+    return JsonResponse({'message': 'liked' if created else 'unliked', 'likes_count': post.likes_count})
+
+@login_required
+def remove_like_post(request, post_id):
+    post = get_object_or_404(Post, id=post_id)
+    like = Like.objects.filter(user=request.user, post=post).first()
+    
+    if like:
+        like.delete()
+        post.likes_count -= 1
+        post.save()
+        return JsonResponse({'message': 'unliked', 'likes_count': post.likes_count})
+    else:
+        return JsonResponse({'message': 'not_liked'})
