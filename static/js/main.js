@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
             textarea.style.border = '1px solid #ddd';
             textarea.style.borderRadius = '5px';
             textarea.style.marginBottom = '10px';
-            textarea.style.maxWidth = '1090px';
+            textarea.style.maxWidth = '1000px';
             textarea.textContent = originalContent;
 
             editCommentForm.appendChild(textarea);
