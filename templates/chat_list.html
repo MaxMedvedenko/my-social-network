@@ -17,6 +17,8 @@
                 <button type="submit" class="chat-button">Delete</button>
             </form>
         </div>
+        {% empty %}
+        <div>No chats available.</div>
         {% endfor %}
     </div>
 </div>
