@@ -49,5 +49,9 @@ urlpatterns = [
 
     path('profile/<str:username>/', profile_view, name='profile_view'),
     path('edit_profile/', edit_profile, name='edit_profile'),
+
+    path('chats/', chat_list_view, name='chat_list'),
+    path('chats/create/', create_chat_view, name='create_chat'),
+    path('chats/delete/<int:chat_id>/', delete_chat_view, name='delete_chat'),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

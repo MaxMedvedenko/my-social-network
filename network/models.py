@@ -29,34 +29,43 @@ class Comment(models.Model):
     content = models.TextField()
     created_at = models.DateTimeField(default=timezone.now)
 
-# Модель групи
-class Group(models.Model):
-    name = models.CharField(max_length=100)
-    description = models.TextField()
-    created_at = models.DateTimeField(default=timezone.now)
-    members = models.ManyToManyField(User, through='GroupMember')
+class Chat(models.Model):
+    participants = models.ManyToManyField(User, related_name='chats')
+    created_at = models.DateTimeField(auto_now_add=True)
 
-# Модель учасника групи
-class GroupMember(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    group = models.ForeignKey(Group, on_delete=models.CASCADE)
-    joined_at = models.DateTimeField(default=timezone.now)
-    is_admin = models.BooleanField(default=False)
+    def __str__(self):
+        return f"Chat between {', '.join([user.username for user in self.participants.all()])}"
 
-# Модель публікації в групі
-class GroupPost(models.Model):
-    group = models.ForeignKey(Group, on_delete=models.CASCADE)
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    content = models.TextField()
-    created_at = models.DateTimeField(default=timezone.now)
-
-# Модель приватних повідомлень
 class Message(models.Model):
-    sender = models.ForeignKey(User, related_name='sender', on_delete=models.CASCADE)
-    recipient = models.ForeignKey(User, related_name='recipient', on_delete=models.CASCADE)
+    chat = models.ForeignKey(Chat, on_delete=models.CASCADE, related_name='messages')
+    sender = models.ForeignKey(User, on_delete=models.CASCADE)
     content = models.TextField()
-    created_at = models.DateTimeField(default=timezone.now)
-    read = models.BooleanField(default=False)
+    timestamp = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"Message from {self.sender.username} at {self.timestamp}"
+
+
+# # Модель групи
+# class Group(models.Model):
+#     name = models.CharField(max_length=100)
+#     description = models.TextField()
+#     created_at = models.DateTimeField(default=timezone.now)
+#     members = models.ManyToManyField(User, through='GroupMember')
+
+# # Модель учасника групи
+# class GroupMember(models.Model):
+#     user = models.ForeignKey(User, on_delete=models.CASCADE)
+#     group = models.ForeignKey(Group, on_delete=models.CASCADE)
+#     joined_at = models.DateTimeField(default=timezone.now)
+#     is_admin = models.BooleanField(default=False)
+
+# # Модель публікації в групі
+# class GroupPost(models.Model):
+#     group = models.ForeignKey(Group, on_delete=models.CASCADE)
+#     user = models.ForeignKey(User, on_delete=models.CASCADE)
+#     content = models.TextField()
+#     created_at = models.DateTimeField(default=timezone.now)
 
 # Модель сповіщень
 # class Notification(models.Model):

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block styles %}<link rel="stylesheet" href="{% static 'css/chat_list.css' %}">{% endblock %}
+
+{% block content %}
+<div class="chat-container">
+    <h1>Chat List</h1>
+    <a href="{% url 'create_chat' %}" class="chat-button">Create New Chat</a>
+    
+    <div class="chats">
+        {% for chat in chats %}
+        <div class="chat">
+            <span class="chat-title">{{ chat }}</span>
+            <form action="{% url 'delete_chat' chat.id %}" method="post" class="csrf-form">
+                {% csrf_token %}
+                <button type="submit" class="chat-button">Delete</button>
+            </form>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+

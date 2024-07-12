@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block styles %}<link rel="stylesheet" href="{% static 'css/create_chat.css' %}">{% endblock %}
+
+{% block content %}
+<div class="create-chat-container">
+    <h1 class="create-chat-title">Create New Chat</h1>
+
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <form method="post">
+        {% csrf_token %}
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="submit" class="create-chat-button">Create Chat</button>
+    </form>
+</div>
+{% endblock %}

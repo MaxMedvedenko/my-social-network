@@ -4,6 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404
 from django.http import JsonResponse
 from django.utils.dateformat import DateFormat
+from django.contrib import messages
 # Create your views here.
 
 def index(request):
@@ -233,3 +234,33 @@ def remove_like_post(request, post_id):
         return JsonResponse({'message': 'unliked', 'likes_count': post.likes_count})
     else:
         return JsonResponse({'message': 'not_liked'})
+    
+
+#--- Chats , messages ---#
+
+@login_required
+def chat_list_view(request):
+    chats = request.user.chats.all()
+    return render(request, 'chat_list.html', {'chats': chats})
+
+@login_required
+def create_chat_view(request):
+    if request.method == 'POST':
+        username = request.POST.get('username')
+        
+        try:
+            other_user = User.objects.get(username=username)
+            chat = Chat.objects.create()
+            chat.participants.add(request.user, other_user)
+            return redirect('chat_list')
+        except User.DoesNotExist:
+            messages.error(request, "User does not exist.")
+
+    return render(request, 'create_chat.html')
+
+@login_required
+def delete_chat_view(request, chat_id):
+    chat = get_object_or_404(Chat, id=chat_id)
+    if request.user in chat.participants.all():
+        chat.delete()
+    return redirect('chat_list')
