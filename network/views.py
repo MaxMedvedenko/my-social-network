@@ -274,5 +274,6 @@ def chat_detail_view(request, chat_id):
         content = request.POST.get('content')
         if content:
             Message.objects.create(chat=chat, sender=request.user, content=content)
+            return redirect('chat_detail', chat_id=chat.id)
 
     return render(request, 'chat_detail.html', {'chat': chat, 'messages': messages})
