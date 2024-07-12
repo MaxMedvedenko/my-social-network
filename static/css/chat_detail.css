@@ -10,13 +10,53 @@
     max-height: 300px;
     overflow-y: scroll;
     margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
 }
 
 .message {
-    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 8px;
+    margin-top: 5px;
+    background-color: #fff;
+    transition: background-color 0.2s;
+}
+
+.message:hover {
+    background-color: #f1f1f1;
 }
 
 .timestamp {
-    font-size: 0.8em;
-    color: #888;
+    color: #666;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 5px;
+}
+
+
+.message-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-top: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.send-button {
+    background-color: #000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.send-button:hover {
+    background-color: #555;
 }
