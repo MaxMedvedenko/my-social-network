@@ -303,7 +303,7 @@ def delete_message_view(request, message_id):
     message = get_object_or_404(Message, id=message_id)
 
     if request.method == 'POST':
-        if message.sender == request.user:  # Check if the user is the sender
+        if message.sender == request.user:
             message.delete()
             return redirect('chat_detail', chat_id=message.chat.id)
 
