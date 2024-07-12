@@ -9,8 +9,20 @@
 
     <div id="messages" class="messages">
         {% for message in messages %}
-        <div class="message">
-            <strong>{{ message.sender.username }}</strong>: {{ message.content }} <span class="timestamp">{{ message.timestamp }}</span>
+        <div class="message" data-message-id="{{ message.id }}">
+            <strong>{{ message.sender.username }}</strong>: 
+            <span class="message-content">{{ message.content }}</span> 
+            <span class="timestamp">{{ message.timestamp }}</span>
+
+            {% if message.sender == request.user %}
+            <div class="message-actions">
+                <a class="edit-link" href="{% url 'edit_message' message.id %}">Edit</a>
+                <form action="{% url 'delete_message' message.id %}" method="post" style="display:inline;">
+                    {% csrf_token %}
+                    <button class="delete-button" type="submit">Delete</button>
+                </form>
+            </div>
+            {% endif %}
         </div>
         {% endfor %}
     </div>

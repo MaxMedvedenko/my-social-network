@@ -61,3 +61,26 @@
 .send-button:hover {
     background-color: #555;
 }
+
+.message-actions {
+    margin-top: 5px;
+}
+
+.edit-link, .delete-button {
+    margin-right: 10px;
+    color: blue;
+    text-decoration: none;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
