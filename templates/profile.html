@@ -8,20 +8,24 @@
 <div class="profile-container">
     <div class="profile-info">
         <div class="avatar">
-            {% if user.avatar %}
-            <img src="{{ user.avatar.url }}" alt="Avatar">
+            {% if profile.avatar %}
+            <img src="{{ profile.avatar.url }}" alt="Avatar">
             {% else %}
             <img src="{% static 'image/default_avatar.png' %}" alt="Default Avatar">
             {% endif %}
         </div>
         <div class="user-details">
-            <p><strong>Username:</strong> {{ user.username }}</p>
-            <p><strong>First Name:</strong> {{ user.first_name }}</p>
-            <p><strong>Last Name:</strong> {{ user.last_name }}</p>
-            <p><strong>Email:</strong> {{ user.email }}</p>
-            <p><strong>Bio:</strong> {{ user.bio }}</p>
+            <p><strong>Username:</strong> {{ profile.user.username }}</p>
+            <p><strong>First Name:</strong> {{ profile.first_name }}</p>
+            <p><strong>Last Name:</strong> {{ profile.last_name }}</p>
+            <p><strong>Email:</strong> {{ profile.email }}</p>
+            <p><strong>Phone Number:</strong> {{ profile.phone_number }}</p>
+            <p><strong>Bio:</strong> {{ profile.bio }}</p>
+            <p><strong>Birth Date:</strong> {{ profile.birth_date|date:"F j, Y" }}</p>
         </div>
     </div>
+    {% if request.user == profile.user %}
     <a href="{% url 'edit_profile' %}" class="btn edit-profile-btn">Edit Profile</a>
+    {% endif %}
 </div>
 {% endblock %}

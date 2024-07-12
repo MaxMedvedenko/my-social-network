@@ -30,6 +30,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('', index, name='index'),
+    
     path('create-post/', create_post, name='create_post'),
     path('post/<int:post_id>/', post_detail, name='post_detail'),
     path('post/<int:post_id>/edit/', edit_post, name='edit_post'),
@@ -46,7 +47,7 @@ urlpatterns = [
     path('register/', register_view, name='register'),
     path('logout/', logout_view, name='logout'),
 
-    path('profile/', profile, name='profile'),
+    path('profile/<str:username>/', profile_view, name='profile_view'),
     path('edit_profile/', edit_profile, name='edit_profile'),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
