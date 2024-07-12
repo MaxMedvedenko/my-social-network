@@ -97,6 +97,6 @@ def edit_profile(request):
 
         user.save()
         profile.save()
-        return redirect('view_profile', username=user.username)
+        return redirect('profile_view', username=user.username)
 
     return render(request, 'edit_profile.html', {'user': user, 'profile': profile})
