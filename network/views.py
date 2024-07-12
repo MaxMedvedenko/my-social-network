@@ -264,3 +264,15 @@ def delete_chat_view(request, chat_id):
     if request.user in chat.participants.all():
         chat.delete()
     return redirect('chat_list')
+
+@login_required
+def chat_detail_view(request, chat_id):
+    chat = get_object_or_404(Chat, id=chat_id)
+    messages = chat.messages.all()
+
+    if request.method == 'POST':
+        content = request.POST.get('content')
+        if content:
+            Message.objects.create(chat=chat, sender=request.user, content=content)
+
+    return render(request, 'chat_detail.html', {'chat': chat, 'messages': messages})

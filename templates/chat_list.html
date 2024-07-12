@@ -11,7 +11,7 @@
     <div class="chats">
         {% for chat in chats %}
         <div class="chat">
-            <span class="chat-title">{{ chat }}</span>
+            <a href="{% url 'chat_detail' chat.id %}" class="chat-title">{{ chat }}</a>
             <form action="{% url 'delete_chat' chat.id %}" method="post" class="csrf-form">
                 {% csrf_token %}
                 <button type="submit" class="chat-button">Delete</button>
@@ -23,4 +23,3 @@
     </div>
 </div>
 {% endblock %}
-

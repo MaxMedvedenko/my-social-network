@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block styles %}<link rel="stylesheet" href="{% static 'css/chat_detail.css' %}">{% endblock %}
+
+{% block content %}
+<div class="chat-detail-container">
+    <h1>{{ chat }}</h1>
+
+    <div class="messages">
+        {% for message in messages %}
+        <div class="message">
+            <strong>{{ message.sender.username }}</strong>: {{ message.content }} <span class="timestamp">{{ message.timestamp }}</span>
+        </div>
+        {% endfor %}
+    </div>
+
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="content" placeholder="Type your message..." required>
+        <button type="submit">Send</button>
+    </form>
+</div>
+{% endblock %}
