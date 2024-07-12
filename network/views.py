@@ -269,6 +269,12 @@ def delete_chat_view(request, chat_id):
 def chat_detail_view(request, chat_id):
     chat = get_object_or_404(Chat, id=chat_id)
     messages = chat.messages.all()
+    
+    return render(request, 'chat_detail.html', {'chat': chat, 'messages': messages})
+
+@login_required
+def send_message_view(request, chat_id):
+    chat = get_object_or_404(Chat, id=chat_id)
 
     if request.method == 'POST':
         content = request.POST.get('content')
@@ -276,4 +282,4 @@ def chat_detail_view(request, chat_id):
             Message.objects.create(chat=chat, sender=request.user, content=content)
             return redirect('chat_detail', chat_id=chat.id)
 
-    return render(request, 'chat_detail.html', {'chat': chat, 'messages': messages})
+    return redirect('chat_detail', chat_id=chat.id)

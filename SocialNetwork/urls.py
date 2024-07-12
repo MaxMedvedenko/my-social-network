@@ -53,6 +53,8 @@ urlpatterns = [
     path('chats/', chat_list_view, name='chat_list'),
     path('chats/create/', create_chat_view, name='create_chat'),
     path('chats/delete/<int:chat_id>/', delete_chat_view, name='delete_chat'),
+    
     path('chats/<int:chat_id>/', chat_detail_view, name='chat_detail'),
+    path('chats/<int:chat_id>/send/', send_message_view, name='send_message'),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
