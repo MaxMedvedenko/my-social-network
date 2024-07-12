@@ -283,3 +283,28 @@ def send_message_view(request, chat_id):
             return redirect('chat_detail', chat_id=chat.id)
 
     return redirect('chat_detail', chat_id=chat.id)
+
+@login_required
+def edit_message_view(request, message_id):
+    message = get_object_or_404(Message, id=message_id)
+
+    if request.method == 'POST':
+        if message.sender == request.user:  # Check if the user is the sender
+            content = request.POST.get('content')
+            if content:
+                message.content = content
+                message.save()
+                return redirect('chat_detail', chat_id=message.chat.id)
+
+    return render(request, 'edit_message.html', {'message': message})
+
+@login_required
+def delete_message_view(request, message_id):
+    message = get_object_or_404(Message, id=message_id)
+
+    if request.method == 'POST':
+        if message.sender == request.user:  # Check if the user is the sender
+            message.delete()
+            return redirect('chat_detail', chat_id=message.chat.id)
+
+    return render(request, 'delete_message.html', {'message': message})

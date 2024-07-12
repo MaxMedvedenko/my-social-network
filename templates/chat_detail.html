@@ -7,7 +7,7 @@
 <div class="chat-detail-container">
     <h1>{{ chat }}</h1>
 
-    <div id="messages" class="messages">  <!-- ID here -->
+    <div id="messages" class="messages">
         {% for message in messages %}
         <div class="message">
             <strong>{{ message.sender.username }}</strong>: {{ message.content }} <span class="timestamp">{{ message.timestamp }}</span>
