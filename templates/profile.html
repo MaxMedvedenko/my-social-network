@@ -24,33 +24,78 @@
             <p><strong>Birth Date:</strong> {{ profile.birth_date|date:"F j, Y" }}</p>
         </div>
     </div>
-    
     {% if request.user != profile.user %}
-        {% if is_friend %}
-            <p>Already friends.</p>
-        {% elif has_sent_request %}
-            <p>Friend request sent.</p>
-        {% elif has_received_request %}
-            <p>Friend request received. 
-                <form action="{% url 'accept_friend_request' request_id=received_request.id %}" method="post" style="display:inline;">
-                    {% csrf_token %}
-                    <button type="submit" class="btn accept-btn">Accept</button>
-                </form>
-                <form action="{% url 'reject_friend_request' request_id=received_request.id %}" method="post" style="display:inline;">
-                    {% csrf_token %}
-                    <button type="submit" class="btn reject-btn">Reject</button>
-                </form>
-            </p>
-        {% else %}
-            <form action="{% url 'send_friend_request' profile.user.id %}" method="post" style="display:inline;">
-                {% csrf_token %}
-                <button type="submit" class="btn send-friend-request-btn">Send Friend Request</button>
-            </form>
-        {% endif %}
-    {% endif %}
-    
-    {% if request.user == profile.user %}
-        <a href="{% url 'edit_profile' %}" class="btn edit-profile-btn">Edit Profile</a>
+    <form action="{% url 'send_friend_request' profile.user.id %}" method="post" style="display:inline;">
+        {% csrf_token %}
+        <button type="submit" class="btn send-friend-request-btn">
+            {% if is_friend %}
+                Unfriend
+            {% elif has_sent_request %}
+                Request Sent
+            {% elif has_received_request %}
+                Accept Request
+            {% else %}
+                Send Friend Request
+            {% endif %}
+        </button>
+    </form>
+    {% else %}
+    <a href="{% url 'edit_profile' %}" class="btn edit-profile-btn">Edit Profile</a>
     {% endif %}
 </div>
+
+<!-- Add this section to display the user's posts -->
+<div class="post-container">
+    <h2>Posts</h2>
+    <div class="posts">
+        {% for post in posts %}
+            <div class="post">
+                <div class="post-header">
+                    <h3 class="post-creator">
+                        <a href="{% url 'profile_view' post.user.username %}">{{ post.user.username }}</a>
+                    </h3>
+                    <div class="right-part-pst-header">
+                        <span class="post-creation-time">{{ post.created_at }}</span>
+                        <img src="{% static 'image/dots-vertical-svgrepo-com.svg' %}" alt="Dots Vertical SVG" class="dots-vertical-svg" id="dots-vertical-svg">
+
+                        <div class="dropdown-content" style="display: none;">
+                            <a id="detail-{{ post.id }}" class="detail-link" href="{% url 'post_detail' post.id %}">Detail</a>
+                            {% if post.user == request.user %}
+                            <a id="edit-{{ post.id }}" class="edit-link" href="{% url 'edit_post' post.id %}">Edit</a>
+                            <a id="delete-{{ post.id }}" class="delete-link" href="{% url 'delete_post' post.id %}">Delete</a>
+                            {% endif %}
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p class="post-content-text">{{ post.content }}</p>
+                    {% if post.image %}
+                        <img class="post-content-image" src="{{ post.image.url }}" alt="Post Image">
+                    {% endif %}
+                </div>
+
+                <div class="like-section">
+                    <span id="like-count-{{ post.id }}" class="like-count">{{ post.likes_count }} Likes</span>
+                    {% if request.user.is_authenticated %}
+                        {% if request.user in post.likes.all %}
+                            <a href="#" class="unlike-btn like-action" data-post-id="{{ post.id }}">
+                                <img id="like-img-{{ post.id }}" src="{% static 'image/full-heart.svg' %}" alt="Full Heart" class="heart-icon">
+                            </a>
+                        {% else %}
+                            <a href="#" class="like-btn like-action" data-post-id="{{ post.id }}">
+                                <img id="like-img-{{ post.id }}" src="{% static 'image/heart.svg' %}" alt="Heart" class="heart-icon">
+                            </a>
+                        {% endif %}
+                    {% else %}
+                        <a href="{% url 'login' %}">Login</a> to like this post.
+                    {% endif %}
+                </div>
+                
+            </div>
+        {% endfor %}
+    </div>
+</div>
 {% endblock %}
+
+{% block scripts %}<script src="{% static 'js/chat.js' %}"></script>{% endblock %}

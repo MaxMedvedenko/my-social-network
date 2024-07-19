@@ -8,6 +8,7 @@ from django.db import IntegrityError
 from django.core.exceptions import ValidationError
 
 from user.models import *
+from network.models import Post
 
 from django.shortcuts import get_object_or_404
 
@@ -74,18 +75,29 @@ def logout_view(request):
 
 @login_required
 def profile_view(request, username):
+    # Отримати профіль користувача
     profile = get_object_or_404(Profile, user__username=username)
-    
+
+    # Перевірити, чи є користувач другом
     is_friend = Friend.objects.filter(user=request.user, friend=profile.user).exists() or \
                 Friend.objects.filter(user=profile.user, friend=request.user).exists()
+
+    # Перевірити, чи відправлено запит
     has_sent_request = Friendship.objects.filter(from_user=request.user, to_user=profile.user, status='pending').exists()
+
+    # Перевірити, чи отримано запит
     has_received_request = Friendship.objects.filter(from_user=profile.user, to_user=request.user, status='pending').exists()
 
+    # Отримати пости користувача
+    posts = Post.objects.filter(user=profile.user).order_by('-created_at')  # Модифікуйте фільтр та порядок за потреби
+
+    # Передати всі дані в контекст шаблону
     context = {
         'profile': profile,
         'is_friend': is_friend,
         'has_sent_request': has_sent_request,
         'has_received_request': has_received_request,
+        'posts': posts,
     }
     
     return render(request, 'profile.html', context)
