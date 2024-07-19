@@ -178,15 +178,25 @@ def cancel_friend_request(request, request_id):
 
 @login_required
 def accept_friend_request(request, request_id):
-    friend_request = get_object_or_404(Friendship, id=request_id, to_user=request.user)
+    # Отримати об'єкт запиту на дружбу
+    friend_request = get_object_or_404(Friendship, id=request_id, to_user=request.user, status='pending')
+    
+    # Перевірити, чи запит існує і має статус 'pending'
     if friend_request:
+        # Змінити статус запиту на 'accepted'
         friend_request.status = 'accepted'
         friend_request.save()
 
+        # Створити записи в моделі Friend для обох користувачів
         Friend.objects.get_or_create(user=friend_request.from_user, friend=friend_request.to_user)
         Friend.objects.get_or_create(user=friend_request.to_user, friend=friend_request.from_user)
 
+        # Видалити запис запиту на дружбу
+        friend_request.delete()
+
+    # Перенаправити користувача до списку запитів на дружбу
     return redirect('friend_requests')
+
 
 @login_required
 def reject_friend_request(request, request_id):
@@ -194,3 +204,12 @@ def reject_friend_request(request, request_id):
     if friend_request:
         friend_request.delete()
     return redirect('friend_requests')
+
+@login_required
+def unfriend(request, user_id):
+    profile = get_object_or_404(Profile, user_id=user_id)
+    
+    Friend.objects.filter(user=request.user, friend=profile.user).delete()
+    Friend.objects.filter(user=profile.user, friend=request.user).delete()
+    
+    return redirect('profile_view', username=profile.user.username)

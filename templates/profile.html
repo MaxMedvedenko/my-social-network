@@ -24,23 +24,39 @@
             <p><strong>Birth Date:</strong> {{ profile.birth_date|date:"F j, Y" }}</p>
         </div>
     </div>
+    
     {% if request.user != profile.user %}
-    <form action="{% url 'send_friend_request' profile.user.id %}" method="post" style="display:inline;">
-        {% csrf_token %}
-        <button type="submit" class="btn send-friend-request-btn">
-            {% if is_friend %}
-                Unfriend
-            {% elif has_sent_request %}
-                Request Sent
-            {% elif has_received_request %}
-                Accept Request
-            {% else %}
-                Send Friend Request
-            {% endif %}
-        </button>
-    </form>
+        {% if is_friend %}
+            <!-- Unfriend button -->
+            <form action="{% url 'unfriend' profile.user.id %}" method="post" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit" class="btn unfriend-btn">Unfriend</button>
+            </form>
+        {% elif has_sent_request %}
+            <!-- Cancel friend request button -->
+            <form action="{% url 'cancel_friend_request' request_id=request.user.id %}" method="post" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit" class="btn cancel-request-btn">Cancel Request</button>
+            </form>
+        {% elif has_received_request %}
+            <!-- Accept or Reject friend request button -->
+            <form action="{% url 'accept_friend_request' request_id=request.user.id %}" method="post" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit" class="btn accept-request-btn">Accept Request</button>
+            </form>
+            <form action="{% url 'reject_friend_request' request_id=request.user.id %}" method="post" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit" class="btn reject-request-btn">Reject Request</button>
+            </form>
+        {% else %}
+            <!-- Send friend request button -->
+            <form action="{% url 'send_friend_request' profile.user.id %}" method="post" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit" class="btn send-friend-request-btn">Send Friend Request</button>
+            </form>
+        {% endif %}
     {% else %}
-    <a href="{% url 'edit_profile' %}" class="btn edit-profile-btn">Edit Profile</a>
+        <a href="{% url 'edit_profile' %}" class="btn edit-profile-btn">Edit Profile</a>
     {% endif %}
 </div>
 

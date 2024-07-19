@@ -67,5 +67,6 @@ urlpatterns = [
 
     path('accept_friend_request/<int:request_id>/', accept_friend_request, name='accept_friend_request'),
     path('reject_friend_request/<int:request_id>/', reject_friend_request, name='reject_friend_request'),
+    path('unfriend/<int:user_id>/', unfriend, name='unfriend'),
        
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
