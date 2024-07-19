@@ -24,6 +24,12 @@
             <p><strong>Birth Date:</strong> {{ profile.birth_date|date:"F j, Y" }}</p>
         </div>
     </div>
+    {% if request.user != profile.user %}
+    <form action="{% url 'send_friend_request' profile.user.id %}" method="post" style="display:inline;">
+        {% csrf_token %}
+        <button type="submit" class="btn send-friend-request-btn">Send Friend Request</button>
+    </form>
+    {% endif %}
     {% if request.user == profile.user %}
     <a href="{% url 'edit_profile' %}" class="btn edit-profile-btn">Edit Profile</a>
     {% endif %}

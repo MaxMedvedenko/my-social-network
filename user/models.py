@@ -64,17 +64,26 @@ def create_user_profile(sender, instance, created, **kwargs):
 def save_user_profile(sender, instance, **kwargs):
     instance.profile.save()
 
+class Friendship(models.Model):
+    from_user = models.ForeignKey(User, related_name='friend_requests_sent', on_delete=models.CASCADE)
+    to_user = models.ForeignKey(User, related_name='friend_requests_received', on_delete=models.CASCADE)
+    status = models.CharField(max_length=10, choices=[('pending', 'Pending'), ('accepted', 'Accepted'), ('rejected', 'Rejected')])
+
+    def __str__(self):
+        return f"{self.from_user} -> {self.to_user} ({self.status})"
+
+
 # Модель друзів
 
-# class Friend(models.Model):
-#     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='user_friends')
-#     friend = models.ForeignKey(User, on_delete=models.CASCADE, related_name='friend_users')
+class Friend(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='user_friends')
+    friend = models.ForeignKey(User, on_delete=models.CASCADE, related_name='friend_users')
 
-#     def __str__(self):
-#         return f"{self.user.username} <-> {self.friend.username}"
+    def __str__(self):
+        return f"{self.user.username} <-> {self.friend.username}"
 
-#     class Meta:
-#         unique_together = ['user', 'friend']
+    class Meta:
+        unique_together = ['user', 'friend']
 
 # Модель запитів у друзів
 

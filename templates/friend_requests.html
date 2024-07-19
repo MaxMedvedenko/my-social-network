@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block styles %}<link rel="stylesheet" href="{% static 'css/friend_requests.css' %}">{% endblock %}
+
+{% block content %}
+<h1>Friend Requests</h1>
+<div class="friend-requests-container">
+    <h2>Incoming Requests</h2>
+    {% if incoming_requests %}
+        <ul class="requests-list">
+            {% for request in incoming_requests %}
+                <li class="request-item">
+                    <p><strong>From:</strong> {{ request.from_user.username }}</p>
+                    <form action="{% url 'accept_friend_request' request.id %}" method="post" style="display:inline;">
+                        {% csrf_token %}
+                        <button type="submit" class="btn accept-btn">Accept</button>
+                    </form>
+                    <form action="{% url 'reject_friend_request' request.id %}" method="post" style="display:inline;">
+                        {% csrf_token %}
+                        <button type="submit" class="btn reject-btn">Reject</button>
+                    </form>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No incoming requests.</p>
+    {% endif %}
+
+    <h2>Outgoing Requests</h2>
+    {% if outgoing_requests %}
+        <ul class="requests-list">
+            {% for request in outgoing_requests %}
+                <li class="request-item">
+                    <p><strong>To:</strong> {{ request.to_user.username }}</p>
+                    <form action="{% url 'cancel_friend_request' request.id %}" method="post" style="display:inline;">
+                        {% csrf_token %}
+                        <button type="submit" class="btn cancel-btn">Cancel</button>
+                    </form>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No outgoing requests.</p>
+    {% endif %}
+</div>
+{% endblock %}

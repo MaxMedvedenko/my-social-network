@@ -58,5 +58,13 @@ urlpatterns = [
     path('chats/<int:chat_id>/send/', send_message_view, name='send_message'),
     path('messages/<int:message_id>/edit/', edit_message_view, name='edit_message'),
     path('messages/<int:message_id>/delete/', delete_message_view, name='delete_message'),
+
+    path('friend_requests/', friend_requests_view, name='friend_requests'),
+
+    path('users/<int:user_id>/send_friend_request/', send_friend_request, name='send_friend_request'),
+    path('cancel_friend_request/<int:request_id>/', cancel_friend_request, name='cancel_friend_request'),
+
+    path('accept_friend_request/<int:request_id>/', accept_friend_request, name='accept_friend_request'),
+    path('reject_friend_request/<int:request_id>/', reject_friend_request, name='reject_friend_request'),
        
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

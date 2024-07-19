@@ -7,9 +7,11 @@ from django.contrib.auth.decorators import login_required
 from django.db import IntegrityError
 from django.core.exceptions import ValidationError
 
-from user.models import User, Profile
+from user.models import *
 
 from django.shortcuts import get_object_or_404
+
+from django.http import JsonResponse
 # Create your views here.
 
 # Register --- Login --- Logout #
@@ -100,3 +102,54 @@ def edit_profile(request):
         return redirect('profile_view', username=user.username)
 
     return render(request, 'edit_profile.html', {'user': user, 'profile': profile})
+
+
+# --- Friend --- #
+
+@login_required
+def friend_requests_view(request):
+    # Отримати всі запити на дружбу, де поточний користувач є або відправником, або одержувачем
+    incoming_requests = Friendship.objects.filter(to_user=request.user, status='pending')
+    outgoing_requests = Friendship.objects.filter(from_user=request.user, status='pending')
+
+    return render(request, 'friend_requests.html', {
+        'incoming_requests': incoming_requests,
+        'outgoing_requests': outgoing_requests
+    })
+
+@login_required
+def send_friend_request(request, user_id):
+    target_user = get_object_or_404(Profile, user_id=user_id)
+    if target_user.user == request.user:
+        return redirect('profile_view', username=target_user.user.username)
+    
+    existing_request = Friendship.objects.filter(from_user=request.user, to_user=target_user.user).exists()
+    if existing_request:
+        return redirect('profile_view', username=target_user.user.username)
+
+    Friendship.objects.create(from_user=request.user, to_user=target_user.user, status='pending')
+    return redirect('profile_view', username=target_user.user.username)
+
+@login_required
+def cancel_friend_request(request, request_id):
+    friend_request = get_object_or_404(Friendship, id=request_id, from_user=request.user)
+    if friend_request:
+        friend_request.delete()
+    return redirect('friend_requests')
+
+@login_required
+def accept_friend_request(request, request_id):
+    friend_request = get_object_or_404(Friendship, id=request_id, to_user=request.user)
+    if friend_request:
+        friend_request.status = 'accepted'
+        friend_request.save()
+        # Optionally: Create reciprocal friendship
+        Friendship.objects.create(from_user=friend_request.to_user, to_user=friend_request.from_user, status='accepted')
+    return redirect('friend_requests')
+
+@login_required
+def reject_friend_request(request, request_id):
+    friend_request = get_object_or_404(Friendship, id=request_id, to_user=request.user)
+    if friend_request:
+        friend_request.delete()
+    return redirect('friend_requests')
