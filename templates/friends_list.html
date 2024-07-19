@@ -10,7 +10,7 @@
         <ul class="friends-list">
             {% for friend in friends %}
                 <li class="friend-item">
-                    <p><strong>Friend:</strong> {{ friend.username }}</p>
+                    <p><strong>Friend:</strong> <a href="{% url 'profile_view' friend.username %}">{{ friend.username }}</a></p>
                 </li>
             {% endfor %}
         </ul>
