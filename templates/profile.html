@@ -34,17 +34,17 @@
             </form>
         {% elif has_sent_request %}
             <!-- Cancel friend request button -->
-            <form action="{% url 'cancel_friend_request' request_id=request.user.id %}" method="post" style="display:inline;">
+            <form action="{% url 'cancel_friend_request' request_id=request_id %}" method="post" style="display:inline;">
                 {% csrf_token %}
                 <button type="submit" class="btn cancel-request-btn">Cancel Request</button>
             </form>
         {% elif has_received_request %}
             <!-- Accept or Reject friend request button -->
-            <form action="{% url 'accept_friend_request' request_id=request.user.id %}" method="post" style="display:inline;">
+            <form action="{% url 'accept_friend_request' request_id=request_id %}" method="post" style="display:inline;">
                 {% csrf_token %}
                 <button type="submit" class="btn accept-request-btn">Accept Request</button>
             </form>
-            <form action="{% url 'reject_friend_request' request_id=request.user.id %}" method="post" style="display:inline;">
+            <form action="{% url 'reject_friend_request' request_id=request_id %}" method="post" style="display:inline;">
                 {% csrf_token %}
                 <button type="submit" class="btn reject-request-btn">Reject Request</button>
             </form>

@@ -82,14 +82,25 @@ def profile_view(request, username):
     is_friend = Friend.objects.filter(user=request.user, friend=profile.user).exists() or \
                 Friend.objects.filter(user=profile.user, friend=request.user).exists()
 
+    # Ініціалізувати змінні для запитів
+    has_sent_request = False
+    has_received_request = False
+    request_id = None
+
     # Перевірити, чи відправлено запит
-    has_sent_request = Friendship.objects.filter(from_user=request.user, to_user=profile.user, status='pending').exists()
+    friendship_sent = Friendship.objects.filter(from_user=request.user, to_user=profile.user, status='pending').first()
+    if friendship_sent:
+        has_sent_request = True
+        request_id = friendship_sent.id
 
     # Перевірити, чи отримано запит
-    has_received_request = Friendship.objects.filter(from_user=profile.user, to_user=request.user, status='pending').exists()
+    friendship_received = Friendship.objects.filter(from_user=profile.user, to_user=request.user, status='pending').first()
+    if friendship_received:
+        has_received_request = True
+        request_id = friendship_received.id
 
     # Отримати пости користувача
-    posts = Post.objects.filter(user=profile.user).order_by('-created_at')  # Модифікуйте фільтр та порядок за потреби
+    posts = Post.objects.filter(user=profile.user).order_by('-created_at')
 
     # Передати всі дані в контекст шаблону
     context = {
@@ -97,6 +108,7 @@ def profile_view(request, username):
         'is_friend': is_friend,
         'has_sent_request': has_sent_request,
         'has_received_request': has_received_request,
+        'request_id': request_id,
         'posts': posts,
     }
     
@@ -171,9 +183,13 @@ def send_friend_request(request, user_id):
 
 @login_required
 def cancel_friend_request(request, request_id):
+    # Дістаємо запит дружби, який потрібно скасувати
     friend_request = get_object_or_404(Friendship, id=request_id, from_user=request.user)
+
     if friend_request:
+        # Видалити запит дружби
         friend_request.delete()
+
     return redirect('friend_requests')
 
 @login_required
