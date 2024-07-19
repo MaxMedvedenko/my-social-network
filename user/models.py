@@ -65,12 +65,17 @@ def save_user_profile(sender, instance, **kwargs):
     instance.profile.save()
 
 class Friendship(models.Model):
-    from_user = models.ForeignKey(User, related_name='friend_requests_sent', on_delete=models.CASCADE)
-    to_user = models.ForeignKey(User, related_name='friend_requests_received', on_delete=models.CASCADE)
-    status = models.CharField(max_length=10, choices=[('pending', 'Pending'), ('accepted', 'Accepted'), ('rejected', 'Rejected')])
+    STATUS_CHOICES = [
+        ('pending', 'Pending'),
+        ('accepted', 'Accepted'),
+        ('rejected', 'Rejected'),
+    ]
+    from_user = models.ForeignKey(User, related_name='sent_requests', on_delete=models.CASCADE)
+    to_user = models.ForeignKey(User, related_name='received_requests', on_delete=models.CASCADE)
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='pending')
 
     def __str__(self):
-        return f"{self.from_user} -> {self.to_user} ({self.status})"
+        return f"{self.from_user.username} -> {self.to_user.username} ({self.status})"
 
 
 # Модель друзів

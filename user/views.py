@@ -72,9 +72,22 @@ def logout_view(request):
 
 # --- Profile --- #
 
+@login_required
 def profile_view(request, username):
     profile = get_object_or_404(Profile, user__username=username)
-    context = {'profile': profile}
+    
+    is_friend = Friend.objects.filter(user=request.user, friend=profile.user).exists() or \
+                Friend.objects.filter(user=profile.user, friend=request.user).exists()
+    has_sent_request = Friendship.objects.filter(from_user=request.user, to_user=profile.user, status='pending').exists()
+    has_received_request = Friendship.objects.filter(from_user=profile.user, to_user=request.user, status='pending').exists()
+
+    context = {
+        'profile': profile,
+        'is_friend': is_friend,
+        'has_sent_request': has_sent_request,
+        'has_received_request': has_received_request,
+    }
+    
     return render(request, 'profile.html', context)
 
 @login_required
@@ -108,10 +121,9 @@ def edit_profile(request):
 
 @login_required
 def friend_requests_view(request):
-    # Отримати всі запити на дружбу, де поточний користувач є або відправником, або одержувачем
     incoming_requests = Friendship.objects.filter(to_user=request.user, status='pending')
     outgoing_requests = Friendship.objects.filter(from_user=request.user, status='pending')
-
+    
     return render(request, 'friend_requests.html', {
         'incoming_requests': incoming_requests,
         'outgoing_requests': outgoing_requests
@@ -143,8 +155,10 @@ def accept_friend_request(request, request_id):
     if friend_request:
         friend_request.status = 'accepted'
         friend_request.save()
-        # Optionally: Create reciprocal friendship
-        Friendship.objects.create(from_user=friend_request.to_user, to_user=friend_request.from_user, status='accepted')
+
+        Friend.objects.get_or_create(user=friend_request.from_user, friend=friend_request.to_user)
+        Friend.objects.get_or_create(user=friend_request.to_user, friend=friend_request.from_user)
+
     return redirect('friend_requests')
 
 @login_required
