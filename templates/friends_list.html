@@ -11,6 +11,11 @@
             {% for friend in friends %}
                 <li class="friend-item">
                     <p><strong>Friend:</strong> <a href="{% url 'profile_view' friend.username %}">{{ friend.username }}</a></p>
+                    <!-- Unfriend button -->
+                    <form action="{% url 'unfriend' friend.id %}" method="post" style="display:inline;">
+                        {% csrf_token %}
+                        <button type="submit" class="btn unfriend-btn">Unfriend</button>
+                    </form>
                 </li>
             {% endfor %}
         </ul>
