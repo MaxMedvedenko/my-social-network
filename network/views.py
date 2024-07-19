@@ -289,14 +289,16 @@ def edit_message_view(request, message_id):
     message = get_object_or_404(Message, id=message_id)
 
     if request.method == 'POST':
-        if message.sender == request.user:
+        if message.sender == request.user:  # Check if the user is the sender
             content = request.POST.get('content')
             if content:
                 message.content = content
                 message.save()
-                return redirect('chat_detail', chat_id=message.chat.id)
+                return JsonResponse({'success': True})
 
-    return render(request, 'edit_message.html', {'message': message})
+        return JsonResponse({'success': False, 'error': 'Unauthorized'}, status=403)
+
+    return JsonResponse({'success': False, 'error': 'Invalid request'}, status=400)
 
 @login_required
 def delete_message_view(request, message_id):

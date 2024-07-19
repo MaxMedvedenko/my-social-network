@@ -16,7 +16,7 @@
 
             {% if message.sender == request.user %}
             <div class="message-actions">
-                <a class="edit-link" href="{% url 'edit_message' message.id %}">Edit</a>
+                <a href="#" class="edit-message-link" data-message-id="{{ message.id }}">Edit</a>
                 <form action="{% url 'delete_message' message.id %}" method="post" style="display:inline;">
                     {% csrf_token %}
                     <button class="delete-button" type="submit">Delete</button>
