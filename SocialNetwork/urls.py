@@ -59,6 +59,7 @@ urlpatterns = [
     path('messages/<int:message_id>/edit/', edit_message_view, name='edit_message'),
     path('messages/<int:message_id>/delete/', delete_message_view, name='delete_message'),
 
+    path('friends/', friends_list_view, name='friends_list'),
     path('friend_requests/', friend_requests_view, name='friend_requests'),
 
     path('users/<int:user_id>/send_friend_request/', send_friend_request, name='send_friend_request'),

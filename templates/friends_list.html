@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block styles %}<link rel="stylesheet" href="{% static 'css/friends_list.css' %}">{% endblock %}
+
+{% block content %}
+<h1>My Friends</h1>
+<div class="friends-container">
+    {% if friends %}
+        <ul class="friends-list">
+            {% for friend in friends %}
+                <li class="friend-item">
+                    <p><strong>Friend:</strong> {{ friend.username }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>You have no friends yet.</p>
+    {% endif %}
+</div>
+{% endblock %}

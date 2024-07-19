@@ -120,6 +120,21 @@ def edit_profile(request):
 # --- Friend --- #
 
 @login_required
+def friends_list_view(request):
+    # Отримати всі пари друзів, в яких користувач є або `user`, або `friend`
+    friends = Friend.objects.filter(user=request.user) | Friend.objects.filter(friend=request.user)
+
+    # Витягти унікальних друзів
+    unique_friends = set()
+    for friendship in friends:
+        if friendship.user == request.user:
+            unique_friends.add(friendship.friend)
+        else:
+            unique_friends.add(friendship.user)
+
+    return render(request, 'friends_list.html', {'friends': unique_friends})
+
+@login_required
 def friend_requests_view(request):
     incoming_requests = Friendship.objects.filter(to_user=request.user, status='pending')
     outgoing_requests = Friendship.objects.filter(from_user=request.user, status='pending')
