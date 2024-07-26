@@ -3,13 +3,14 @@
 
 {% block styles %}
 <link rel="stylesheet" href="{% static 'css/post_detail.css' %}">
+<link rel="stylesheet" href="{% static 'css/modal.css' %}">
 {% endblock %}
 
 {% block content %}
 <div class="post-container">
     <div class="post">
         <div class="post-header">
-            <h3 class="post-creator">{{ post.user.username }}</h3>
+            <h3 class="post-creator"><a href="{% url 'profile_view' post.user.username %}">{{ post.user.username }}</a></h3>
             <div class="right-part-pst-header">
                 <span class="post-creation-time">{{ post.created_at }}</span>
                 <img src="{% static 'image/dots-vertical-svgrepo-com.svg' %}" alt="Dots Vertical SVG" class="dots-vertical-svg" id="dots-vertical-svg">
@@ -27,7 +28,8 @@
         <div class="post-content">
             <p class="post-content-text">{{ post.content }}</p>
             {% if post.image %}
-                <img class="post-content-image" src="{{ post.image.url }}" alt="Post Image">
+                <!-- Image with onclick to open modal -->
+                <img class="post-content-image" src="{{ post.image.url }}" alt="Post Image" onclick="openModal('{{ post.image.url }}')">
             {% endif %}
         </div>
     </div>
@@ -65,8 +67,16 @@
         {% endfor %}
     </div>
 </div>
+
+<!-- Modal Structure -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
 {% endblock %}
 
 {% block scripts %}
 <script src="{% static 'js/main.js' %}"></script>
+<script src="{% static 'js/modal.js' %}"></script>
 {% endblock %}
