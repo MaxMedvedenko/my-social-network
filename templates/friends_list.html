@@ -1,21 +1,32 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block styles %}<link rel="stylesheet" href="{% static 'css/friends_list.css' %}">{% endblock %}
+{% block styles %}
+<link rel="stylesheet" href="{% static 'css/friends_list.css' %}">
+{% endblock %}
 
 {% block content %}
 <h1>My Friends</h1>
-<div class="friends-container">
+<div class="friends-list-container">
     {% if friends %}
         <ul class="friends-list">
             {% for friend in friends %}
-                <li class="friend-item">
-                    <p><strong>Friend:</strong> <a href="{% url 'profile_view' friend.username %}">{{ friend.username }}</a></p>
-                    <!-- Unfriend button -->
-                    <form action="{% url 'unfriend' friend.id %}" method="post" style="display:inline;">
-                        {% csrf_token %}
-                        <button type="submit" class="btn unfriend-btn">Unfriend</button>
-                    </form>
+                <li class="friends-list-item">
+                    <div class="friends-avatar">
+                        {% if friend.profile.avatar %}
+                            <img src="{{ friend.profile.avatar.url }}" alt="Avatar">
+                        {% else %}
+                            <img src="{% static 'image/default_avatar.png' %}" alt="Default Avatar">
+                        {% endif %}
+                    </div>
+                    <div class="friends-details">
+                        <p><strong>Friend:</strong> <a href="{% url 'profile_view' friend.username %}">{{ friend.username }}</a></p>
+                        <!-- Unfriend button -->
+                        <form action="{% url 'unfriend' friend.id %}" method="post" class="unfriend-form">
+                            {% csrf_token %}
+                            <button type="submit" class="btn unfriend-btn">Unfriend</button>
+                        </form>
+                    </div>
                 </li>
             {% endfor %}
         </ul>

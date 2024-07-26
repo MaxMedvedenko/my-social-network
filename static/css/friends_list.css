@@ -1,78 +1,66 @@
-.friends-container {
-    width: 80%;
-    margin: 0 auto;
+/* friends_list.css */
+.friends-list-container {
     padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.friends-container h1 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
 }
 
 .friends-list {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
-    margin: 0;
 }
 
-.friend-item {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin: 10px 0;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.friends-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
 }
 
-.friend-item p {
-    font-size: 1rem;
-    color: #555;
-    margin: 0;
+.friends-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
 }
 
-.friend-item strong {
-    color: #333;
+.friends-details {
+    flex: 1;
 }
 
-@media (max-width: 768px) {
-    .friends-container {
-        width: 95%;
-        padding: 10px;
-    }
-
-    .friends-container h1 {
-        font-size: 1.5rem;
-    }
-
-    .friend-item p {
-        font-size: 0.9rem;
-    }
+.friends-details .view-profile-btn {
+    margin-top: 5px;
 }
 
-
-/* Основні стилі для кнопок */
 .btn {
     padding: 8px 16px;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
+    border-radius: 5px;
     font-size: 14px;
     font-weight: bold;
-    color: #fff;
-    transition: background-color 0.3s;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    display: inline-block;
 }
 
-/* Стилі для кнопки Unfriend */
 .unfriend-btn {
-    background-color: #f44336;
-    margin-left: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: 1px solid #dc3545;
 }
 
 .unfriend-btn:hover {
-    background-color: #e53935;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.unfriend-btn:active {
+    background-color: #bd2130;
+    border-color: #a71d2a;
+}
+
+.unfriend-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.5);
 }

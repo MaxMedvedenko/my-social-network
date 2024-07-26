@@ -30,3 +30,36 @@
 .following-details .view-profile-btn {
     margin-top: 5px;
 }
+
+.btn {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    display: inline-block;
+}
+
+.unfollow-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: 1px solid #dc3545;
+}
+
+.unfollow-btn:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.unfollow-btn:active {
+    background-color: #bd2130;
+    border-color: #a71d2a;
+}
+
+.unfollow-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.5);
+}
