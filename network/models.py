@@ -16,6 +16,10 @@ class Post(models.Model):
     def __str__(self):
         return self.content[:40]
 
+    # Повертає кількість лайків для цього посту
+    def likes_count(self):
+        return self.like_set.count()
+
 # Модель лайків
 class Like(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)

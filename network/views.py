@@ -153,20 +153,36 @@ def delete_comment(request, comment_id):
 @login_required
 def toggle_like(request, post_id):
     post = get_object_or_404(Post, id=post_id)
-    user = request.user
 
     if request.method == 'POST':
-        like, created = Like.objects.get_or_create(user=user, post=post)
-        if not created:
-            like.delete()
-            post.likes_count -= 1
-        else:
-            post.likes_count += 1
+        if request.user.is_authenticated:
+            existing_like = Like.objects.filter(user=request.user, post=post).first()
 
-        post.save()
+            if existing_like:
+                existing_like.delete()
+            else:
+                Like.objects.create(user=request.user, post=post)
 
-        return JsonResponse({'likes_count': post.likes_count})
+            return JsonResponse({'likes_count': post.like_set.count()})
+
     return JsonResponse({'error': 'Invalid request'}, status=400)
+
+# def toggle_like(request, post_id):
+#     post = get_object_or_404(Post, id=post_id)
+#     user = request.user
+
+#     if request.method == 'POST':
+#         like, created = Like.objects.get_or_create(user=user, post=post)
+#         if not created:
+#             like.delete()
+#             post.likes_count -= 1
+#         else:
+#             post.likes_count += 1
+
+#         post.save()
+
+#         return JsonResponse({'likes_count': post.likes_count})
+#     return JsonResponse({'error': 'Invalid request'}, status=400)
 
 #--- Chats , messages ---#
 

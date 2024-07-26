@@ -98,15 +98,12 @@
                 <div class="like-section">
                     <span id="like-count-{{ post.id }}" class="like-count">{{ post.likes_count }} Likes</span>
                     {% if request.user.is_authenticated %}
-                        {% if request.user in post.likes.all %}
-                            <a href="#" class="unlike-btn like-action" data-post-id="{{ post.id }}">
-                                <img id="like-img-{{ post.id }}" src="{% static 'image/full-heart.svg' %}" alt="Full Heart" class="heart-icon">
-                            </a>
-                        {% else %}
-                            <a href="#" class="like-btn like-action" data-post-id="{{ post.id }}">
+                        <form method="post" class="like-form" data-post-id="{{ post.id }}">
+                            {% csrf_token %}
+                            <button type="submit" class="like-action {% if request.user in post.likes.all %}unlike-btn{% else %}like-btn{% endif %}">
                                 <img id="like-img-{{ post.id }}" src="{% static 'image/heart.svg' %}" alt="Heart" class="heart-icon">
-                            </a>
-                        {% endif %}
+                            </button>
+                        </form>
                     {% else %}
                         <a href="{% url 'login' %}">Login</a> to like this post.
                     {% endif %}
@@ -128,4 +125,5 @@
 {% block scripts %}
 <script src="{% static 'js/chat.js' %}"></script>
 <script src="{% static 'js/modal.js' %}"></script>
+<script src="{% static 'js/like.js' %}"></script>
 {% endblock %}
