@@ -23,6 +23,8 @@
                     <li class="nav-item"><a href="{% url 'friends_list' %}" class="nav-link">My Friends</a></li>
                     <li class="nav-item"><a href="{% url 'friend_requests' %}" class="nav-link">Friend Requests</a></li>
                     
+                    <li class="nav-item"><a href="{% url 'following_list' %}" class="nav-link">Following</a></li>
+                    
                     <li class="nav-item"><a href="{% url 'profile_view' request.user.username %}" class="nav-link">Profile</a></li>
                     <li class="nav-item"><a href="{% url 'logout' %}" class="nav-link">Log out</a></li>
                     {% else %}

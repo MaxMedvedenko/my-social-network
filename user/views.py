@@ -75,40 +75,36 @@ def logout_view(request):
 
 @login_required
 def profile_view(request, username):
-    # Отримати профіль користувача
     profile = get_object_or_404(Profile, user__username=username)
 
-    # Перевірити, чи є користувач другом
     is_friend = Friend.objects.filter(user=request.user, friend=profile.user).exists() or \
                 Friend.objects.filter(user=profile.user, friend=request.user).exists()
 
-    # Ініціалізувати змінні для запитів
     has_sent_request = False
     has_received_request = False
     request_id = None
 
-    # Перевірити, чи відправлено запит
     friendship_sent = Friendship.objects.filter(from_user=request.user, to_user=profile.user, status='pending').first()
     if friendship_sent:
         has_sent_request = True
         request_id = friendship_sent.id
 
-    # Перевірити, чи отримано запит
     friendship_received = Friendship.objects.filter(from_user=profile.user, to_user=request.user, status='pending').first()
     if friendship_received:
         has_received_request = True
         request_id = friendship_received.id
 
-    # Отримати пости користувача
+    is_following = Follow.objects.filter(follower=request.user, following=profile.user).exists()
+
     posts = Post.objects.filter(user=profile.user).order_by('-created_at')
 
-    # Передати всі дані в контекст шаблону
     context = {
         'profile': profile,
         'is_friend': is_friend,
         'has_sent_request': has_sent_request,
         'has_received_request': has_received_request,
         'request_id': request_id,
+        'is_following': is_following,
         'posts': posts,
     }
     
@@ -229,3 +225,29 @@ def unfriend(request, user_id):
     Friend.objects.filter(user=profile.user, friend=request.user).delete()
     
     return redirect('profile_view', username=profile.user.username)
+
+
+
+# --- Follow --- #
+
+@login_required
+def following_list(request):
+    following_users = User.objects.filter(followers__follower=request.user)
+    
+    context = {
+        'following_users': following_users,
+    }
+    return render(request, 'following_list.html', context)
+
+@login_required
+def follow_user(request, user_id):
+    user_to_follow = get_object_or_404(User, id=user_id)
+    if request.user != user_to_follow:
+        Follow.objects.get_or_create(follower=request.user, following=user_to_follow)
+    return redirect(request.META.get('HTTP_REFERER', 'profile_view'), username=user_to_follow.username)
+
+@login_required
+def unfollow_user(request, user_id):
+    user_to_unfollow = get_object_or_404(User, id=user_id)
+    Follow.objects.filter(follower=request.user, following=user_to_unfollow).delete()
+    return redirect(request.META.get('HTTP_REFERER', 'profile_view'), username=user_to_unfollow.username)

@@ -146,3 +146,16 @@ h1 {
 .dropdown-content a:hover {
     background-color: #f1f1f1;
 }
+
+
+/* for follow button */
+
+.follow-btn {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.unfollow-btn {
+    background-color: #e0245e;
+    color: white;
+}
