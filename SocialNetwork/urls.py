@@ -40,8 +40,7 @@ urlpatterns = [
     path('comment/<int:comment_id>/edit/', edit_comment, name='edit_comment'),
     path('comment/<int:comment_id>/delete/', delete_comment, name='delete_comment'),
 
-    path('like/<int:post_id>/', like_post, name='like_post'),
-    path('like/<int:post_id>/remove/', remove_like_post, name='remove_like_post'),
+    path('toggle_like/<int:post_id>/', toggle_like, name='toggle_like'),
 
     path('login/', login_view, name='login'),
     path('register/', register_view, name='register'),

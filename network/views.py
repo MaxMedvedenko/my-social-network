@@ -149,92 +149,24 @@ def delete_comment(request, comment_id):
 
 
 #--- Likes ---#
-# @login_required
-# def like_post(request, post_id):
-#     post = get_object_or_404(Post, id=post_id)
-#     like, created = Like.objects.get_or_create(user=request.user, post=post)
-    
-#     if not created:
-#         like.delete()
-#         post.likes_count -= 1
-#     else:
-#         post.likes_count += 1
-    
-#     post.save()
-    
-#     return redirect('index')
-
-# @login_required
-# def like_post(request, post_id):
-#     post = get_object_or_404(Post, id=post_id)
-#     like, created = Like.objects.get_or_create(user=request.user, post=post)
-    
-#     if not created:
-#         like.delete()
-    
-#     return redirect('index')
-
-# @login_required
-# def remove_like_post(request, post_id):
-#     post = get_object_or_404(Post, id=post_id)
-    
-#     if request.user.is_authenticated:
-#         like = Like.objects.filter(user=request.user, post=post).first()
-        
-#         if like:
-#             like.delete()
-#             post.likes_count -= 1
-#             post.save()
-#             return JsonResponse({'message': 'unliked', 'likes_count': post.likes_count})
-#         else:
-#             return JsonResponse({'message': 'not_liked'})
-#     else:
-#         return JsonResponse({'message': 'not_authenticated'}, status=403)
-
-
-# @login_required
-# def remove_like_post(request, post_id):
-#     post = get_object_or_404(Post, id=post_id)
-#     if request.user.is_authenticated:
-#         like = Like.objects.filter(user=request.user, post=post).first()
-#         if like:
-#             like.delete()
-#             return JsonResponse({'message': 'unliked'})
-#         else:
-#             return JsonResponse({'message': 'not_liked'})
-#     else:
-#         return JsonResponse({'message': 'not_authenticated'}, status=403)
-
 
 @login_required
-def like_post(request, post_id):
+def toggle_like(request, post_id):
     post = get_object_or_404(Post, id=post_id)
-    like, created = Like.objects.get_or_create(user=request.user, post=post)
-    
-    if not created:
-        like.delete()
-        post.likes_count -= 1
-    else:
-        Like.objects.create(user=request.user, post=post, created_at=timezone.now())
-        post.likes_count += 1
-    
-    post.save()
+    user = request.user
 
-    return JsonResponse({'message': 'liked' if created else 'unliked', 'likes_count': post.likes_count})
+    if request.method == 'POST':
+        like, created = Like.objects.get_or_create(user=user, post=post)
+        if not created:
+            like.delete()
+            post.likes_count -= 1
+        else:
+            post.likes_count += 1
 
-@login_required
-def remove_like_post(request, post_id):
-    post = get_object_or_404(Post, id=post_id)
-    like = Like.objects.filter(user=request.user, post=post).first()
-    
-    if like:
-        like.delete()
-        post.likes_count -= 1
         post.save()
-        return JsonResponse({'message': 'unliked', 'likes_count': post.likes_count})
-    else:
-        return JsonResponse({'message': 'not_liked'})
-    
+
+        return JsonResponse({'likes_count': post.likes_count})
+    return JsonResponse({'error': 'Invalid request'}, status=400)
 
 #--- Chats , messages ---#
 
