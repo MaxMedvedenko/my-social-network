@@ -16,7 +16,6 @@ from django.contrib import messages
 #     }
 #     return render(request, 'index.html', context)
 
-@login_required
 def index(request):
     posts = Post.objects.all().order_by('-created_at')
     
