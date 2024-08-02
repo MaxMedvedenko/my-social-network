@@ -276,10 +276,14 @@ def delete_message_view(request, message_id):
 
 
 
+from django.db.models import Q
 def search_results(request):
     query = request.GET.get('q', '')
     if query:
-        posts = Post.objects.filter(content__icontains=query)
+        posts = Post.objects.filter(
+            Q(content__icontains=query) |
+            Q(user__username__icontains=query)
+        )
     else:
         posts = Post.objects.none()
 
