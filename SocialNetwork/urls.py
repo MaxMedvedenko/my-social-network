@@ -74,6 +74,7 @@ urlpatterns = [
 
     path('search/', search_results, name='search_results'),
 
+    path('saved-posts/', saved_posts_view, name='saved_posts'),
     path('save_post/<int:post_id>/', save_post, name='save_post'),
     path('unsave_post/<int:post_id>/', unsave_post, name='unsave_post'),
        

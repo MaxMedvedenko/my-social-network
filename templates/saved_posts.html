@@ -2,18 +2,22 @@
 {% load static %}
 
 {% block styles %}
-<link rel="stylesheet" href="{% static 'css/index.css' %}">
+<link rel="stylesheet" href="{% static 'css/profile.css' %}">
 <link rel="stylesheet" href="{% static 'css/modal.css' %}">
 <link rel="stylesheet" href="{% static 'css/like_section.css' %}">
 {% endblock %}
 
 {% block content %}
+<h1>Saved Posts</h1>
 <div class="post-container">
+    <h2>Your Saved Posts</h2>
     <div class="posts">
         {% for post in posts %}
             <div class="post">
                 <div class="post-header">
-                    <h3 class="post-creator"><a href="{% url 'profile_view' post.user.username %}">{{ post.user.username }}</a></h3>
+                    <h3 class="post-creator">
+                        <a href="{% url 'profile_view' post.user.username %}">{{ post.user.username }}</a>
+                    </h3>
                     <div class="right-part-pst-header">
                         <span class="post-creation-time">{{ post.created_at }}</span>
                         <img src="{% static 'image/dots-vertical-svgrepo-com.svg' %}" alt="Dots Vertical SVG" class="dots-vertical-svg" id="dots-vertical-svg">
@@ -90,8 +94,7 @@
 
 {% block scripts %}
 <script src="{% static 'js/main.js' %}"></script>
+<script src="{% static 'js/chat.js' %}"></script>
 <script src="{% static 'js/modal.js' %}"></script>
 <script src="{% static 'js/like.js' %}"></script>
-<script src="{% static 'js/copylink.js' %}"></script>
-<script src="{% static 'js/save_unsave_post.js' %}"></script>
 {% endblock %}

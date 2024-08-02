@@ -275,13 +275,25 @@ def search_results(request):
 
 
 @login_required
+def saved_posts_view(request):
+    saved_post_ids = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
+    saved_posts = Post.objects.filter(id__in=saved_post_ids)
+    
+    context = {
+        'posts': saved_posts,
+    }
+    return render(request, 'saved_posts.html', context)
+
+@login_required
 def save_post(request, post_id):
     post = get_object_or_404(Post, id=post_id)
-    SavedPost.objects.get_or_create(user=request.user, post=post)
-    return redirect(request.META.get('HTTP_REFERER', 'index'))
+    SavedPost.objects.get_or_create(user=request.user, post=post)    
+    next_url = request.GET.get('next', 'index')
+    return redirect(next_url)
 
 @login_required
 def unsave_post(request, post_id):
     post = get_object_or_404(Post, id=post_id)
     SavedPost.objects.filter(user=request.user, post=post).delete()
-    return redirect(request.META.get('HTTP_REFERER', 'index'))
+    next_url = request.GET.get('next', 'index')
+    return redirect(next_url)

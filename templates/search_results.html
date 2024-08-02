@@ -4,6 +4,7 @@
 {% block styles %}
 <link rel="stylesheet" href="{% static 'css/index.css' %}">
 <link rel="stylesheet" href="{% static 'css/modal.css' %}">
+<link rel="stylesheet" href="{% static 'css/like_section.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -43,9 +44,34 @@
                                     <img id="like-img-{{ post.id }}" src="{% static 'image/heart.svg' %}" alt="Heart" class="heart-icon">
                                 </button>
                             </form>
+    
+                            <!-- save/unsave post -->
+                            {% if post.id in saved_posts %}
+                                <!-- Unsaving a post -->
+                                <form method="post" class="save-form" action="{% url 'unsave_post' post.id %}">
+                                    {% csrf_token %}
+                                    <button type="submit" class="save-action saved-post">
+                                        <img src="{% static 'image/saved-post.svg' %}" alt="Unsave Post" class="save-icon">
+                                    </button>
+                                </form>
+                            {% else %}
+                                <!-- Saving a post -->
+                                <form method="post" class="save-form" action="{% url 'save_post' post.id %}">
+                                    {% csrf_token %}
+                                    <button type="submit" class="save-action save-post">
+                                        <img src="{% static 'image/save-post.svg' %}" alt="Save Post" class="save-icon">
+                                    </button>
+                                </form>
+                            {% endif %}
                         {% else %}
-                            <a href="{% url 'login' %}">Login</a> to like this post.
+                            <a href="{% url 'login' %}">Login</a> to like or save this post.
                         {% endif %}
+    
+                        <!-- Copy link button -->
+                        <button class="copy-link-btn" data-relative-url="{% url 'post_detail' post.id %}" onclick="copyPostLink(this)">
+                            <img src="{% static 'image/link.svg' %}" alt="Copy Link" class="copy-link-icon">
+                        </button>
+    
                     </div>
                 </div>
             {% endfor %}
