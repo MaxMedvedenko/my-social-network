@@ -23,9 +23,14 @@ class Post(models.Model):
 class SavedPost(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
+    created_at = models.DateTimeField(default=timezone.now)
 
     class Meta:
         unique_together = ('user', 'post')
+        ordering = ['-created_at']  # Сортування за часом додавання, від нових до старих
+
+    def __str__(self):
+        return f"{self.user.username} saved {self.post.title}"
 
 # Модель лайків
 class Like(models.Model):

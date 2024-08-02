@@ -7,30 +7,30 @@ from django.utils.dateformat import DateFormat
 from django.contrib import messages
 # Create your views here.
 
-def index(request):
-    posts = Post.objects.all().order_by('-created_at')
-    # saved_posts = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
-    context = {
-        'posts': posts,
-        # 'saved_posts': saved_posts
-    }
-    return render(request, 'index.html', context)
-
-# @login_required
 # def index(request):
 #     posts = Post.objects.all().order_by('-created_at')
-    
-#     # Перевірка авторизації користувача перед отриманням збережених постів
-#     if request.user.is_authenticated:
-#         saved_posts = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
-#     else:
-#         saved_posts = []
-
+#     # saved_posts = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
 #     context = {
 #         'posts': posts,
-#         'saved_posts': saved_posts
+#         # 'saved_posts': saved_posts
 #     }
 #     return render(request, 'index.html', context)
+
+@login_required
+def index(request):
+    posts = Post.objects.all().order_by('-created_at')
+    
+    # Перевірка авторизації користувача перед отриманням збережених постів
+    if request.user.is_authenticated:
+        saved_posts = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
+    else:
+        saved_posts = []
+
+    context = {
+        'posts': posts,
+        'saved_posts': saved_posts
+    }
+    return render(request, 'index.html', context)
 
 #--- Posts ---#
 
@@ -290,18 +290,24 @@ def search_results(request):
 
 @login_required
 def saved_posts_view(request):
-    saved_post_ids = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
-    saved_posts = Post.objects.filter(id__in=saved_post_ids)
-    
+    saved_posts = SavedPost.objects.filter(user=request.user).order_by('-created_at')
+
+    posts = [saved_post.post for saved_post in saved_posts]
+
     context = {
-        'posts': saved_posts,
+        'posts': posts,
     }
     return render(request, 'saved_posts.html', context)
 
 @login_required
 def save_post(request, post_id):
     post = get_object_or_404(Post, id=post_id)
-    SavedPost.objects.get_or_create(user=request.user, post=post)    
+    saved_post, created = SavedPost.objects.get_or_create(user=request.user, post=post)
+    
+    if not created:
+        saved_post.created_at = timezone.now()
+        saved_post.save()
+
     next_url = request.GET.get('next', 'index')
     return redirect(next_url)
 
