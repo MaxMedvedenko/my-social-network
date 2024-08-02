@@ -1,0 +1,81 @@
+/* 
+.hamburger-button {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+ }
+
+
+.nav-links {
+    display: none;
+    background-color: #333;
+    color: white;
+    position: absolute;
+ }
+ .nav-links a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+ }
+ .nav-links a:hover {
+    background-color: #111;
+ }
+  */
+
+  /* Кнопка hamburger */
+.hamburger-button {
+   background-color: #333;
+   color: white;
+   padding: 15px;
+   font-size: 24px;
+   cursor: pointer;
+   border: none; /* Видаляє обводку кнопки */
+   border-radius: 5px; /* Закруглені кути для кнопки */
+   transition: background-color 0.3s, transform 0.3s; /* Плавний перехід для фону та трансформації */
+}
+
+.hamburger-button:hover {
+   background-color: #555; /* Темніший фон при наведенні */
+   transform: scale(1.05); /* Невелике збільшення кнопки при наведенні */
+}
+
+/* Меню */
+.nav-links {
+   display: none; /* Сховати меню за замовчуванням */
+   background-color: #333;
+   color: white;
+   position: absolute;
+   right: 0; /* Вирівнювання по правому краю */
+   width: 200px; /* Ширина меню */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тінь для меню */
+   border-radius: 5px; /* Закруглені кути меню */
+   transition: opacity 0.3s; /* Плавний перехід для видимості меню */
+}
+
+.nav-links.show {
+   display: block;
+   opacity: 1;
+}
+
+.nav-links a {
+   display: block;
+   padding: 15px;
+   color: white;
+   text-decoration: none;
+   transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+   background-color: #555;
+}
+
+/* Додайте стиль для меню в мобільному вигляді */
+@media (max-width: 768px) {
+   .nav-links {
+       width: 100%; /* Ширина меню на мобільних пристроях */
+       top: 50px; /* Розташування меню під кнопкою на мобільних пристроях */
+   }
+}

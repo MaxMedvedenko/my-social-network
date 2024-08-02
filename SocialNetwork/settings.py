@@ -141,3 +141,6 @@ MEDIA_ROOT = BASE_DIR / 'media'
 AUTH_USER_MODEL = 'user.User'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+# LOGIN_URL = '/login/'
+# LOGIN_REDIRECT_URL = '/'

@@ -9,14 +9,28 @@ from django.contrib import messages
 
 def index(request):
     posts = Post.objects.all().order_by('-created_at')
-    saved_posts = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
+    # saved_posts = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
     context = {
         'posts': posts,
-        'saved_posts': saved_posts
+        # 'saved_posts': saved_posts
     }
     return render(request, 'index.html', context)
 
+# @login_required
+# def index(request):
+#     posts = Post.objects.all().order_by('-created_at')
+    
+#     # Перевірка авторизації користувача перед отриманням збережених постів
+#     if request.user.is_authenticated:
+#         saved_posts = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
+#     else:
+#         saved_posts = []
 
+#     context = {
+#         'posts': posts,
+#         'saved_posts': saved_posts
+#     }
+#     return render(request, 'index.html', context)
 
 #--- Posts ---#
 
