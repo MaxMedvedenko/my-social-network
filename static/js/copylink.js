@@ -13,7 +13,4 @@ function copyPostLink(buttonElement) {
     tempInput.select();
     document.execCommand('copy');
     document.body.removeChild(tempInput);
-    
-    // Optionally, provide feedback to the user
-    alert('Post link copied to clipboard!');
 }
