@@ -11,12 +11,19 @@
         <nav class="navbar">
             <div class="container">
                 <a href="{% url 'index' %}" class="navbar-brand">SocialNetwork</a>
+
+                <!-- Search Bar -->
+                <form class="search-form" action="{% url 'search_results' %}" method="get">
+                    <input type="text" name="q" placeholder="Search..." value="{{ request.GET.q }}">
+                    <button type="submit"><img src="{% static 'image/search-icon.svg' %}" alt="Search" class="search-icon"><i class="search-icon-button"></i></button>
+                </form>
+
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="{% url 'index' %}" class="nav-link">Posts</a></li>
                     
                     {% if user.is_authenticated %}
                     
-                    <li class="nav-item"><a href="{% url 'create_post' %}" class="nav-link">Create Post</a></li>                      
+                    <li class="nav-item"><a href="{% url 'create_post' %}" class="nav-link">Create Post</a></li>
                     
                     <!-- <li class="nav-item"><a href="#" class="nav-link">Groups</a></li>-->
                     <li class="nav-item"><a href="{% url 'chat_list' %}" class="nav-link">Chats</a></li>
@@ -24,7 +31,7 @@
                     <li class="nav-item"><a href="{% url 'friend_requests' %}" class="nav-link">Friend Requests</a></li>
                     
                     <li class="nav-item"><a href="{% url 'following_list' %}" class="nav-link">Following</a></li>
-                    
+
                     <li class="nav-item"><a href="{% url 'profile_view' request.user.username %}" class="nav-link">Profile</a></li>
                     <li class="nav-item"><a href="{% url 'logout' %}" class="nav-link">Log out</a></li>
                     {% else %}
@@ -46,6 +53,8 @@
     </footer>
 
     {% block scripts %}
+    <!-- Font Awesome for Search Icon -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
     {% endblock %}
     
 </body>

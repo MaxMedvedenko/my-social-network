@@ -9,8 +9,10 @@ from django.contrib import messages
 
 def index(request):
     posts = Post.objects.all().order_by('-created_at')
+    saved_posts = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
     context = {
-        'posts': posts
+        'posts': posts,
+        'saved_posts': saved_posts
     }
     return render(request, 'index.html', context)
 
@@ -258,3 +260,28 @@ def delete_message_view(request, message_id):
             return redirect('chat_detail', chat_id=message.chat.id)
 
     return render(request, 'delete_message.html', {'message': message})
+
+
+
+def search_results(request):
+    query = request.GET.get('q', '')
+    if query:
+        posts = Post.objects.filter(content__icontains=query)
+    else:
+        posts = Post.objects.none()
+
+    return render(request, 'search_results.html', {'posts': posts, 'query': query})
+
+
+
+@login_required
+def save_post(request, post_id):
+    post = get_object_or_404(Post, id=post_id)
+    SavedPost.objects.get_or_create(user=request.user, post=post)
+    return redirect(request.META.get('HTTP_REFERER', 'index'))
+
+@login_required
+def unsave_post(request, post_id):
+    post = get_object_or_404(Post, id=post_id)
+    SavedPost.objects.filter(user=request.user, post=post).delete()
+    return redirect(request.META.get('HTTP_REFERER', 'index'))

@@ -71,5 +71,10 @@ urlpatterns = [
     path('following/', following_list, name='following_list'),
     path('follow/<int:user_id>/', follow_user, name='follow_user'),
     path('unfollow/<int:user_id>/', unfollow_user, name='unfollow_user'),
+
+    path('search/', search_results, name='search_results'),
+
+    path('save_post/<int:post_id>/', save_post, name='save_post'),
+    path('unsave_post/<int:post_id>/', unsave_post, name='unsave_post'),
        
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

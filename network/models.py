@@ -19,6 +19,13 @@ class Post(models.Model):
     # Повертає кількість лайків для цього посту
     def likes_count(self):
         return self.like_set.count()
+    
+class SavedPost(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    post = models.ForeignKey(Post, on_delete=models.CASCADE)
+
+    class Meta:
+        unique_together = ('user', 'post')
 
 # Модель лайків
 class Like(models.Model):
