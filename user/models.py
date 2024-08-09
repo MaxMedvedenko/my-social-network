@@ -12,6 +12,8 @@ from .models import *
 
 class User(AbstractUser):
 
+    is_admin = models.BooleanField(default=False)
+
     def __str__(self):
         return self.username
 
