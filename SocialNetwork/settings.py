@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'SocialNetwork',
     'user',
     'network',
+    'admin_tools',
 ]
 
 MIDDLEWARE = [
