@@ -62,6 +62,11 @@
                         <a href="{% url 'register' %}" class="nav-link">Register</a>
                         <a href="{% url 'login' %}" class="nav-link">Log in</a>
                         {% endif %}
+
+                        <!-- admin_dashboard link visible only for users with is_admin=True -->
+                        {% if user.is_admin %}
+                        <a style="color: red" href="{% url 'admin_dashboard' %}" class="nav-link">Admin Dashboard</a>
+                        {% endif %}
                     </div>
                 </div>
 

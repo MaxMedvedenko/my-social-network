@@ -19,6 +19,7 @@ from django.urls import path
 
 from network.views import *
 from user.views import *
+from admin_tools.views import *
 
 # from user import views
 
@@ -28,6 +29,14 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    path('admin-dashboard/', admin_dashboard, name='admin_dashboard'),
+    path('user-management/', manage_users, name='user_management'),
+    path('delete-user/<int:user_id>/', delete_user, name='delete_user'),
+    # path('admin-users/', user_management, name='admin_user_management'),
+    # path('admin-posts/', post_list, name='admin_post_list'),
+    # path('admin-comments/', comment_list, name='admin_comment_list'),
+    # path('admin-reports/', report_list, name='admin_report_list'),
 
     path('', index, name='index'),
     
