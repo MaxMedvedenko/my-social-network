@@ -64,3 +64,16 @@ Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 7780
 E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
 Watching for file changes with StatReloader
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/css/manage_users.css HTTP/1.1" 304 0
+"GET /user-management/?search= HTTP/1.1" 200 6781
+"GET /user-management/?search=14 HTTP/1.1" 200 4269
+"GET /user-management/?search=Max999 HTTP/1.1" 200 4833
+"GET /user-management/?search=Max999 HTTP/1.1" 200 4833
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/css/manage_users.css HTTP/1.1" 200 1061
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7780
