@@ -3,3 +3,34 @@ E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
 Watching for file changes with StatReloader
 E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
 Watching for file changes with StatReloader
+"GET /user-management/ HTTP/1.1" 200 6492
+"GET /static/css/manage_users.css HTTP/1.1" 200 625
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10778
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /register/ HTTP/1.1" 200 3581
+"GET /static/css/register.css HTTP/1.1" 200 1021
+"POST /register/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 17466
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10778
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /login/ HTTP/1.1" 200 3027
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 17862
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4080
+"GET /static/css/admin_dashboard.css HTTP/1.1" 304 0
+"GET /user-management/ HTTP/1.1" 200 7158
+"GET /static/css/manage_users.css HTTP/1.1" 304 0
+"POST /delete-user/5/ HTTP/1.1" 302 0
+"GET /user-management/ HTTP/1.1" 200 6492
+"GET /user-management/ HTTP/1.1" 200 6492
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/manage_users.css HTTP/1.1" 200 625
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7780
