@@ -116,11 +116,11 @@ def edit_profile(request):
     profile = get_object_or_404(Profile, user=user)
 
     if request.method == 'POST':
-        user.first_name = request.POST['first_name']
-        user.last_name = request.POST['last_name']
-        user.email = request.POST['email']
-        profile.bio = request.POST['bio']
-        profile.phone_number = request.POST['phone_number']
+        profile.first_name = request.POST.get('first_name', profile.first_name)
+        profile.last_name = request.POST.get('last_name', profile.last_name)
+        profile.email = request.POST.get('email', profile.email)
+        profile.bio = request.POST.get('bio', profile.bio)
+        profile.phone_number = request.POST.get('phone_number', profile.phone_number)
 
         avatar = request.FILES.get('avatar')
         if avatar:
@@ -130,11 +130,9 @@ def edit_profile(request):
         if birth_date:
             profile.birth_date = birth_date
 
-        user.save()
         profile.save()
         return redirect('profile_view', username=user.username)
-
-    return render(request, 'edit_profile.html', {'user': user, 'profile': profile})
+    return render(request, 'edit_profile.html', {'profile': profile})
 
 
 # --- Friend --- #
