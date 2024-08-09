@@ -78,3 +78,11 @@ Watching for file changes with StatReloader
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 7780
 "GET /static/css/manage_users.css HTTP/1.1" 200 1051
+"GET /admin-dashboard/ HTTP/1.1" 200 4080
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/js/hamburger_menu.js HTTP/1.1" 304 0
+"GET /static/css/manage_users.css HTTP/1.1" 304 0
+"GET /admin/user/user/3/change/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/user/user/3/change/ HTTP/1.1" 200 3872
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
