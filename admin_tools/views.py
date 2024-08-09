@@ -19,12 +19,25 @@ def admin_dashboard(request):
 
 @user_passes_test(is_admin)
 def manage_users(request):
-    users = User.objects.all()
+    search_query = request.GET.get('search', '')
+    if search_query:
+        users = User.objects.filter(
+            username__icontains=search_query
+        ) | User.objects.filter(
+            email__icontains=search_query
+        ) | User.objects.filter(
+            first_name__icontains=search_query
+        ) | User.objects.filter(
+            last_name__icontains=search_query
+        )
+    else:
+        users = User.objects.all()
 
     if request.method == 'POST':
         user_id = request.POST.get('user_id')
         reason = request.POST.get('reason')
         user_to_delete = get_object_or_404(User, id=user_id)
+        logger.info(f'User {user_to_delete.username} deleted. Reason: {reason}')
         user_to_delete.delete()
         messages.success(request, f'User {user_to_delete.username} was deleted. Reason: {reason}')
         return redirect('user_management')

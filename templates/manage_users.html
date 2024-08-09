@@ -8,6 +8,13 @@
 {% block content %}
 <h1>Manage Users</h1>
 <div class="user-management">
+    <!-- Search Form -->
+    <form method="get" action="{% url 'user_management' %}" class="search-form">
+        <input type="text" name="search" placeholder="Search users..." value="{{ request.GET.search }}">
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+    
+    <!-- Users Table -->
     <table>
         <thead>
             <tr>
