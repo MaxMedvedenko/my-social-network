@@ -48,18 +48,18 @@ def create_post(request):
 def post_detail(request, post_id):
     post = get_object_or_404(Post, id=post_id)
 
-    # Отримання коментарів поточного користувача
-    current_user_comments = Comment.objects.filter(post=post, user=request.user).order_by('-created_at')
-
-    # Отримання всіх інших коментарів, відсортованих від новіших до старіших
-    other_comments = Comment.objects.filter(post=post).exclude(user=request.user).order_by('-created_at')
-
-    # Об'єднання коментарів для відображення в шаблоні
+    if request.user.is_authenticated:
+        current_user_comments = Comment.objects.filter(post=post, user=request.user).order_by('-created_at')
+        other_comments = Comment.objects.filter(post=post).exclude(user=request.user).order_by('-created_at')
+    else:
+        current_user_comments = []
+        other_comments = Comment.objects.filter(post=post).order_by('-created_at')
     comments = list(current_user_comments) + list(other_comments)
 
     context = {
         'post': post,
         'comments': comments,
+        'user_is_authenticated': request.user.is_authenticated
     }
     return render(request, 'post_detail.html', context)
 
