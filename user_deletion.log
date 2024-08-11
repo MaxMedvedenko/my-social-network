@@ -86,3 +86,55 @@ Not Found: /favicon.ico
 "GET /admin/login/?next=/admin/user/user/3/change/ HTTP/1.1" 200 3872
 E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
 Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 17862
+"GET /static/js/hamburger_menu.js HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4080
+"GET /static/css/admin_dashboard.css HTTP/1.1" 304 0
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/css/manage_users.css HTTP/1.1" 304 0
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/css/manage_users.css HTTP/1.1" 200 1048
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7780
+"GET / HTTP/1.1" 200 17862
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 17862
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7780
+"GET /admin-dashboard/ HTTP/1.1" 200 4080
+"GET /static/css/base.css HTTP/1.1" 304 0
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/css/base.css HTTP/1.1" 304 0
+"GET /static/css/manage_users.css HTTP/1.1" 304 0
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/css/manage_users.css HTTP/1.1" 200 1045
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7780
