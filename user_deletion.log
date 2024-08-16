@@ -155,3 +155,4 @@ Not Found: /favicon.ico
 "GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 7780
+Watching for file changes with StatReloader
