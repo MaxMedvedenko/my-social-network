@@ -31,8 +31,13 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('admin-dashboard/', admin_dashboard, name='admin_dashboard'),
+    
     path('user-management/', manage_users, name='user_management'),
     path('delete-user/<int:user_id>/', delete_user, name='delete_user'),
+    
+    path('manage-posts/', manage_posts, name='manage_posts'),
+    path('dashboard-delete-post/<int:post_id>/', delete_post, name='dashboard_delete_post'),
+
     # path('admin-users/', user_management, name='admin_user_management'),
     # path('admin-posts/', post_list, name='admin_post_list'),
     # path('admin-comments/', comment_list, name='admin_comment_list'),
