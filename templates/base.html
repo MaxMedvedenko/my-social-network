@@ -54,8 +54,10 @@
                         <a href="{% url 'profile_view' request.user.username %}" class="nav-link">Profile</a>
                         <a href="{% url 'chat_list' %}" class="nav-link">Chats</a>
                         <a href="{% url 'friends_list' %}" class="nav-link">My Friends</a>
+                        <a href="{% url 'friends_posts' %}" class="nav-link">Friends posts</a>
                         <a href="{% url 'friend_requests' %}" class="nav-link">Friend Requests</a>
                         <a href="{% url 'following_list' %}" class="nav-link">Following</a>
+                        <a href="{% url 'following_posts' %}" class="nav-link">Following posts</a>
                         <a href="{% url 'saved_posts' %}" class="nav-link">Saved posts</a>
                         <a style="color: red" href="{% url 'logout' %}" class="nav-link">Log out</a>
                         {% else %}

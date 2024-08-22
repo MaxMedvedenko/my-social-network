@@ -92,5 +92,8 @@ urlpatterns = [
     path('saved-posts/', saved_posts_view, name='saved_posts'),
     path('save_post/<int:post_id>/', save_post, name='save_post'),
     path('unsave_post/<int:post_id>/', unsave_post, name='unsave_post'),
+
+    path('friends-posts/', friends_posts, name='friends_posts'),
+    path('following-posts/', following_posts, name='following_posts'),
        
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

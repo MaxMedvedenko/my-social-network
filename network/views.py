@@ -1,5 +1,8 @@
+from user.models import *
+from network.models import *
+from admin_tools.models import *
+
 from django.shortcuts import render, redirect
-from .models import *
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404
 from django.http import JsonResponse
@@ -320,3 +323,28 @@ def unsave_post(request, post_id):
     SavedPost.objects.filter(user=request.user, post=post).delete()
     next_url = request.GET.get('next', 'index')
     return redirect(next_url)
+
+
+
+@login_required
+def friends_posts(request):
+    friends = Friend.objects.filter(user=request.user).values_list('friend', flat=True)
+    posts = Post.objects.filter(user__in=friends).order_by('-created_at')
+    saved_posts = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
+
+    return render(request, 'friends_posts.html', {
+        'posts': posts,
+        'saved_posts': saved_posts,
+    })
+
+
+@login_required
+def following_posts(request):
+    following_users = Follow.objects.filter(follower=request.user).values_list('following', flat=True)
+    posts = Post.objects.filter(user__in=following_users).order_by('-created_at')
+    saved_posts = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
+
+    return render(request, 'following_posts.html', {
+        'posts': posts,
+        'saved_posts': saved_posts,
+    })

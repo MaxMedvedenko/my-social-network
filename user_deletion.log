@@ -2341,3 +2341,244 @@ Watching for file changes with StatReloader
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 8226
 "POST /comment/8/edit/ HTTP/1.1" 200 44
+"GET / HTTP/1.1" 200 15083
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /following/ HTTP/1.1" 200 4573
+"GET /static/css/following_list.css HTTP/1.1" 304 0
+"GET /static/js/following_list.js HTTP/1.1" 404 1819
+"GET / HTTP/1.1" 200 15083
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15168
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8362
+"GET /friends/ HTTP/1.1" 200 4486
+"GET /static/css/friends_list.css HTTP/1.1" 304 0
+Internal Server Error: /friends-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 329, in friends_posts
+    friends = request.user.profile.friends.all()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Profile' object has no attribute 'friends'
+"GET /friends-posts/ HTTP/1.1" 500 72083
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /friends-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\user\views.py", line 258, in friends_posts
+    saved_posts = request.user.saved_posts.all().values_list('id', flat=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'saved_posts'
+"GET /friends-posts/ HTTP/1.1" 500 76789
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8362
+"GET /friends/ HTTP/1.1" 200 4486
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/friends_list.css HTTP/1.1" 200 1192
+"GET /media/avatars/keeper_7J7tsnc.png HTTP/1.1" 200 1300
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8362
+Internal Server Error: /friends-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\user\views.py", line 258, in friends_posts
+    saved_posts = request.user.saved_posts.all().values_list('id', flat=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'saved_posts'
+"GET /friends-posts/ HTTP/1.1" 500 76524
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /friends-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\user\views.py", line 262, in friends_posts
+    saved_posts = request.user.saved_posts.all().values_list('id', flat=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'saved_posts'
+"GET /friends-posts/ HTTP/1.1" 500 76664
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8362
+Internal Server Error: /friends-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\user\views.py", line 262, in friends_posts
+    saved_posts = request.user.saved_posts.all().values_list('id', flat=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'saved_posts'
+"GET /friends-posts/ HTTP/1.1" 500 76664
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8362
+"GET /friends/ HTTP/1.1" 200 4486
+Internal Server Error: /friends-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\user\views.py", line 262, in friends_posts
+    saved_posts = request.user.saved_posts.all().values_list('id', flat=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'saved_posts'
+"GET /friends-posts/ HTTP/1.1" 500 76399
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /friends-posts/ HTTP/1.1" 200 6704
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8362
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
