@@ -109,3 +109,33 @@ def delete_post(request, post_id):
         return redirect('manage_posts')
 
     return render(request, 'delete_post_confirmation.html', {'post': post})
+
+
+@login_required
+@user_passes_test(is_admin)
+def manage_comments(request):
+    query = request.GET.get('comment_search', '')
+    
+    # Фільтрація коментарів
+    comments = Comment.objects.all().order_by('-created_at')
+    
+    if query:
+        comments = comments.filter(
+            content__icontains=query
+        ) | comments.filter(
+            user__username__icontains=query
+        )
+
+    if request.method == 'POST':
+        comment_id = request.POST.get('comment_id')
+        reason = request.POST.get('reason')
+        comment_to_delete = get_object_or_404(Comment, id=comment_id)
+        logger.info(f'Comment by {comment_to_delete.user.username} deleted. Reason: {reason}')
+        comment_to_delete.delete()
+        messages.success(request, f'Comment by {comment_to_delete.user.username} was deleted. Reason: {reason}')
+        return redirect('manage_comments')
+
+    return render(request, 'manage_comments.html', {
+        'comments': comments,
+        'query': query,
+    })

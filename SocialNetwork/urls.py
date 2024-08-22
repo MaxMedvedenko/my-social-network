@@ -37,6 +37,7 @@ urlpatterns = [
     
     path('manage-posts/', manage_posts, name='manage_posts'),
     path('dashboard-delete-post/<int:post_id>/', delete_post, name='dashboard_delete_post'),
+    path('manage-comments/', manage_comments, name='manage_comments'),
 
     # path('admin-users/', user_management, name='admin_user_management'),
     # path('admin-posts/', post_list, name='admin_post_list'),

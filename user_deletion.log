@@ -1650,3 +1650,152 @@ E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
 Watching for file changes with StatReloader
 E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
 Watching for file changes with StatReloader
+"GET /manage-posts/ HTTP/1.1" 200 8863
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/ HTTP/1.1" 200 8773
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /profile/Max888/ HTTP/1.1" 200 11397
+"GET /media/avatars/0cf5ddf0fc2121e2513172c87632e740.jpg HTTP/1.1" 304 0
+"GET /manage-posts/?post_search=Max888 HTTP/1.1" 200 7328
+"GET /manage-posts/?post_search= HTTP/1.1" 200 8773
+"GET /manage-posts/?post_search=Max999 HTTP/1.1" 200 5709
+"GET /create-post/ HTTP/1.1" 200 4342
+"POST /create-post/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15007
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4102
+"GET /manage-posts/ HTTP/1.1" 200 10441
+"GET /manage-posts/?post_search=%D0%A2%D0%95%D0%A1%D0%A2 HTTP/1.1" 200 5879
+"GET /manage-posts/?post_search=MaxMedvedenko HTTP/1.1" 200 5933
+"GET /manage-posts/?post_search=MaxMedvedenko HTTP/1.1" 200 5933
+"GET /manage-posts/?post_search=TECT HTTP/1.1" 200 5924
+"GET /manage-posts/?post_search=TECT HTTP/1.1" 200 5924
+"GET /manage-posts/?post_search=TECT HTTP/1.1" 200 5924
+"GET /manage-posts/?post_search=TECT HTTP/1.1" 200 5924
+"GET / HTTP/1.1" 200 15007
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Watching for file changes with StatReloader
+"GET /admin-dashboard/ HTTP/1.1" 200 4102
+"GET /user-management/ HTTP/1.1" 200 6790
+"GET /user-management/?search=Max999 HTTP/1.1" 200 4842
+"GET /manage-posts/ HTTP/1.1" 200 10441
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"GET /manage-posts/ HTTP/1.1" 200 10441
+"GET /friends/ HTTP/1.1" 200 4552
+"GET /static/css/friends_list.css HTTP/1.1" 200 1192
+"GET / HTTP/1.1" 200 15007
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /saved-posts/ HTTP/1.1" 200 12327
+"GET / HTTP/1.1" 200 15007
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /save_post/12/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15015
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /saved-posts/ HTTP/1.1" 200 15208
+"POST /save_post/12/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15015
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /unsave_post/12/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15007
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /save_post/12/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15015
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /post/12/ HTTP/1.1" 200 7161
+"GET /post/12/ HTTP/1.1" 200 7161
+"GET /post/12/ HTTP/1.1" 200 7161
+"GET / HTTP/1.1" 200 15015
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /post/5/ HTTP/1.1" 200 8863
+"GET / HTTP/1.1" 200 15015
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8073
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 9009
+"GET /static/css/base.css HTTP/1.1" 304 0
+"GET /static/css/modal.css HTTP/1.1" 304 0
+"GET /static/css/like_section.css HTTP/1.1" 304 0
+"GET /static/css/hamburger_menu.css HTTP/1.1" 304 0
+"GET /static/js/hamburger_menu.js HTTP/1.1" 304 0
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /static/image/search-icon.svg HTTP/1.1" 304 0
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 304 0
+"GET /static/image/link.svg HTTP/1.1" 304 0
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 304 0
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/js/modal.js HTTP/1.1" 304 0
+"GET /static/js/like.js HTTP/1.1" 304 0
+"GET /static/js/copylink.js HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /login/ HTTP/1.1" 200 3036
+"GET /static/css/login.css HTTP/1.1" 304 0
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15015
+"GET /static/image/saved-post.svg HTTP/1.1" 304 0
+"GET /static/image/heart.svg HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4102
+"GET /static/css/admin_dashboard.css HTTP/1.1" 304 0
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin-dashboard/ HTTP/1.1" 200 4118
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/admin_dashboard.css HTTP/1.1" 200 580
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /manage-comments/ HTTP/1.1" 200 6315
+"GET /static/css/manage_comments.css HTTP/1.1" 404 1828
+"GET /manage-comments/?comment_search= HTTP/1.1" 200 6315
+"GET /static/css/manage_comments.css HTTP/1.1" 404 1828
+"GET /manage-comments/?comment_search= HTTP/1.1" 200 6315
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/manage_comments.css HTTP/1.1" 200 545
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"POST /manage-comments/ HTTP/1.1" 302 0
+"GET /manage-comments/ HTTP/1.1" 200 5736
+"GET /static/css/manage_comments.css HTTP/1.1" 304 0
+"GET /manage-comments/ HTTP/1.1" 200 5736
+"GET /manage-comments/ HTTP/1.1" 200 5736
