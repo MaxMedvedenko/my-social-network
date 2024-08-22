@@ -2323,3 +2323,21 @@ Not Found: /favicon.ico
 "GET /post/12/ HTTP/1.1" 200 8407
 E:\programming_stuff\my-social-network\network\views.py changed, reloading.
 Watching for file changes with StatReloader
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"POST /comment/8/edit/ HTTP/1.1" 200 44
