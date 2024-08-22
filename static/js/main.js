@@ -97,6 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
 
+            commentElement.classList.add('editing');
             const originalContent = commentContentElement.textContent.trim();
 
             const editCommentForm = document.createElement('form');
@@ -113,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
             textarea.style.borderRadius = '5px';
             textarea.style.marginBottom = '10px';
             textarea.style.maxWidth = '1000px';
-            textarea.textContent = originalContent;
+            textarea.value = originalContent;
 
             editCommentForm.appendChild(textarea);
 

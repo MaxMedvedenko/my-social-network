@@ -1960,3 +1960,366 @@ Not Found: /favicon.ico
 "GET /static/css/manage_comments.css HTTP/1.1" 304 0
 "GET / HTTP/1.1" 200 15015
 "GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4127
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9009
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /login/ HTTP/1.1" 200 3036
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15051
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 302 0
+"GET /login/?next=/admin-dashboard/ HTTP/1.1" 200 4297
+"POST /login/?next=/admin-dashboard/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15051
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /save_post/12/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15059
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /save_post/5/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15067
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /save_post/3/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15075
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /save_post/2/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15083
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /saved-posts/ HTTP/1.1" 200 15276
+"GET / HTTP/1.1" 200 15083
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15083
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7130
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8431
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET / HTTP/1.1" 200 15083
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8431
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8431
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8431
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7130
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"POST /comment/4/edit/ HTTP/1.1" 200 44
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /post/12/ HTTP/1.1" 200 8400
+"POST /comment/4/delete/ HTTP/1.1" 302 0
+"GET /post/12/ HTTP/1.1" 200 7545
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 7545
+"GET /post/12/ HTTP/1.1" 200 7545
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"POST /post/12/add_comment/ HTTP/1.1" 200 124
+"POST /comment/7/edit/ HTTP/1.1" 200 44
+Not Found: /delete_comment/7/
+"POST /delete_comment/7/ HTTP/1.1" 404 8245
+"GET /post/12/ HTTP/1.1" 200 8409
+"GET /static/js/main.js HTTP/1.1" 304 0
+"POST /comment/7/delete/ HTTP/1.1" 302 0
+"GET /post/12/ HTTP/1.1" 200 7545
+"POST /post/12/add_comment/ HTTP/1.1" 200 124
+Not Found: /delete_comment/8/
+"POST /delete_comment/8/ HTTP/1.1" 404 8245
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /delete_comment/8/
+"POST /delete_comment/8/ HTTP/1.1" 404 8245
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /post/12/ HTTP/1.1" 200 8405
+"GET /static/js/main.js HTTP/1.1" 200 8902
+"GET /post/12/ HTTP/1.1" 200 8405
+"GET /static/js/main.js HTTP/1.1" 200 8782
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+"POST /post/12/add_comment/ HTTP/1.1" 200 123
+Internal Server Error: /comment/9/delete/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 175, in delete_comment
+    if request.is_ajax():
+       ^^^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'is_ajax'
+"POST /comment/9/delete/ HTTP/1.1" 500 72635
+"GET /post/12/ HTTP/1.1" 200 8405
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+"GET /post/12/ HTTP/1.1" 200 8405
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8405
+"GET /post/12/ HTTP/1.1" 200 8405
+"GET /post/12/ HTTP/1.1" 200 8405
+"GET /post/12/ HTTP/1.1" 200 8405
+"POST /comment/8/edit/ HTTP/1.1" 200 44
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/main.js HTTP/1.1" 200 8780
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+"POST /post/12/add_comment/ HTTP/1.1" 200 123
+Internal Server Error: /comment/10/delete/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 175, in delete_comment
+    if request.is_ajax():
+       ^^^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'is_ajax'
+"POST /comment/10/delete/ HTTP/1.1" 500 72649
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/js/main.js HTTP/1.1" 304 0
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 9648
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 9648
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/js/main.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 9648
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 9648
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
