@@ -3088,3 +3088,5 @@ Watching for file changes with StatReloader
 "GET /static/image/search-icon.svg HTTP/1.1" 200 524
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 8502
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
