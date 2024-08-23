@@ -2582,3 +2582,54 @@ E:\programming_stuff\my-social-network\network\views.py changed, reloading.
 Watching for file changes with StatReloader
 E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
 Watching for file changes with StatReloader
+"GET /friends-posts/ HTTP/1.1" 200 6793
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET /friends-posts/ HTTP/1.1" 200 6793
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET /following/ HTTP/1.1" 200 4747
+"GET /static/js/following_list.js HTTP/1.1" 404 1819
+"GET /following-posts/ HTTP/1.1" 200 6761
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15257
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /profile/Max999/ HTTP/1.1" 200 8579
+"POST /follow/1/ HTTP/1.1" 302 0
+"GET /profile/Max999/ HTTP/1.1" 200 8587
+"GET /following/ HTTP/1.1" 200 5746
+"GET /static/js/following_list.js HTTP/1.1" 404 1819
+"GET /following-posts/ HTTP/1.1" 200 9362
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
