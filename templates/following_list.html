@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static 'css/following_list.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1>Following List</h1>
+<div class="following-list-container">
+    {% if following_users %}
+        <ul class="following-list">
+            {% for user in following_users %}
+                <li class="following-list-item">
+                    <div class="following-avatar">
+                        {% if user.profile.avatar %}
+                            <img src="{{ user.profile.avatar.url }}" alt="Avatar">
+                        {% else %}
+                            <img src="{% static 'image/default_avatar.png' %}" alt="Default Avatar">
+                        {% endif %}
+                    </div>
+                    <div class="following-details">
+                        <p>
+                            <strong>Username:</strong> 
+                            <a href="{% url 'profile_view' user.username %}" class="username-link">{{ user.username }}</a>
+                        </p>
+                        <!-- Unfollow button -->
+                        <form action="{% url 'unfollow_user' user.id %}" method="post" class="unfollow-form">
+                            {% csrf_token %}
+                            <button type="submit" class="btn unfollow-btn">Unfollow</button>
+                        </form>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>You are not following anyone yet.</p>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/following_list.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+<link rel="stylesheet" href="{% static 'css/modal.css' %}">
+<link rel="stylesheet" href="{% static 'css/like_section.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="post-container">
+    <div class="posts">
+        {% if posts %}
+            {% for post in posts %}
+                <div class="post">
+                    <div class="post-header">
+                        <h3 class="post-creator">
+                            <a href="{% url 'profile_view' post.user.username %}">{{ post.user.username }}</a>
+                        </h3>
+                        <div class="right-part-pst-header">
+                            <span class="post-creation-time">{{ post.created_at }}</span>
+                            <img src="{% static 'image/dots-vertical-svgrepo-com.svg' %}" alt="Dots Vertical SVG" class="dots-vertical-svg" id="dots-vertical-svg">
+                            <div class="dropdown-content" style="display: none;">
+                                <a id="detail-{{ post.id }}" class="detail-link" href="{% url 'post_detail' post.id %}">Detail</a>
+                                {% if post.user == request.user %}
+                                    <a id="edit-{{ post.id }}" class="edit-link" href="{% url 'edit_post' post.id %}">Edit</a>
+                                    <a id="delete-{{ post.id }}" class="delete-link" href="{% url 'delete_post' post.id %}">Delete</a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <p class="post-content-text">{{ post.content }}</p>
+                        {% if post.image %}
+                            <img class="post-content-image" src="{{ post.image.url }}" alt="Post Image" onclick="openModal('{{ post.image.url }}')">
+                        {% endif %}
+                    </div>
+                    <div class="like-section">
+                        <span id="like-count-{{ post.id }}" class="like-count">{{ post.likes_count }} Likes</span>
+                        {% if request.user.is_authenticated %}
+                            <form method="post" class="like-form" data-post-id="{{ post.id }}">
+                                {% csrf_token %}
+                                <button type="submit" class="like-action {% if request.user in post.likes.all %}unlike-btn{% else %}like-btn{% endif %}">
+                                    <img id="like-img-{{ post.id }}" src="{% static 'image/heart.svg' %}" alt="Heart" class="heart-icon">
+                                </button>
+                            </form>
+    
+                            <!-- save/unsave post -->
+                            {% if post.id in saved_posts %}
+                                <!-- Unsaving a post -->
+                                <form method="post" class="save-form" action="{% url 'unsave_post' post.id %}">
+                                    {% csrf_token %}
+                                    <button type="submit" class="save-action saved-post">
+                                        <img src="{% static 'image/saved-post.svg' %}" alt="Unsave Post" class="save-icon">
+                                    </button>
+                                </form>
+                            {% else %}
+                                <!-- Saving a post -->
+                                <form method="post" class="save-form" action="{% url 'save_post' post.id %}">
+                                    {% csrf_token %}
+                                    <button type="submit" class="save-action save-post">
+                                        <img src="{% static 'image/save-post.svg' %}" alt="Save Post" class="save-icon">
+                                    </button>
+                                </form>
+                            {% endif %}
+                        {% else %}
+                            <a href="{% url 'login' %}">Login</a> to like or save this post.
+                        {% endif %}
+    
+                        <!-- Copy link button -->
+                        <button class="copy-link-btn" data-relative-url="{% url 'post_detail' post.id %}" onclick="copyPostLink(this)">
+                            <img src="{% static 'image/link.svg' %}" alt="Copy Link" class="copy-link-icon">
+                        </button>
+    
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No posts found.</p>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Modal Structure -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/main.js' %}"></script>
+<script src="{% static 'js/modal.js' %}"></script>
+<script src="{% static 'js/like.js' %}"></script>
+<script src="{% static 'js/copylink.js' %}"></script>
+{% endblock %}
+

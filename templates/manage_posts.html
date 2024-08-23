@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+<link rel="stylesheet" href="{% static 'css/manage_posts.css' %}">
+<link rel="stylesheet" href="{% static 'css/modal.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1 class="page-name">Manage Posts</h1>
+
+<!-- Пошукова форма для постів -->
+<form method="get" action="{% url 'manage_posts' %}" class="search-form">
+    <input type="text" name="post_search" value="{{ query }}" placeholder="Search by content or author">
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+<div class="posts">
+    {% for post in posts %}
+    <div class="post">
+        <div class="post-header">
+            <h3 class="post-creator"><a href="{% url 'profile_view' post.user.username %}">{{ post.user.username }}</a></h3>
+            <div class="right-part-pst-header">
+                <span class="post-creation-time">{{ post.created_at|date:"Y-m-d H:i" }}</span>
+                <img src="{% static 'image/dots-vertical-svgrepo-com.svg' %}" alt="Dots Vertical SVG" class="dots-vertical-svg" id="dots-vertical-svg">
+                
+                <div class="dropdown-content" style="display: none;">
+                    <a id="detail-{{ post.id }}" class="detail-link" href="{% url 'post_detail' post.id %}">Detail</a>
+                    {% if post.user == request.user %}
+                    <a id="edit-{{ post.id }}" class="edit-link" href="{% url 'edit_post' post.id %}">Edit</a>
+                    <a id="delete-{{ post.id }}" class="delete-link" href="{% url 'delete_post' post.id %}">Delete</a>
+                    {% endif %}
+                </div>
+            
+            </div>
+        </div>
+        <div class="post-content">
+            <p class="post-content-text">{{ post.content }}</p>
+            {% if post.image %}
+            <img class="post-content-image" src="{{ post.image.url }}" alt="Post Image" onclick="openModal('{{ post.image.url }}')">
+            {% endif %}
+        </div>
+        <!-- <div class="post-actions">
+            <a href="{% url 'edit_post' post.id %}" class="btn btn-primary">Edit</a>
+            <form method="post" action="{% url 'dashboard_delete_post' post.id %}" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+        </div> -->
+        <div class="post-actions">
+            <!-- <a href="{% url 'edit_post' post.id %}" class="btn btn-primary">Edit</a> -->
+            <a href="{% url 'delete_post' post.id %}" class="btn btn-danger">Delete</a>
+        </div>
+    </div>
+    {% empty %}
+    <div class="post">
+        <p>No posts found.</p>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Modal Structure -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/main.js' %}"></script>
+<script src="{% static 'js/modal.js' %}"></script>
+{% endblock %}

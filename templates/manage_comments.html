@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+<link rel="stylesheet" href="{% static 'css/manage_comments.css' %}">
+<link rel="stylesheet" href="{% static 'css/modal.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1 class="page-name">Manage Comments</h1>
+
+<!-- Пошукова форма для коментарів -->
+<form method="get" action="{% url 'manage_comments' %}" class="search-form">
+    <input type="text" name="comment_search" value="{{ query }}" placeholder="Search by content or author">
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+<div class="comments">
+    {% for comment in comments %}
+    <div class="comment">
+        <div class="comment-header">
+            <h3 class="comment-creator">
+                {% if comment.user %}
+                <a href="{% url 'profile_view' comment.user.username %}">{{ comment.user.username }}</a>
+                {% else %}
+                <span>Unknown Author</span>
+                {% endif %}
+            </h3>
+            <span class="comment-creation-time">{{ comment.created_at|date:"Y-m-d H:i" }}</span>
+        </div>
+        <div class="comment-content">
+            <p class="comment-content-text">{{ comment.content }}</p>
+        </div>
+        <div class="comment-actions">
+            <a href="#" class="btn btn-danger" onclick="deleteComment('{{ comment.id }}')">Delete</a>
+        </div>
+    </div>
+    {% empty %}
+    <div class="comment">
+        <p>No comments found.</p>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Modal Structure -->
+<div id="deleteCommentModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <form method="post" action="{% url 'manage_comments' %}">
+        {% csrf_token %}
+        <input type="hidden" id="commentId" name="comment_id">
+        <textarea name="reason" placeholder="Reason for deletion"></textarea>
+        <button type="submit" class="btn btn-danger">Confirm Delete</button>
+    </form>
+</div>
+
+<!-- Modal Structure -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/main.js' %}"></script>
+<script src="{% static 'js/modal.js' %}"></script>
+<script>
+function deleteComment(commentId) {
+    document.getElementById('commentId').value = commentId;
+    openModal();
+}
+
+function openModal() {
+    document.getElementById('deleteCommentModal').style.display = 'block';
+}
+
+function closeModal() {
+    document.getElementById('deleteCommentModal').style.display = 'none';
+}
+</script>
+{% endblock %}
