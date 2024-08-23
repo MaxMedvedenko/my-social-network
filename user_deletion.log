@@ -3157,3 +3157,2740 @@ Not Found: /favicon.ico
 "POST /toggle_like/5/ HTTP/1.1" 200 18
 "GET /static/image/full-heart.svg HTTP/1.1" 200 736
 "POST /toggle_like/5/ HTTP/1.1" 200 18
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15233
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET / HTTP/1.1" 200 15233
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET / HTTP/1.1" 200 15233
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET / HTTP/1.1" 200 15233
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET / HTTP/1.1" 200 15233
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"POST /toggle_like/12/ HTTP/1.1" 200 18
+"GET /static/image/full-heart.svg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 15233
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET / HTTP/1.1" 200 15233
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET / HTTP/1.1" 200 15233
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15233
+"GET /static/css/base.css HTTP/1.1" 304 0
+"GET /static/css/hamburger_menu.css HTTP/1.1" 304 0
+"GET /static/css/modal.css HTTP/1.1" 304 0
+"GET /static/js/hamburger_menu.js HTTP/1.1" 304 0
+"GET /static/css/like_section.css HTTP/1.1" 304 0
+"GET /static/image/search-icon.svg HTTP/1.1" 304 0
+"GET /static/image/heart.svg HTTP/1.1" 304 0
+"GET /static/image/save-post.svg HTTP/1.1" 304 0
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/image/link.svg HTTP/1.1" 304 0
+"GET /static/js/modal.js HTTP/1.1" 304 0
+"GET /static/js/like.js HTTP/1.1" 304 0
+"GET /static/js/copylink.js HTTP/1.1" 304 0
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 304 0
+"GET /static/image/saved-post.svg HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 16327
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/liked-heart.svg HTTP/1.1" 404 1822
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/unliked-heart.svg HTTP/1.1" 404 1828
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8658
+"GET / HTTP/1.1" 200 16309
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8658
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+"GET / HTTP/1.1" 200 16309
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 16309
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 16309
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 16309
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 16309
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 16309
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+"GET / HTTP/1.1" 200 16309
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8658
+"GET / HTTP/1.1" 200 16309
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8658
+"POST /save_post/12/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 16317
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+"GET / HTTP/1.1" 200 16317
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 16317
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 16317
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 16317
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8658
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+"GET / HTTP/1.1" 200 16256
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8658
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+Not Found: /toggle_like/null/
+"POST /toggle_like/null/ HTTP/1.1" 404 8677
+"GET / HTTP/1.1" 200 16317
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/like.js HTTP/1.1" 200 3809
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8658
+Not Found: /like/null/
+"POST /like/null/ HTTP/1.1" 404 8656
+Not Found: /like/null/
+"POST /like/null/ HTTP/1.1" 404 8656
+Not Found: /like/null/
+"POST /like/null/ HTTP/1.1" 404 8656
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 16289
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 3809
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8644
+Not Found: /like/null/
+"POST /like/null/ HTTP/1.1" 404 8642
+Not Found: /like/null/
+"POST /like/null/ HTTP/1.1" 404 8642
+Not Found: /like/null/
+"POST /like/null/ HTTP/1.1" 404 8642
+Not Found: /like/null/
+"POST /like/null/ HTTP/1.1" 404 8642
+Not Found: /like/null/
+"POST /like/null/ HTTP/1.1" 404 8642
+Not Found: /like/null/
+"POST /like/null/ HTTP/1.1" 404 8642
+Not Found: /like/null/
+"POST /like/null/ HTTP/1.1" 404 8642
+"GET / HTTP/1.1" 200 16289
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/like.js HTTP/1.1" 200 3809
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8644
+"GET / HTTP/1.1" 200 16289
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/like.js HTTP/1.1" 200 3809
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8644
+Not Found: /like/null/
+"POST /like/null/ HTTP/1.1" 404 8642
+"GET / HTTP/1.1" 200 16338
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 3809
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8644
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"POST /like/3/ HTTP/1.1" 200 18
+"GET / HTTP/1.1" 200 16356
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/like.js HTTP/1.1" 200 3809
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8644
+"POST /like/2/ HTTP/1.1" 200 18
+"GET / HTTP/1.1" 200 16374
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 3809
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8644
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 16374
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/js/like.js HTTP/1.1" 200 3926
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8644
+"POST /remove-like/2/ HTTP/1.1" 200 34
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+"POST /remove-like/2/ HTTP/1.1" 200 34
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+"POST /remove-like/3/ HTTP/1.1" 200 34
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+"POST /remove-like/3/ HTTP/1.1" 200 34
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+"POST /remove-like/5/ HTTP/1.1" 200 34
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+"GET / HTTP/1.1" 200 16320
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/like.js HTTP/1.1" 200 3926
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8644
+"POST /like/5/ HTTP/1.1" 200 33
+Not Found: /{% static 'image/full-heart.svg' %}
+"GET /%7B%%20static%20'image/full-heart.svg'%20%%7D HTTP/1.1" 404 8760
+"GET / HTTP/1.1" 200 16718
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 3926
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8644
+"POST /remove-like/5/ HTTP/1.1" 200 34
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+"POST /remove-like/5/ HTTP/1.1" 200 34
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+"POST /remove-like/5/ HTTP/1.1" 200 34
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+"POST /remove-like/5/ HTTP/1.1" 200 34
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+"POST /remove-like/5/ HTTP/1.1" 200 34
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+"GET / HTTP/1.1" 200 16616
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/like.js HTTP/1.1" 200 3926
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8644
+"POST /like/5/ HTTP/1.1" 200 33
+Not Found: /{% static 'image/full-heart.svg' %}
+"GET /%7B%%20static%20'image/full-heart.svg'%20%%7D HTTP/1.1" 404 8760
+"POST /like/5/ HTTP/1.1" 200 33
+Not Found: /{% static 'image/full-heart.svg' %}
+"GET /%7B%%20static%20'image/full-heart.svg'%20%%7D HTTP/1.1" 404 8760
+"POST /like/5/ HTTP/1.1" 200 33
+Not Found: /{% static 'image/full-heart.svg' %}
+"GET /%7B%%20static%20'image/full-heart.svg'%20%%7D HTTP/1.1" 404 8760
+"POST /like/5/ HTTP/1.1" 200 33
+Not Found: /{% static 'image/full-heart.svg' %}
+"GET /%7B%%20static%20'image/full-heart.svg'%20%%7D HTTP/1.1" 404 8760
+"POST /like/5/ HTTP/1.1" 200 33
+Not Found: /{% static 'image/full-heart.svg' %}
+"GET /%7B%%20static%20'image/full-heart.svg'%20%%7D HTTP/1.1" 404 8760
+"GET / HTTP/1.1" 200 16634
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /remove-like/5/ HTTP/1.1" 200 34
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+"POST /remove-like/12/ HTTP/1.1" 200 34
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+"GET / HTTP/1.1" 200 16598
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/like.js HTTP/1.1" 200 3926
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8644
+"POST /like/5/ HTTP/1.1" 200 33
+Not Found: /{% static 'image/full-heart.svg' %}
+"GET /%7B%%20static%20'image/full-heart.svg'%20%%7D HTTP/1.1" 404 8760
+"GET / HTTP/1.1" 200 16555
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 3926
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8644
+"POST /remove-like/5/ HTTP/1.1" 200 34
+"POST /remove-like/5/ HTTP/1.1" 200 34
+"POST /remove-like/5/ HTTP/1.1" 200 34
+"POST /like/12/ HTTP/1.1" 200 33
+"POST /like/12/ HTTP/1.1" 200 33
+"POST /like/12/ HTTP/1.1" 200 33
+"POST /like/12/ HTTP/1.1" 200 33
+"POST /like/12/ HTTP/1.1" 200 33
+"POST /like/12/ HTTP/1.1" 200 33
+"POST /like/12/ HTTP/1.1" 200 33
+"POST /like/12/ HTTP/1.1" 200 33
+"POST /like/12/ HTTP/1.1" 200 33
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 16296
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 3977
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8644
+Internal Server Error: /like/5/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 217, in add_like
+    post.likes_count = post.likes_count + 1
+                       ~~~~~~~~~~~~~~~~~^~~
+TypeError: unsupported operand type(s) for +: 'method' and 'int'
+"POST /like/5/ HTTP/1.1" 500 76149
+Bad Request: /like/5/
+"POST /like/5/ HTTP/1.1" 400 26
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+Bad Request: /like/5/
+"POST /like/5/ HTTP/1.1" 400 26
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+Bad Request: /like/5/
+"POST /like/5/ HTTP/1.1" 400 26
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+Bad Request: /like/5/
+"POST /like/5/ HTTP/1.1" 400 26
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+Bad Request: /like/5/
+"POST /like/5/ HTTP/1.1" 400 26
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+Internal Server Error: /remove-like/12/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 236, in remove_like
+    post.likes_count = post.likes_count - 1
+                       ~~~~~~~~~~~~~~~~~^~~
+TypeError: unsupported operand type(s) for -: 'method' and 'int'
+"POST /remove-like/12/ HTTP/1.1" 500 76113
+Bad Request: /remove-like/12/
+"POST /remove-like/12/ HTTP/1.1" 400 26
+Not Found: /{% static 'image/heart.svg' %}
+"GET /%7B%%20static%20'image/heart.svg'%20%%7D HTTP/1.1" 404 8745
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15241
+"GET /static/css/base.css HTTP/1.1" 304 0
+"GET /static/css/hamburger_menu.css HTTP/1.1" 304 0
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /static/css/modal.css HTTP/1.1" 304 0
+"GET /static/js/hamburger_menu.js HTTP/1.1" 304 0
+"GET /static/css/like_section.css HTTP/1.1" 304 0
+"GET /static/image/search-icon.svg HTTP/1.1" 304 0
+"GET /static/image/heart.svg HTTP/1.1" 304 0
+"GET /static/image/saved-post.svg HTTP/1.1" 304 0
+"GET /static/image/link.svg HTTP/1.1" 304 0
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/js/modal.js HTTP/1.1" 304 0
+"GET /static/js/copylink.js HTTP/1.1" 304 0
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 304 0
+"GET /static/image/save-post.svg HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /static/js/like.js HTTP/1.1" 200 1923
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15241
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET / HTTP/1.1" 200 15241
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"POST /toggle_like/5/ HTTP/1.1" 200 18
+"GET /static/image/full-heart.svg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15983
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET / HTTP/1.1" 200 15983
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"POST /like/12/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15996
+"POST /like/3/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 16009
+"POST /like/2/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 16022
+"POST /unlike/3/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 16009
+"POST /unlike/2/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15996
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 90, in edit_post
+    post = get_object_or_404(Post, pk=post_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET /post/16/edit/ HTTP/1.1" 500 142887
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 90, in edit_post
+    post = get_object_or_404(Post, pk=post_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET /post/16/edit/ HTTP/1.1" 500 142887
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 90, in edit_post
+    post = get_object_or_404(Post, pk=post_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET /post/16/edit/ HTTP/1.1" 500 142887
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 90, in edit_post
+    post = get_object_or_404(Post, pk=post_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET /post/16/edit/ HTTP/1.1" 500 142887
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 90, in edit_post
+    post = get_object_or_404(Post, pk=post_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET /post/16/edit/ HTTP/1.1" 500 142887
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 90, in edit_post
+    post = get_object_or_404(Post, pk=post_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET /post/16/edit/ HTTP/1.1" 500 142887
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 90, in edit_post
+    post = get_object_or_404(Post, pk=post_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET /post/16/edit/ HTTP/1.1" 500 142887
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 90, in edit_post
+    post = get_object_or_404(Post, pk=post_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET /post/16/edit/ HTTP/1.1" 500 142887
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 90, in edit_post
+    post = get_object_or_404(Post, pk=post_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET /post/16/edit/ HTTP/1.1" 500 143015
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 90, in edit_post
+    post = get_object_or_404(Post, pk=post_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET /post/16/edit/ HTTP/1.1" 500 143015
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 90, in edit_post
+    post = get_object_or_404(Post, pk=post_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET /post/16/edit/ HTTP/1.1" 500 143015
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+Not Found: /media/media_files/001_-_SF6_Parry_Demo_Voicover_1.mp4
+"GET /media/media_files/001_-_SF6_Parry_Demo_Voicover_1.mp4 HTTP/1.1" 404 9007
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 39, in index
+    return render(request, 'index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 198, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET / HTTP/1.1" 500 216393
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 34, in index
+    return render(request, 'index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 198, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET / HTTP/1.1" 500 217092
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 34, in index
+    return render(request, 'index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 198, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET / HTTP/1.1" 500 217092
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 34, in index
+    return render(request, 'index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 198, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET / HTTP/1.1" 500 217092
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 34, in index
+    return render(request, 'index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 198, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET / HTTP/1.1" 500 216964
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 34, in index
+    return render(request, 'index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 198, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET / HTTP/1.1" 500 216964
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 34, in index
+    return render(request, 'index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 198, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET / HTTP/1.1" 500 216964
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: network_post.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 34, in index
+    return render(request, 'index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 198, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: network_post.image
+"GET / HTTP/1.1" 500 216964
