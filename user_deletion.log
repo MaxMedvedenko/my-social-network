@@ -4338,3 +4338,1533 @@ E:\programming_stuff\my-social-network\network\views.py changed, reloading.
 Watching for file changes with StatReloader
 E:\programming_stuff\my-social-network\network\views.py changed, reloading.
 Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15936
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+Watching for file changes with StatReloader
+"GET /create-post/ HTTP/1.1" 200 4398
+"GET /static/css/create_post.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET /create-post/ HTTP/1.1" 200 4398
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/create_post.css HTTP/1.1" 200 994
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET /create-post/ HTTP/1.1" 200 4398
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/create_post.css HTTP/1.1" 200 994
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"POST /create-post/ HTTP/1.1" 302 0
+"GET /post/13/ HTTP/1.1" 200 7189
+"GET / HTTP/1.1" 200 19031
+"POST /like/13/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 19044
+"POST /save_post/13/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 19052
+"GET / HTTP/1.1" 200 19052
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET / HTTP/1.1" 200 19052
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 2085
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET / HTTP/1.1" 200 19052
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 2085
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET / HTTP/1.1" 200 19052
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 2085
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET / HTTP/1.1" 200 19052
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/index.css HTTP/1.1" 200 2085
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET /post/13/edit/ HTTP/1.1" 200 4744
+"GET /static/css/edit_post.css HTTP/1.1" 304 0
+Internal Server Error: /post/13/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 112, in edit_post
+    Media.objects.filter(content_object=post).delete()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"POST /post/13/edit/ HTTP/1.1" 500 118864
+"GET / HTTP/1.1" 200 19052
+"GET /static/css/index.css HTTP/1.1" 304 0
+E:\programming_stuff\my-social-network\SocialNetwork\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 19586
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /media/media_files/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET / HTTP/1.1" 200 11339
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 2085
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /media/media_files/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET /login/ HTTP/1.1" 200 3036
+"GET /static/css/login.css HTTP/1.1" 200 1016
+"GET / HTTP/1.1" 200 19586
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 2085
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /media/media_files/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET /create-post/ HTTP/1.1" 200 4398
+"POST /create-post/ HTTP/1.1" 302 0
+"GET /post/14/ HTTP/1.1" 200 7176
+"GET / HTTP/1.1" 200 22692
+"GET /post/14/edit/ HTTP/1.1" 200 4731
+Internal Server Error: /post/14/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 112, in edit_post
+    Media.objects.filter(content_object=post).delete()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"POST /post/14/edit/ HTTP/1.1" 500 118708
+"POST /save_post/14/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 22700
+"GET /static/css/index.css HTTP/1.1" 304 0
+"POST /like/14/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 22713
+"GET /post/14/ HTTP/1.1" 200 7176
+"GET /post/14/ HTTP/1.1" 200 7176
+"GET /post/14/edit/ HTTP/1.1" 200 4731
+"GET /post/13/edit/ HTTP/1.1" 200 4744
+"GET / HTTP/1.1" 200 22713
+"GET /media/media_files/d1aehdnbq0h21.jpg HTTP/1.1" 304 0
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /post/13/edit/ HTTP/1.1" 200 4744
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 22713
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /media/media_files/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 2085
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET /create-post/ HTTP/1.1" 200 4398
+"POST /create-post/ HTTP/1.1" 302 0
+"GET /post/15/ HTTP/1.1" 200 7174
+"GET / HTTP/1.1" 200 26370
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET /create-post/ HTTP/1.1" 200 4398
+- Broken pipe from ('127.0.0.1', 55713)
+"POST /create-post/ HTTP/1.1" 302 0
+"GET /post/16/ HTTP/1.1" 200 7170
+"GET / HTTP/1.1" 200 30068
+"GET /media/media_files/%D0%95%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_2_%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0.png HTTP/1.1" 200 4679
+- Broken pipe from ('127.0.0.1', 55711)
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET /create-post/ HTTP/1.1" 200 4398
+- Broken pipe from ('127.0.0.1', 55714)
+"POST /create-post/ HTTP/1.1" 302 0
+"GET /post/17/ HTTP/1.1" 200 7170
+"GET / HTTP/1.1" 200 33568
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /media/media_files/%D0%95%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_2_%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0.png HTTP/1.1" 304 0
+"GET /media/media_files/d1aehdnbq0h21.jpg HTTP/1.1" 304 0
+"GET /media/media_files/giphy.webp HTTP/1.1" 200 561564
+- Broken pipe from ('127.0.0.1', 55712)
+"GET / HTTP/1.1" 200 33568
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/index.css HTTP/1.1" 200 2196
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /media/media_files/%D0%95%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_2_%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0.png HTTP/1.1" 200 4679
+"GET /static/image/full-heart.svg HTTP/1.1" 200 736
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /media/media_files/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /media/media_files/giphy.webp HTTP/1.1" 200 561564
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"GET / HTTP/1.1" 200 33568
+- Broken pipe from ('127.0.0.1', 55813)
+"GET /media/media_files/giphy.webp HTTP/1.1" 304 0
+"GET /static/css/index.css HTTP/1.1" 200 2194
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8639
+"POST /save_post/17/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 33576
+- Broken pipe from ('127.0.0.1', 55812)
+"GET /media/media_files/giphy.webp HTTP/1.1" 304 0
+"GET /media/media_files/%D0%95%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_2_%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0.png HTTP/1.1" 304 0
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /media/media_files/d1aehdnbq0h21.jpg HTTP/1.1" 304 0
+"POST /like/17/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 33589
+- Broken pipe from ('127.0.0.1', 55816)
+"GET /profile/Max888/ HTTP/1.1" 200 25224
+- Broken pipe from ('127.0.0.1', 55814)
+"GET /static/js/like.js HTTP/1.1" 304 0
+"GET /media/avatars/0cf5ddf0fc2121e2513172c87632e740.jpg HTTP/1.1" 200 28485
+"GET / HTTP/1.1" 200 33589
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /post/16/edit/ HTTP/1.1" 200 4725
+- Broken pipe from ('127.0.0.1', 55815)
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /post/16/edit/ HTTP/1.1" 200 4725
+"GET /static/css/edit_post.css HTTP/1.1" 200 866
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8794
+"GET / HTTP/1.1" 200 33589
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /media/media_files/giphy.webp HTTP/1.1" 304 0
+"GET /media/media_files/%D0%95%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_2_%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0.png HTTP/1.1" 304 0
+"GET /media/media_files/d1aehdnbq0h21.jpg HTTP/1.1" 304 0
+"GET /post/17/ HTTP/1.1" 200 7170
+- Broken pipe from ('127.0.0.1', 55894)
+"GET /post/17/edit/ HTTP/1.1" 200 4725
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /post/17/edit/ HTTP/1.1" 200 4762
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/edit_post.css HTTP/1.1" 200 866
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8794
+"GET / HTTP/1.1" 200 33589
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /media/media_files/giphy.webp HTTP/1.1" 304 0
+"GET /media/media_files/%D0%95%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_2_%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0.png HTTP/1.1" 304 0
+"GET /media/media_files/d1aehdnbq0h21.jpg HTTP/1.1" 304 0
+"GET /post/17/edit/ HTTP/1.1" 200 4762
+- Broken pipe from ('127.0.0.1', 55931)
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /post/17/edit/ HTTP/1.1" 200 4762
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/edit_post.css HTTP/1.1" 200 866
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8794
+"GET /post/17/edit/ HTTP/1.1" 200 4762
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/edit_post.css HTTP/1.1" 200 866
+"GET /static/css/base.css HTTP/1.1" 200 1709
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8794
+"GET / HTTP/1.1" 200 33589
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /static/css/modal.css HTTP/1.1" 304 0
+"GET /static/css/like_section.css HTTP/1.1" 304 0
+"GET /media/media_files/giphy.webp HTTP/1.1" 304 0
+"GET /static/image/full-heart.svg HTTP/1.1" 304 0
+"GET /static/image/saved-post.svg HTTP/1.1" 304 0
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/js/modal.js HTTP/1.1" 304 0
+"GET /static/js/copylink.js HTTP/1.1" 304 0
+"GET /static/image/link.svg HTTP/1.1" 304 0
+"GET /media/media_files/%D0%95%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_2_%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0.png HTTP/1.1" 304 0
+"GET /static/image/heart.svg HTTP/1.1" 304 0
+"GET /media/media_files/d1aehdnbq0h21.jpg HTTP/1.1" 304 0
+"GET /static/image/save-post.svg HTTP/1.1" 304 0
+"GET /post/16/edit/ HTTP/1.1" 200 4762
+- Broken pipe from ('127.0.0.1', 55981)
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /media/media_files/%D0%95%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_2_%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0.png HTTP/1.1" 200 4679
+"GET /static/css/edit_post.css HTTP/1.1" 200 866
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8794
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"GET /static/css/edit_post.css HTTP/1.1" 200 866
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /media/media_files/%D0%95%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_2_%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0.png HTTP/1.1" 200 4679
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8794
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"GET / HTTP/1.1" 200 33589
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+- Broken pipe from ('127.0.0.1', 55996)
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 136, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/16/edit/ HTTP/1.1" 500 118159
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8794
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 136, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/16/edit/ HTTP/1.1" 500 118159
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8794
+E:\programming_stuff\my-social-network\network\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 136, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/16/edit/ HTTP/1.1" 500 118031
+"GET / HTTP/1.1" 200 33589
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /media/media_files/giphy.webp HTTP/1.1" 304 0
+"GET /media/media_files/%D0%95%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_2_%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0.png HTTP/1.1" 304 0
+"GET /media/media_files/d1aehdnbq0h21.jpg HTTP/1.1" 304 0
+Internal Server Error: /post/17/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 136, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/17/edit/ HTTP/1.1" 500 117881
+- Broken pipe from ('127.0.0.1', 56308)
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /post/17/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 137, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/17/edit/ HTTP/1.1" 500 118146
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8794
+Internal Server Error: /post/17/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 137, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/17/edit/ HTTP/1.1" 500 118018
+Internal Server Error: /post/17/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 137, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/17/edit/ HTTP/1.1" 500 118146
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8794
+Internal Server Error: /post/17/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 137, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/17/edit/ HTTP/1.1" 500 118146
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8794
+Internal Server Error: /post/17/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 137, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/17/edit/ HTTP/1.1" 500 118146
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8794
+"GET / HTTP/1.1" 200 33589
+Internal Server Error: /post/17/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 137, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/17/edit/ HTTP/1.1" 500 117881
+- Broken pipe from ('127.0.0.1', 56403)
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /post/17/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 138, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/17/edit/ HTTP/1.1" 500 118240
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8794
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 138, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/16/edit/ HTTP/1.1" 500 118135
+- Broken pipe from ('127.0.0.1', 56546)
+Watching for file changes with StatReloader
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 138, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/16/edit/ HTTP/1.1" 500 118141
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 138, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/16/edit/ HTTP/1.1" 500 118272
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 138, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/16/edit/ HTTP/1.1" 500 118135
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 138, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/16/edit/ HTTP/1.1" 500 118400
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8794
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 138, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/16/edit/ HTTP/1.1" 500 118272
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 138, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/16/edit/ HTTP/1.1" 500 118272
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 138, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/16/edit/ HTTP/1.1" 500 118272
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 138, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/16/edit/ HTTP/1.1" 500 118272
+E:\programming_stuff\my-social-network\network\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"GET /static/css/base.css HTTP/1.1" 304 0
+"GET /media/media_files/%D0%95%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_2_%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0.png HTTP/1.1" 304 0
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"GET /static/image/search-icon.svg HTTP/1.1" 304 0
+"GET /static/css/hamburger_menu.css HTTP/1.1" 304 0
+"GET /static/js/hamburger_menu.js HTTP/1.1" 304 0
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"GET /post/16/edit/ HTTP/1.1" 200 5372
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5373
+"POST /post/16/edit/ HTTP/1.1" 302 0
+"GET /post/16/edit/ HTTP/1.1" 200 5373
+"GET /post/16/edit/ HTTP/1.1" 200 5373
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /post/16/edit/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 136, in edit_post
+    media_files = Media.objects.filter(content_object=post)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1748, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Field 'content_object' does not generate an automatic reverse relation and therefore cannot be used for reverse querying. If it is a GenericForeignKey, consider adding a GenericRelation.
+"GET /post/16/edit/ HTTP/1.1" 500 118041
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
