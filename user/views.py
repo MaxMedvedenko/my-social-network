@@ -142,7 +142,6 @@ def edit_profile(request):
 
 @login_required
 def friends_list_view(request):
-    # Отримати всі пари друзів, в яких користувач є або `user`, або `friend`
     friends = Friend.objects.filter(user=request.user) | Friend.objects.filter(friend=request.user)
 
     # Витягти унікальних друзів
@@ -180,34 +179,25 @@ def send_friend_request(request, user_id):
 
 @login_required
 def cancel_friend_request(request, request_id):
-    # Дістаємо запит дружби, який потрібно скасувати
     friend_request = get_object_or_404(Friendship, id=request_id, from_user=request.user)
 
     if friend_request:
-        # Видалити запит дружби
         friend_request.delete()
 
     return redirect('friend_requests')
 
 @login_required
 def accept_friend_request(request, request_id):
-    # Отримати об'єкт запиту на дружбу
     friend_request = get_object_or_404(Friendship, id=request_id, to_user=request.user, status='pending')
     
-    # Перевірити, чи запит існує і має статус 'pending'
     if friend_request:
-        # Змінити статус запиту на 'accepted'
         friend_request.status = 'accepted'
         friend_request.save()
 
-        # Створити записи в моделі Friend для обох користувачів
         Friend.objects.get_or_create(user=friend_request.from_user, friend=friend_request.to_user)
         Friend.objects.get_or_create(user=friend_request.to_user, friend=friend_request.from_user)
-
-        # Видалити запис запиту на дружбу
         friend_request.delete()
 
-    # Перенаправити користувача до списку запитів на дружбу
     return redirect('friend_requests')
 
 

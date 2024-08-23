@@ -22,7 +22,6 @@ from django.contrib import messages
 def index(request):
     posts = Post.objects.all().order_by('-created_at')
     
-    # Перевірка авторизації користувача перед отриманням збережених постів
     if request.user.is_authenticated:
         saved_posts = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
     else:
@@ -255,7 +254,7 @@ def edit_message_view(request, message_id):
     message = get_object_or_404(Message, id=message_id)
 
     if request.method == 'POST':
-        if message.sender == request.user:  # Check if the user is the sender
+        if message.sender == request.user:
             content = request.POST.get('content')
             if content:
                 message.content = content

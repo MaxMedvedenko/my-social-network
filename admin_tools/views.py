@@ -116,7 +116,6 @@ def delete_post(request, post_id):
 def manage_comments(request):
     query = request.GET.get('comment_search', '')
     
-    # Фільтрація коментарів
     comments = Comment.objects.all().order_by('-created_at')
     
     if query:
