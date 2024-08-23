@@ -1,0 +1,3068 @@
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /user-management/ HTTP/1.1" 200 6492
+"GET /static/css/manage_users.css HTTP/1.1" 200 625
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10778
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /register/ HTTP/1.1" 200 3581
+"GET /static/css/register.css HTTP/1.1" 200 1021
+"POST /register/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 17466
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10778
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /login/ HTTP/1.1" 200 3027
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 17862
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4080
+"GET /static/css/admin_dashboard.css HTTP/1.1" 304 0
+"GET /user-management/ HTTP/1.1" 200 7158
+"GET /static/css/manage_users.css HTTP/1.1" 304 0
+"POST /delete-user/5/ HTTP/1.1" 302 0
+"GET /user-management/ HTTP/1.1" 200 6492
+"GET /user-management/ HTTP/1.1" 200 6492
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/manage_users.css HTTP/1.1" 200 625
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7780
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /user-management/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\admin_tools\views.py", line 45, in manage_users
+    return render(request, 'admin_tools/manage_users.html', {'users': users})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: admin_tools/manage_users.html
+"GET /user-management/ HTTP/1.1" 500 88453
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7780
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/css/manage_users.css HTTP/1.1" 304 0
+"GET /user-management/?search= HTTP/1.1" 200 6781
+"GET /user-management/?search=14 HTTP/1.1" 200 4269
+"GET /user-management/?search=Max999 HTTP/1.1" 200 4833
+"GET /user-management/?search=Max999 HTTP/1.1" 200 4833
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/css/manage_users.css HTTP/1.1" 200 1061
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7780
+"GET /static/css/manage_users.css HTTP/1.1" 200 1051
+"GET /admin-dashboard/ HTTP/1.1" 200 4080
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/js/hamburger_menu.js HTTP/1.1" 304 0
+"GET /static/css/manage_users.css HTTP/1.1" 304 0
+"GET /admin/user/user/3/change/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/user/user/3/change/ HTTP/1.1" 200 3872
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 17862
+"GET /static/js/hamburger_menu.js HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4080
+"GET /static/css/admin_dashboard.css HTTP/1.1" 304 0
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/css/manage_users.css HTTP/1.1" 304 0
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/css/manage_users.css HTTP/1.1" 200 1048
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7780
+"GET / HTTP/1.1" 200 17862
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 17862
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7780
+"GET /admin-dashboard/ HTTP/1.1" 200 4080
+"GET /static/css/base.css HTTP/1.1" 304 0
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/css/base.css HTTP/1.1" 304 0
+"GET /static/css/manage_users.css HTTP/1.1" 304 0
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/css/manage_users.css HTTP/1.1" 200 1045
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7780
+"GET / HTTP/1.1" 200 17862
+"GET /static/css/base.css HTTP/1.1" 304 0
+"GET /static/js/hamburger_menu.js HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4080
+"GET /static/css/base.css HTTP/1.1" 304 0
+"GET /static/css/admin_dashboard.css HTTP/1.1" 304 0
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/css/manage_users.css HTTP/1.1" 304 0
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/manage_users.css HTTP/1.1" 200 1045
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7780
+Watching for file changes with StatReloader
+Not Found: /profile/
+"GET /profile/ HTTP/1.1" 404 7771
+"GET / HTTP/1.1" 200 10778
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET / HTTP/1.1" 200 10778
+"GET /static/css/base.css HTTP/1.1" 304 0
+"GET /static/css/hamburger_menu.css HTTP/1.1" 304 0
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /static/css/like_section.css HTTP/1.1" 304 0
+"GET /static/css/modal.css HTTP/1.1" 304 0
+"GET /static/image/search-icon.svg HTTP/1.1" 304 0
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 304 0
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 304 0
+"GET /static/image/link.svg HTTP/1.1" 304 0
+"GET /static/js/hamburger_menu.js HTTP/1.1" 304 0
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/js/modal.js HTTP/1.1" 304 0
+"GET /static/js/like.js HTTP/1.1" 304 0
+"GET /static/js/copylink.js HTTP/1.1" 304 0
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /login/ HTTP/1.1" 200 3027
+"GET /static/css/login.css HTTP/1.1" 304 0
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 17862
+"GET /static/image/heart.svg HTTP/1.1" 304 0
+"GET /static/image/saved-post.svg HTTP/1.1" 304 0
+"GET /static/image/save-post.svg HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4080
+"GET /static/css/admin_dashboard.css HTTP/1.1" 304 0
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin-dashboard/ HTTP/1.1" 200 4080
+"GET /admin-dashboard/ HTTP/1.1" 200 4080
+"GET /static/css/admin_dashboard.css HTTP/1.1" 200 580
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7914
+"GET /admin-dashboard/ HTTP/1.1" 200 4093
+"GET /manage-posts/ HTTP/1.1" 200 7060
+"GET /static/css/manage_posts.css HTTP/1.1" 200 781
+"GET /post/1/edit/ HTTP/1.1" 200 4357
+"GET /static/css/edit_post.css HTTP/1.1" 200 866
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /manage-posts/
+"GET /manage-posts/ HTTP/1.1" 404 7968
+Not Found: /manage-posts/
+"GET /manage-posts/ HTTP/1.1" 404 7968
+Not Found: /user-management/
+"GET /user-management/ HTTP/1.1" 404 7977
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin-dashboard/ HTTP/1.1" 200 4093
+"GET /user-management/ HTTP/1.1" 200 6781
+"GET /static/css/manage_users.css HTTP/1.1" 304 0
+Internal Server Error: /manage-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\admin_tools\views.py", line 65, in manage_posts
+    return render(request, 'manage_posts.html', {'posts': posts})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile_view' with arguments '('',)' not found. 1 pattern(s) tried: ['profile/(?P<username>[^/]+)/\\Z']
+"GET /manage-posts/ HTTP/1.1" 500 189851
+"GET /admin-dashboard/ HTTP/1.1" 200 4093
+Internal Server Error: /manage-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\admin_tools\views.py", line 65, in manage_posts
+    return render(request, 'manage_posts.html', {'posts': posts})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile_view' with arguments '('',)' not found. 1 pattern(s) tried: ['profile/(?P<username>[^/]+)/\\Z']
+"GET /manage-posts/ HTTP/1.1" 500 189851
+"GET /manage-posts/ HTTP/1.1" 200 8939
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1976
+"GET /manage-posts/ HTTP/1.1" 200 8992
+"GET /static/css/manage_posts.css HTTP/1.1" 200 566
+"GET /manage-posts/ HTTP/1.1" 200 8267
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"GET /post/3/edit/ HTTP/1.1" 200 6933
+"GET /static/css/post_detail.css HTTP/1.1" 304 0
+"POST /post/1/delete/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15021
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /post/4/delete/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15021
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15021
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /manage-posts/ HTTP/1.1" 200 7401
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"GET /manage-posts/ HTTP/1.1" 200 7401
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1759
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"GET /manage-posts/ HTTP/1.1" 200 7401
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1759
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7914
+"GET /manage-posts/ HTTP/1.1" 200 7401
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /manage-posts/ HTTP/1.1" 200 7929
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+Internal Server Error: /manage-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\admin_tools\views.py", line 65, in manage_posts
+    return render(request, 'manage_posts.html', {'posts': posts})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile_view' with arguments '('',)' not found. 1 pattern(s) tried: ['profile/(?P<username>[^/]+)/\\Z']
+"GET /manage-posts/ HTTP/1.1" 500 189693
+Internal Server Error: /manage-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\admin_tools\views.py", line 65, in manage_posts
+    return render(request, 'manage_posts.html', {'posts': posts})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile_view' with arguments '('',)' not found. 1 pattern(s) tried: ['profile/(?P<username>[^/]+)/\\Z']
+"GET /manage-posts/ HTTP/1.1" 500 190187
+"GET /manage-posts/ HTTP/1.1" 200 8236
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15021
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4093
+"GET /manage-posts/ HTTP/1.1" 200 8236
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"GET /manage-posts/ HTTP/1.1" 200 8460
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"GET /manage-posts/ HTTP/1.1" 200 8460
+"GET /manage-posts/ HTTP/1.1" 200 8460
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7914
+"GET /manage-posts/ HTTP/1.1" 200 8460
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7914
+"GET /manage-posts/ HTTP/1.1" 200 8460
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7914
+"GET /manage-posts/ HTTP/1.1" 200 8460
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7914
+"GET /manage-posts/ HTTP/1.1" 200 8460
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7914
+"GET /manage-posts/ HTTP/1.1" 200 9372
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7914
+"GET /post/3/ HTTP/1.1" 200 6933
+"GET /post/2/ HTTP/1.1" 200 6933
+"GET /manage-posts/ HTTP/1.1" 200 9372
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7914
+"GET /manage-posts/ HTTP/1.1" 200 9372
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7914
+"GET /manage-posts/ HTTP/1.1" 200 9381
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7914
+"GET /manage-posts/ HTTP/1.1" 200 9381
+"GET /manage-posts/ HTTP/1.1" 200 9372
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"GET /post/2/ HTTP/1.1" 200 6933
+"GET /manage-posts/ HTTP/1.1" 200 9425
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7914
+"GET /post/5/edit/ HTTP/1.1" 200 7164
+"GET /manage-posts/ HTTP/1.1" 200 9461
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7914
+"GET / HTTP/1.1" 200 15021
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /create-post/ HTTP/1.1" 200 4333
+"GET /static/css/create_post.css HTTP/1.1" 200 994
+"POST /create-post/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 17855
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8063
+"GET /static/css/profile.css HTTP/1.1" 304 0
+"GET /media/avatars/keeper_7J7tsnc.png HTTP/1.1" 304 0
+"GET /static/js/chat.js HTTP/1.1" 304 0
+"GET /admin-dashboard/ HTTP/1.1" 200 4093
+"GET /manage-posts/ HTTP/1.1" 200 10959
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"POST /post/7/delete/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15021
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15021
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15021
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /create-post/ HTTP/1.1" 200 4333
+"POST /create-post/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 17855
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 17855
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /admin-dashboard/ HTTP/1.1" 200 4093
+"GET /manage-posts/ HTTP/1.1" 200 11009
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"POST /dashboard-delete-post/8/ HTTP/1.1" 302 0
+"GET /manage-posts/ HTTP/1.1" 200 9501
+"GET /manage-posts/ HTTP/1.1" 200 9501
+"GET / HTTP/1.1" 200 15021
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15021
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /create-post/ HTTP/1.1" 200 4333
+"POST /create-post/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 17845
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4093
+"GET /manage-posts/ HTTP/1.1" 200 10999
+"GET /admin-dashboard/ HTTP/1.1" 200 4093
+"GET /manage-posts/ HTTP/1.1" 200 10999
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"POST /dashboard-delete-post/9/ HTTP/1.1" 302 0
+"GET /manage-posts/ HTTP/1.1" 200 9501
+"GET /manage-posts/ HTTP/1.1" 200 10265
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/index.css HTTP/1.1" 200 1779
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET / HTTP/1.1" 200 15021
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /create-post/ HTTP/1.1" 200 4333
+"POST /create-post/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 17856
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4093
+"GET /manage-posts/ HTTP/1.1" 200 12009
+"GET /post/10/delete/ HTTP/1.1" 200 3954
+"GET /static/css/delete_post_confirmation.css HTTP/1.1" 200 1072
+"POST /post/10/delete/ HTTP/1.1" 302 0
+"GET /manage-posts/ HTTP/1.1" 200 10301
+"GET /post/5/delete/ HTTP/1.1" 200 3954
+"GET /manage-posts/ HTTP/1.1" 200 10301
+"GET / HTTP/1.1" 200 15021
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15021
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4093
+"GET /manage-posts/ HTTP/1.1" 200 10301
+"GET /manage-posts/ HTTP/1.1" 200 10301
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /manage-posts/ HTTP/1.1" 200 10301
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"GET /manage-posts/ HTTP/1.1" 200 10301
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/ HTTP/1.1" 200 10301
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/ HTTP/1.1" 200 10301
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/ HTTP/1.1" 200 10301
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /media/posts/test_pic_vn9bXGE.png HTTP/1.1" 200 37257
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/ HTTP/1.1" 200 10301
+"GET /post/5/ HTTP/1.1" 200 8854
+"GET /post/4/delete/ HTTP/1.1" 200 3954
+"GET /static/css/delete_post_confirmation.css HTTP/1.1" 304 0
+"POST /post/4/delete/ HTTP/1.1" 302 0
+"GET /manage-posts/ HTTP/1.1" 200 8618
+"GET /manage-posts/ HTTP/1.1" 200 8618
+"GET /manage-posts/ HTTP/1.1" 200 8627
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /admin-dashboard/ HTTP/1.1" 200 4102
+"GET /manage-posts/ HTTP/1.1" 200 8627
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /manage-posts/ HTTP/1.1" 200 8887
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/manage_posts.css HTTP/1.1" 200 1716
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/ HTTP/1.1" 200 8887
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2148
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /admin-dashboard/ HTTP/1.1" 200 4102
+"GET /user-management/ HTTP/1.1" 200 6790
+"GET /manage-posts/ HTTP/1.1" 200 8887
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"GET /manage-posts/ HTTP/1.1" 200 8905
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2225
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/ HTTP/1.1" 200 8905
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2290
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+Internal Server Error: /manage-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\admin_tools\views.py", line 79, in manage_posts
+    posts = posts.filter(
+            ^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 485, in __or__
+    combined.query.combine(other.query, sql.OR)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 687, in combine
+    raise TypeError("Cannot combine a unique query with a non-unique query.")
+TypeError: Cannot combine a unique query with a non-unique query.
+"GET /manage-posts/?q=TECT HTTP/1.1" 500 86535
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /manage-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\admin_tools\views.py", line 83, in manage_posts
+    posts = Post.objects.filter(title_filter | description_filter)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'title' into field. Choices are: comment, content, created_at, id, image, like, savedpost, user, user_id
+"GET /manage-posts/?q=TECT HTTP/1.1" 500 135362
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+Internal Server Error: /manage-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\admin_tools\views.py", line 83, in manage_posts
+    posts = Post.objects.filter(title_filter | description_filter)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'title' into field. Choices are: comment, content, created_at, id, image, like, savedpost, user, user_id
+"GET /manage-posts/?q=TECT HTTP/1.1" 500 135097
+Internal Server Error: /manage-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\admin_tools\views.py", line 83, in manage_posts
+    posts = Post.objects.filter(title_filter | description_filter)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'title' into field. Choices are: comment, content, created_at, id, image, like, savedpost, user, user_id
+"GET /manage-posts/?q=%D0%A2%D0%95%D0%A1%D0%A2 HTTP/1.1" 500 135357
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /manage-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\admin_tools\views.py", line 79, in manage_posts
+    posts = Post.objects.filter(title_filter | description_filter)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'title' into field. Choices are: comment, content, created_at, id, image, like, savedpost, user, user_id
+"GET /manage-posts/?q=%D0%A2%D0%95%D0%A1%D0%A2 HTTP/1.1" 500 135471
+Internal Server Error: /manage-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\admin_tools\views.py", line 79, in manage_posts
+    posts = Post.objects.filter(title_filter | description_filter)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'title' into field. Choices are: comment, content, created_at, id, image, like, savedpost, user, user_id
+"GET /manage-posts/?q=%D0%A2%D0%95%D0%A1%D0%A2 HTTP/1.1" 500 135334
+Internal Server Error: /manage-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\admin_tools\views.py", line 79, in manage_posts
+    posts = Post.objects.filter(title_filter | description_filter)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'title' into field. Choices are: comment, content, created_at, id, image, like, savedpost, user, user_id
+"GET /manage-posts/?q=Max999 HTTP/1.1" 500 135140
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /manage-posts/?q=Max999 HTTP/1.1" 200 8911
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /manage-posts/?q=%D0%A2%D0%95%D0%A1%D0%A2 HTTP/1.1" 200 8913
+"GET /manage-posts/?q=%D0%A2%D0%95%D0%A1%D0%A2 HTTP/1.1" 200 8913
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/?q=%D0%A2%D0%95%D0%A1%D0%A2 HTTP/1.1" 200 8913
+"GET /manage-posts/?q=Unknown+Author HTTP/1.1" 200 8919
+"GET /manage-posts/?q=%D0%A2%D0%95%D0%A1%D0%A2 HTTP/1.1" 200 8913
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"GET /manage-posts/?q=2424 HTTP/1.1" 200 8909
+"GET /manage-posts/?q=2424 HTTP/1.1" 200 9055
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /manage-posts/?q=2424 HTTP/1.1" 200 4300
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/?q=%D0%A2%D0%95%D0%A1%D0%A2 HTTP/1.1" 200 5911
+"GET /search/?q=%D0%A2%D0%95%D0%A1%D0%A2 HTTP/1.1" 200 7073
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin-dashboard/ HTTP/1.1" 200 4102
+"GET /user-management/ HTTP/1.1" 200 6790
+"GET /user-management/?search=Max999 HTTP/1.1" 200 4842
+"GET /user-management/?search=Max999 HTTP/1.1" 200 4842
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/css/manage_users.css HTTP/1.1" 200 1045
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /admin-dashboard/ HTTP/1.1" 200 4102
+"GET /manage-posts/ HTTP/1.1" 200 8896
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"GET /manage-posts/? HTTP/1.1" 200 8896
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /manage-posts/? HTTP/1.1" 200 8935
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/?post_search=%D0%A2%D0%95%D0%A1%D0%A2 HTTP/1.1" 200 5933
+"GET /manage-posts/?post_search=Unknown+Author HTTP/1.1" 200 4336
+"GET /manage-posts/?post_search=Unknown+Author HTTP/1.1" 200 4336
+"GET /manage-posts/?post_search=Unknown+Author HTTP/1.1" 200 4336
+"GET /manage-posts/?post_search=Unknown+Author HTTP/1.1" 200 4336
+"GET /admin-dashboard/ HTTP/1.1" 200 4102
+"GET /manage-posts/ HTTP/1.1" 200 8935
+"GET /create-post/ HTTP/1.1" 200 4342
+"POST /create-post/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15007
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4102
+"GET /manage-posts/ HTTP/1.1" 200 10643
+"GET /post/11/delete/ HTTP/1.1" 200 3963
+"GET /static/css/delete_post_confirmation.css HTTP/1.1" 304 0
+"POST /post/11/delete/ HTTP/1.1" 302 0
+"GET /manage-posts/ HTTP/1.1" 200 8935
+"GET /manage-posts/ HTTP/1.1" 200 8935
+"GET /manage-posts/ HTTP/1.1" 200 8935
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/ HTTP/1.1" 302 0
+"GET /login/?next=/manage-posts/ HTTP/1.1" 200 3036
+"POST /login/?next=/manage-posts/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 12172
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4102
+"GET /manage-posts/ HTTP/1.1" 200 8935
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /manage-posts/ HTTP/1.1" 200 8935
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/ HTTP/1.1" 200 8935
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/ HTTP/1.1" 200 8935
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/ HTTP/1.1" 200 8935
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/ HTTP/1.1" 200 8935
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /manage-posts/ HTTP/1.1" 200 8863
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /manage-posts/ HTTP/1.1" 200 8773
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/manage_posts.css HTTP/1.1" 200 2309
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /profile/Max888/ HTTP/1.1" 200 11397
+"GET /media/avatars/0cf5ddf0fc2121e2513172c87632e740.jpg HTTP/1.1" 304 0
+"GET /manage-posts/?post_search=Max888 HTTP/1.1" 200 7328
+"GET /manage-posts/?post_search= HTTP/1.1" 200 8773
+"GET /manage-posts/?post_search=Max999 HTTP/1.1" 200 5709
+"GET /create-post/ HTTP/1.1" 200 4342
+"POST /create-post/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15007
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4102
+"GET /manage-posts/ HTTP/1.1" 200 10441
+"GET /manage-posts/?post_search=%D0%A2%D0%95%D0%A1%D0%A2 HTTP/1.1" 200 5879
+"GET /manage-posts/?post_search=MaxMedvedenko HTTP/1.1" 200 5933
+"GET /manage-posts/?post_search=MaxMedvedenko HTTP/1.1" 200 5933
+"GET /manage-posts/?post_search=TECT HTTP/1.1" 200 5924
+"GET /manage-posts/?post_search=TECT HTTP/1.1" 200 5924
+"GET /manage-posts/?post_search=TECT HTTP/1.1" 200 5924
+"GET /manage-posts/?post_search=TECT HTTP/1.1" 200 5924
+"GET / HTTP/1.1" 200 15007
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Watching for file changes with StatReloader
+"GET /admin-dashboard/ HTTP/1.1" 200 4102
+"GET /user-management/ HTTP/1.1" 200 6790
+"GET /user-management/?search=Max999 HTTP/1.1" 200 4842
+"GET /manage-posts/ HTTP/1.1" 200 10441
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"GET /manage-posts/ HTTP/1.1" 200 10441
+"GET /friends/ HTTP/1.1" 200 4552
+"GET /static/css/friends_list.css HTTP/1.1" 200 1192
+"GET / HTTP/1.1" 200 15007
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /saved-posts/ HTTP/1.1" 200 12327
+"GET / HTTP/1.1" 200 15007
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /save_post/12/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15015
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /saved-posts/ HTTP/1.1" 200 15208
+"POST /save_post/12/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15015
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /unsave_post/12/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15007
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /save_post/12/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15015
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /post/12/ HTTP/1.1" 200 7161
+"GET /post/12/ HTTP/1.1" 200 7161
+"GET /post/12/ HTTP/1.1" 200 7161
+"GET / HTTP/1.1" 200 15015
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /post/5/ HTTP/1.1" 200 8863
+"GET / HTTP/1.1" 200 15015
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8073
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 9009
+"GET /static/css/base.css HTTP/1.1" 304 0
+"GET /static/css/modal.css HTTP/1.1" 304 0
+"GET /static/css/like_section.css HTTP/1.1" 304 0
+"GET /static/css/hamburger_menu.css HTTP/1.1" 304 0
+"GET /static/js/hamburger_menu.js HTTP/1.1" 304 0
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /static/image/search-icon.svg HTTP/1.1" 304 0
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 304 0
+"GET /static/image/link.svg HTTP/1.1" 304 0
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 304 0
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/js/modal.js HTTP/1.1" 304 0
+"GET /static/js/like.js HTTP/1.1" 304 0
+"GET /static/js/copylink.js HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8086
+"GET /login/ HTTP/1.1" 200 3036
+"GET /static/css/login.css HTTP/1.1" 304 0
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15015
+"GET /static/image/saved-post.svg HTTP/1.1" 304 0
+"GET /static/image/heart.svg HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4102
+"GET /static/css/admin_dashboard.css HTTP/1.1" 304 0
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin-dashboard/ HTTP/1.1" 200 4118
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/admin_dashboard.css HTTP/1.1" 200 580
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /manage-comments/ HTTP/1.1" 200 6315
+"GET /static/css/manage_comments.css HTTP/1.1" 404 1828
+"GET /manage-comments/?comment_search= HTTP/1.1" 200 6315
+"GET /static/css/manage_comments.css HTTP/1.1" 404 1828
+"GET /manage-comments/?comment_search= HTTP/1.1" 200 6315
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/manage_comments.css HTTP/1.1" 200 545
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"POST /manage-comments/ HTTP/1.1" 302 0
+"GET /manage-comments/ HTTP/1.1" 200 5736
+"GET /static/css/manage_comments.css HTTP/1.1" 304 0
+"GET /manage-comments/ HTTP/1.1" 200 5736
+"GET /manage-comments/ HTTP/1.1" 200 5736
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9009
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /login/ HTTP/1.1" 200 3036
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15051
+"GET /static/image/save-post.svg HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8431
+"GET /media/avatars/keeper_7J7tsnc.png HTTP/1.1" 304 0
+"GET /static/css/profile.css HTTP/1.1" 304 0
+"GET /static/js/chat.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 6815
+"GET /static/css/post_detail.css HTTP/1.1" 304 0
+"POST /post/12/add_comment/ HTTP/1.1" 200 121
+"POST /post/12/add_comment/ HTTP/1.1" 200 121
+"POST /comment/4/edit/ HTTP/1.1" 200 44
+"POST /comment/4/edit/ HTTP/1.1" 200 44
+Not Found: /delete_comment/4/
+"POST /delete_comment/4/ HTTP/1.1" 404 8245
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9009
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /register/ HTTP/1.1" 200 3590
+"GET /static/css/register.css HTTP/1.1" 304 0
+"GET /login/ HTTP/1.1" 200 3036
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 14832
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8473
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8473
+"POST /follow/3/ HTTP/1.1" 302 0
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8481
+"GET /post/12/ HTTP/1.1" 200 7540
+"POST /post/12/add_comment/ HTTP/1.1" 200 124
+"POST /post/12/add_comment/ HTTP/1.1" 200 123
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9009
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /login/ HTTP/1.1" 200 3036
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15015
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4118
+"GET /manage-comments/ HTTP/1.1" 200 7983
+"GET /static/css/manage_comments.css HTTP/1.1" 304 0
+"GET /manage-comments/?comment_search=Max999 HTTP/1.1" 200 6291
+"GET /static/css/manage_comments.css HTTP/1.1" 200 1144
+"GET /manage-comments/?comment_search=Max999 HTTP/1.1" 200 6291
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/manage_comments.css HTTP/1.1" 200 1144
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /manage-comments/ HTTP/1.1" 200 7983
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/manage_comments.css HTTP/1.1" 200 1144
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /admin-dashboard/ HTTP/1.1" 200 4118
+"GET /manage-posts/ HTTP/1.1" 200 10441
+"GET /static/css/manage_posts.css HTTP/1.1" 304 0
+"GET /admin-dashboard/ HTTP/1.1" 200 4118
+"GET /user-management/ HTTP/1.1" 200 6790
+"GET /static/css/manage_users.css HTTP/1.1" 304 0
+"GET /manage-comments/ HTTP/1.1" 200 7983
+"GET /static/css/manage_comments.css HTTP/1.1" 304 0
+"GET /manage-comments/?comment_search=TEST HTTP/1.1" 200 6288
+"GET /static/css/manage_comments.css HTTP/1.1" 304 0
+"GET /manage-comments/?comment_search=48484848 HTTP/1.1" 200 5733
+"GET /static/css/manage_comments.css HTTP/1.1" 304 0
+"POST /manage-comments/ HTTP/1.1" 302 0
+"GET /manage-comments/ HTTP/1.1" 200 7420
+"GET /manage-comments/ HTTP/1.1" 200 7420
+"GET /static/css/manage_comments.css HTTP/1.1" 304 0
+"GET /manage-comments/ HTTP/1.1" 200 7420
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/manage_comments.css HTTP/1.1" 200 1144
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /manage-comments/?comment_search=48484848 HTTP/1.1" 200 5246
+"GET /manage-comments/ HTTP/1.1" 200 7420
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/manage_comments.css HTTP/1.1" 200 1175
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /manage-comments/ HTTP/1.1" 200 7420
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/manage_comments.css HTTP/1.1" 200 1175
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /manage-comments/ HTTP/1.1" 200 7420
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/manage_comments.css HTTP/1.1" 200 1175
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /manage-comments/ HTTP/1.1" 200 7420
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/manage_comments.css HTTP/1.1" 200 1494
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /profile/Max999/ HTTP/1.1" 200 8560
+"GET /static/image/default_avatar.png HTTP/1.1" 304 0
+"GET /manage-comments/?comment_search=Max999 HTTP/1.1" 200 6291
+"GET /static/css/manage_comments.css HTTP/1.1" 304 0
+"GET /profile/Max999/ HTTP/1.1" 200 8560
+"GET /manage-comments/?comment_search=48484848 HTTP/1.1" 200 5246
+"GET /static/css/manage_comments.css HTTP/1.1" 304 0
+"GET /manage-comments/?comment_search=48484848 HTTP/1.1" 200 5246
+"GET /manage-comments/?comment_search=48484848 HTTP/1.1" 200 5246
+"GET /static/css/manage_comments.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 15015
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 200 4127
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9009
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /login/ HTTP/1.1" 200 3036
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15051
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /admin-dashboard/ HTTP/1.1" 302 0
+"GET /login/?next=/admin-dashboard/ HTTP/1.1" 200 4297
+"POST /login/?next=/admin-dashboard/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15051
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /save_post/12/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15059
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /save_post/5/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15067
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /save_post/3/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15075
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /save_post/2/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15083
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /saved-posts/ HTTP/1.1" 200 15276
+"GET / HTTP/1.1" 200 15083
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15083
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7130
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8431
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7127
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET / HTTP/1.1" 200 15083
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8431
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8431
+"GET /profile/MaxMedvedenko/ HTTP/1.1" 200 8431
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7130
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"POST /comment/4/edit/ HTTP/1.1" 200 44
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /post/12/ HTTP/1.1" 200 8400
+"GET /post/12/ HTTP/1.1" 200 8400
+"POST /comment/4/delete/ HTTP/1.1" 302 0
+"GET /post/12/ HTTP/1.1" 200 7545
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 7545
+"GET /post/12/ HTTP/1.1" 200 7545
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"POST /post/12/add_comment/ HTTP/1.1" 200 124
+"POST /comment/7/edit/ HTTP/1.1" 200 44
+Not Found: /delete_comment/7/
+"POST /delete_comment/7/ HTTP/1.1" 404 8245
+"GET /post/12/ HTTP/1.1" 200 8409
+"GET /static/js/main.js HTTP/1.1" 304 0
+"POST /comment/7/delete/ HTTP/1.1" 302 0
+"GET /post/12/ HTTP/1.1" 200 7545
+"POST /post/12/add_comment/ HTTP/1.1" 200 124
+Not Found: /delete_comment/8/
+"POST /delete_comment/8/ HTTP/1.1" 404 8245
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /delete_comment/8/
+"POST /delete_comment/8/ HTTP/1.1" 404 8245
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /post/12/ HTTP/1.1" 200 8405
+"GET /static/js/main.js HTTP/1.1" 200 8902
+"GET /post/12/ HTTP/1.1" 200 8405
+"GET /static/js/main.js HTTP/1.1" 200 8782
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+"POST /post/12/add_comment/ HTTP/1.1" 200 123
+Internal Server Error: /comment/9/delete/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 175, in delete_comment
+    if request.is_ajax():
+       ^^^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'is_ajax'
+"POST /comment/9/delete/ HTTP/1.1" 500 72635
+"GET /post/12/ HTTP/1.1" 200 8405
+"GET /static/js/main.js HTTP/1.1" 304 0
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+"GET /post/12/ HTTP/1.1" 200 8405
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8405
+"GET /post/12/ HTTP/1.1" 200 8405
+"GET /post/12/ HTTP/1.1" 200 8405
+"GET /post/12/ HTTP/1.1" 200 8405
+"POST /comment/8/edit/ HTTP/1.1" 200 44
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/main.js HTTP/1.1" 200 8780
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+Not Found: /comment/delete/delete/
+"POST /comment/delete/delete/ HTTP/1.1" 404 8260
+"POST /post/12/add_comment/ HTTP/1.1" 200 123
+Internal Server Error: /comment/10/delete/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 175, in delete_comment
+    if request.is_ajax():
+       ^^^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'is_ajax'
+"POST /comment/10/delete/ HTTP/1.1" 500 72649
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/js/main.js HTTP/1.1" 304 0
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 9648
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 9648
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/js/main.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 9648
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 9648
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /post/12/ HTTP/1.1" 200 8407
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /post/12/ HTTP/1.1" 200 8407
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/post_detail.css HTTP/1.1" 200 2606
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8226
+"POST /comment/8/edit/ HTTP/1.1" 200 44
+"GET / HTTP/1.1" 200 15083
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /following/ HTTP/1.1" 200 4573
+"GET /static/css/following_list.css HTTP/1.1" 304 0
+"GET /static/js/following_list.js HTTP/1.1" 404 1819
+"GET / HTTP/1.1" 200 15083
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15168
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8362
+"GET /friends/ HTTP/1.1" 200 4486
+"GET /static/css/friends_list.css HTTP/1.1" 304 0
+Internal Server Error: /friends-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 329, in friends_posts
+    friends = request.user.profile.friends.all()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Profile' object has no attribute 'friends'
+"GET /friends-posts/ HTTP/1.1" 500 72083
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /friends-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\user\views.py", line 258, in friends_posts
+    saved_posts = request.user.saved_posts.all().values_list('id', flat=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'saved_posts'
+"GET /friends-posts/ HTTP/1.1" 500 76789
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8362
+"GET /friends/ HTTP/1.1" 200 4486
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/friends_list.css HTTP/1.1" 200 1192
+"GET /media/avatars/keeper_7J7tsnc.png HTTP/1.1" 200 1300
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8362
+Internal Server Error: /friends-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\user\views.py", line 258, in friends_posts
+    saved_posts = request.user.saved_posts.all().values_list('id', flat=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'saved_posts'
+"GET /friends-posts/ HTTP/1.1" 500 76524
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /friends-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\user\views.py", line 262, in friends_posts
+    saved_posts = request.user.saved_posts.all().values_list('id', flat=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'saved_posts'
+"GET /friends-posts/ HTTP/1.1" 500 76664
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8362
+Internal Server Error: /friends-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\user\views.py", line 262, in friends_posts
+    saved_posts = request.user.saved_posts.all().values_list('id', flat=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'saved_posts'
+"GET /friends-posts/ HTTP/1.1" 500 76664
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8362
+"GET /friends/ HTTP/1.1" 200 4486
+Internal Server Error: /friends-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\user\views.py", line 262, in friends_posts
+    saved_posts = request.user.saved_posts.all().values_list('id', flat=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'saved_posts'
+"GET /friends-posts/ HTTP/1.1" 500 76399
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /friends-posts/ HTTP/1.1" 200 6704
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8362
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\SocialNetwork\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /friends-posts/ HTTP/1.1" 200 6793
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET /friends-posts/ HTTP/1.1" 200 6793
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET /following/ HTTP/1.1" 200 4747
+"GET /static/js/following_list.js HTTP/1.1" 404 1819
+"GET /following-posts/ HTTP/1.1" 200 6761
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 15257
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /profile/Max999/ HTTP/1.1" 200 8579
+"POST /follow/1/ HTTP/1.1" 302 0
+"GET /profile/Max999/ HTTP/1.1" 200 8587
+"GET /following/ HTTP/1.1" 200 5746
+"GET /static/js/following_list.js HTTP/1.1" 404 1819
+"GET /following-posts/ HTTP/1.1" 200 9362
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Watching for file changes with StatReloader
+- Broken pipe from ('127.0.0.1', 51591)
+"GET /following-posts/ HTTP/1.1" 200 9362
+"GET /static/js/main.js HTTP/1.1" 304 0
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET /following-posts/ HTTP/1.1" 200 9362
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /friends-posts/ HTTP/1.1" 200 6793
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /friends-posts/ HTTP/1.1" 200 6793
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET /friends-posts/ HTTP/1.1" 200 6793
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET /following-posts/ HTTP/1.1" 200 9392
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /following-posts/ HTTP/1.1" 200 9391
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /saved-posts/ HTTP/1.1" 200 15450
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /save_post/12/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15257
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /unsave_post/12/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15249
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /unsave_post/5/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /unsave_post/3/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15233
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /save_post/5/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15241
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"POST /unsave_post/2/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 15233
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /saved-posts/ HTTP/1.1" 200 7295
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /saved-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 301, in saved_posts_view
+    posts = [saved_post.post for saved_post in saved_posts]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 301, in <listcomp>
+    posts = [saved_post.post for saved_post in saved_posts]
+             ^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'post'
+"GET /saved-posts/ HTTP/1.1" 500 75946
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /saved-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 299, in saved_posts_view
+    saved_posts = SavedPost.objects.filter(user=request.user).order_by('-created_at', flat=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: QuerySet.order_by() got an unexpected keyword argument 'flat'
+"GET /saved-posts/ HTTP/1.1" 500 72248
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+Internal Server Error: /saved-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 299, in saved_posts_view
+    saved_posts = SavedPost.objects.filter(user=request.user).order_by('-created_at', flat=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: QuerySet.order_by() got an unexpected keyword argument 'flat'
+"GET /saved-posts/ HTTP/1.1" 500 72248
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+Internal Server Error: /saved-posts/
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 299, in saved_posts_view
+    saved_posts = SavedPost.objects.filter(user=request.user).order_by('-created_at', flat=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: QuerySet.order_by() got an unexpected keyword argument 'flat'
+"GET /saved-posts/ HTTP/1.1" 500 72248
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\admin_tools\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /saved-posts/ HTTP/1.1" 200 7295
+"GET / HTTP/1.1" 200 15233
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /following-posts/ HTTP/1.1" 200 9400
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /following-posts/ HTTP/1.1" 200 9320
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 2469
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 34, in index
+    return render(request, 'index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 171404
+"GET / HTTP/1.1" 200 16352
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 2469
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET / HTTP/1.1" 200 15233
+"GET /static/css/index.css HTTP/1.1" 200 1779
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\network\views.py", line 34, in index
+    return render(request, 'index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\programming_stuff\my-social-network\myvenv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 171630
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET / HTTP/1.1" 200 15720
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/css/index.css HTTP/1.1" 200 2896
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 15720
+"GET /static/css/base.css HTTP/1.1" 200 1709
+"GET /static/css/modal.css HTTP/1.1" 200 1651
+"GET /static/css/index.css HTTP/1.1" 200 3191
+"GET /static/css/hamburger_menu.css HTTP/1.1" 200 2279
+"GET /static/image/search-icon.svg HTTP/1.1" 200 524
+"GET /static/css/like_section.css HTTP/1.1" 200 111
+"GET /static/image/save-post.svg HTTP/1.1" 200 1427
+"GET /static/image/heart.svg HTTP/1.1" 200 719
+"GET /static/image/dots-vertical-svgrepo-com.svg HTTP/1.1" 200 567
+"GET /static/image/link.svg HTTP/1.1" 200 708
+"GET /static/js/main.js HTTP/1.1" 200 7175
+"GET /static/js/hamburger_menu.js HTTP/1.1" 200 663
+"GET /static/js/modal.js HTTP/1.1" 200 1008
+"GET /static/js/like.js HTTP/1.1" 200 1923
+"GET /static/js/copylink.js HTTP/1.1" 200 598
+"GET /static/image/saved-post.svg HTTP/1.1" 200 976
+"GET /media/posts/d1aehdnbq0h21.jpg HTTP/1.1" 200 134679
+"GET /static/js/save_unsave_post.js HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 8502
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\network\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\programming_stuff\my-social-network\user\models.py changed, reloading.
