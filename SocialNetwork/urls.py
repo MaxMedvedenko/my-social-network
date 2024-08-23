@@ -55,7 +55,10 @@ urlpatterns = [
     path('comment/<int:comment_id>/edit/', edit_comment, name='edit_comment'),
     path('comment/<int:comment_id>/delete/', delete_comment, name='delete_comment'),
 
-    path('toggle_like/<int:post_id>/', toggle_like, name='toggle_like'),
+    # path('toggle_like/<int:post_id>/', toggle_like, name='toggle_like'),
+
+    path('like/<int:post_id>/', add_like, name='add_like'),
+    path('unlike/<int:post_id>/', remove_like, name='remove_like'),
 
     path('login/', login_view, name='login'),
     path('register/', register_view, name='register'),

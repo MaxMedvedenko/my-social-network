@@ -19,19 +19,39 @@ from django.contrib import messages
 #     }
 #     return render(request, 'index.html', context)
 
+
+
 def index(request):
     posts = Post.objects.all().order_by('-created_at')
-    
+
     if request.user.is_authenticated:
         saved_posts = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
+        liked_posts = Like.objects.filter(user=request.user).values_list('post_id', flat=True)
     else:
         saved_posts = []
+        liked_posts = []
 
     context = {
         'posts': posts,
-        'saved_posts': saved_posts
+        'saved_posts': saved_posts,
+        'liked_posts': liked_posts
     }
     return render(request, 'index.html', context)
+
+# version 1 and 2
+# def index(request):
+#     posts = Post.objects.all().order_by('-created_at')
+    
+#     if request.user.is_authenticated:
+#         saved_posts = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
+#     else:
+#         saved_posts = []
+
+#     context = {
+#         'posts': posts,
+#         'saved_posts': saved_posts
+#     }
+#     return render(request, 'index.html', context)
 
 #--- Posts ---#
 
@@ -167,39 +187,46 @@ def delete_comment(request, comment_id):
 
 #--- Likes ---#
 
-@login_required
-def toggle_like(request, post_id):
-    post = get_object_or_404(Post, id=post_id)
+# add like with ajax(like.js)
 
-    if request.method == 'POST':
-        if request.user.is_authenticated:
-            existing_like = Like.objects.filter(user=request.user, post=post).first()
-
-            if existing_like:
-                existing_like.delete()
-            else:
-                Like.objects.create(user=request.user, post=post)
-
-            return JsonResponse({'likes_count': post.like_set.count()})
-
-    return JsonResponse({'error': 'Invalid request'}, status=400)
-
+# @login_required
 # def toggle_like(request, post_id):
 #     post = get_object_or_404(Post, id=post_id)
-#     user = request.user
 
 #     if request.method == 'POST':
-#         like, created = Like.objects.get_or_create(user=user, post=post)
-#         if not created:
-#             like.delete()
-#             post.likes_count -= 1
-#         else:
-#             post.likes_count += 1
+#         if request.user.is_authenticated:
+#             existing_like = Like.objects.filter(user=request.user, post=post).first()
 
-#         post.save()
+#             if existing_like:
+#                 existing_like.delete()
+#             else:
+#                 Like.objects.create(user=request.user, post=post)
 
-#         return JsonResponse({'likes_count': post.likes_count})
+#             return JsonResponse({'likes_count': post.like_set.count()})
+
 #     return JsonResponse({'error': 'Invalid request'}, status=400)
+
+
+@login_required
+def add_like(request, post_id):
+    post = get_object_or_404(Post, id=post_id)
+    like, created = Like.objects.get_or_create(user=request.user, post=post)
+    
+    if not created:
+        like.created_at = timezone.now()
+        like.save()
+
+    next_url = request.GET.get('next', 'index')
+    return redirect(next_url)
+
+@login_required
+def remove_like(request, post_id):
+    post = get_object_or_404(Post, id=post_id)
+    Like.objects.filter(user=request.user, post=post).delete()
+    next_url = request.GET.get('next', 'index')
+    return redirect(next_url)
+
+
 
 #--- Chats , messages ---#
 

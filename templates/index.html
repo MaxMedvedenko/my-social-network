@@ -38,14 +38,27 @@
 
                 <div class="like-section">
                     <span id="like-count-{{ post.id }}" class="like-count">{{ post.likes_count }} Likes</span>
+                    
+                    <!-- Like/Unlike functionality -->
                     {% if request.user.is_authenticated %}
-                        <form method="post" class="like-form" data-post-id="{{ post.id }}">
-                            {% csrf_token %}
-                            <button type="submit" class="like-action {% if request.user in post.likes.all %}unlike-btn{% else %}like-btn{% endif %}">
-                                <img id="like-img-{{ post.id }}" src="{% static 'image/heart.svg' %}" alt="Heart" class="heart-icon">
-                            </button>
-                        </form>
-
+                        {% if post.id in liked_posts %}
+                            <!-- Unlike a post -->
+                            <form method="post" action="{% url 'remove_like' post.id %}">
+                                {% csrf_token %}
+                                <button type="submit" class="like-action unlike-btn">
+                                    <img id="like-img-{{ post.id }}" src="{% static 'image/full-heart.svg' %}" alt="Unlike Post" class="heart-icon">
+                                </button>
+                            </form>
+                        {% else %}
+                            <!-- Like a post -->
+                            <form method="post" action="{% url 'add_like' post.id %}">
+                                {% csrf_token %}
+                                <button type="submit" class="like-action like-btn">
+                                    <img id="like-img-{{ post.id }}" src="{% static 'image/heart.svg' %}" alt="Like Post" class="heart-icon">
+                                </button>
+                            </form>
+                        {% endif %}
+                        
                         <!-- save/unsave post -->
                         {% if post.id in saved_posts %}
                             <!-- Unsaving a post -->
@@ -91,7 +104,5 @@
 {% block scripts %}
 <script src="{% static 'js/main.js' %}"></script>
 <script src="{% static 'js/modal.js' %}"></script>
-<script src="{% static 'js/like.js' %}"></script>
 <script src="{% static 'js/copylink.js' %}"></script>
-<script src="{% static 'js/save_unsave_post.js' %}"></script>
 {% endblock %}
