@@ -101,6 +101,13 @@ def profile_view(request, username):
 
     posts = Post.objects.filter(user=profile.user).order_by('-created_at')
 
+    if request.user.is_authenticated:
+        saved_posts = SavedPost.objects.filter(user=request.user).values_list('post_id', flat=True)
+        liked_posts = Like.objects.filter(user=request.user).values_list('post_id', flat=True)
+    else:
+        saved_posts = []
+        liked_posts = []
+
     context = {
         'profile': profile,
         'is_friend': is_friend,
@@ -109,6 +116,8 @@ def profile_view(request, username):
         'request_id': request_id,
         'is_following': is_following,
         'posts': posts,
+        'saved_posts': saved_posts,
+        'liked_posts': liked_posts
     }
     
     return render(request, 'profile.html', context)
